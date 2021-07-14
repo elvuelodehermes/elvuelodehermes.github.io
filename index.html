@@ -1,1 +1,162 @@
-Hello World
+<!DOCTYPE html>
+<html lang="es">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Carmen García Bueno">
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=greek,greek-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/ac39874428.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="bootstrap/js/modo_oscuro.js"></script>
+    <title>Inicio</title>
+  </head>
+
+  <body>
+    <!-- Barra de navegación en la cabecera -->
+    <nav class="navbar navbar-expand-md bg-light navbar-light sticky-top">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#barraNavegacionColapsada"><span class="navbar-text">Menú </span><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="barraNavegacionColapsada">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html" title="Se encuentra en esta página">Inicio</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Proyecto</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="./proyecto.html#descriptor" title="Conozca el proyecto">Sobre el proyecto</a>
+              <a class="dropdown-item" href="./proyecto.html#miembros" title="Conozca a los integrantes del proyecto">Miembros</a>
+              <a class="dropdown-item" href="./proyecto.html#recursos" title="Enlaces a otros materiales generados en el proyecto">Recursos</a>
+            </div>
+          </li>
+          <!--Esto es un menú desplegable. Hay que cambiar el valor de href="" por la url de la página. Si no hay ninguna, el valor es # -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Dionisio Periegeta</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="./dionisioperiegeta.html#dionisio" title="Conozca al autor">El autor y la obra</a>
+              <a class="dropdown-item disabled" href="#" title="explorar la traducción">texto en castellano</a>
+              <a class="dropdown-item disabled" href="#" title="explorar el texto original">texto en griego</a>
+              <a class="dropdown-item" href="./manuscritos.html" title="conocer la transmisión textual">manuscritos</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Eustacio de Tesalónica</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="./eustaciodetesalonica.html#eustacio" title="Conozca al autor">El autor y la obra</a>
+              <a class="dropdown-item" href="./comentario.html" title="explorar la traducción">texto en castellano</a>
+              <a class="dropdown-item disabled" href="#" title="explorar el texto original">texto en griego</a>
+              <a class="dropdown-item" href="./manuscritos.html" title="conocer la transmisión textual">manuscritos</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" title="Este enlace no está disponible todavía">Mapa</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" title="Este enlace no está disponible todavía">La Geografía antigua</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="mailto:elvuelodehermes@gmail.com?subject:Contacto desde la web" title="Contacte con nosotros">Contacto</a>
+          </li>
+        </ul>
+      </div>
+      <button class="btn" onclick="modo_oscuro()" title="Invertir colores"><i class="fas fa-palette"></i></button>
+    </nav>
+    <!--Esta es la cabecera. Se puede sustituir por una imagen -->
+    <header>
+      <div class="container">
+        <div class="jumbotron" id="cabecera">
+          <h1>El vuelo de Hermes</h1>
+          <h2>Proyecto de investigación</h2>
+        </div>
+      </div>
+    </header>
+    <!--Esto es el contenido de la página -->
+    <main class="container">
+      <div class="container">
+        <h1>Presentación</h1>
+        <section>
+          <article>
+            <p>Al comienzo del canto <span class="versalitas">v</span> de la Odisea, Zeus ordena a Hermes que lleve un mensaje a la ninfa Calipso:</p>
+            <blockquote>
+              <p>Al instante se anudó en sus pies sus bellas sandalias, de oro, imperecederas, que le transportaban sobre el agua y la tierra sin límites a la par de las ráfagas de viento. Tomó consigo su varita, con la que hechiza los ojos de los hombres, de quien quiere, y con la que, a su vez, también despierta a los durmientes. Con ella en sus manos se echó a volar el poderoso Argifonte.</p>
+              <p class="resto">Descendiendo a la Pieria se lanzó desde el éter al mar. Avanzó luego por sobre las olas semejante a una gaviota que da caza a los peces en los tremendos repliegues del estéril mar y se moja en la espuma salada sus presurosas alas. Parecido a ésta viajaba sobre las numerosas olas Hermes.</p>
+              <footer>
+                <p><cite>Iliada <span class="versalitas">v</span>, vv. 44-54 </cite> (trad. García Gual)</p>
+              </footer>
+            </blockquote>
+            <p class="resto">El <em>Comentario</em> de Eustacio, en un párrafo magistral de su proemio (210-211 M.), recurre a Homero para comparar la descripción de la tierra a vista de pájaro que ofrece el poema de Dionisio con la de este Hermes que vuela raudo desde el éter para obedecer a Zeus; también cuando trae a colación el descenso a tierra de Éride y su medición por parte de las águilas de Zeus. En sentido inverso, el famoso vuelo que emprende Ícaro elevándose sobre la tierra encierra un peligro que no tendrá que afrontar el lector de la <em>Periégesis</em>:</p>
+            <blockquote>
+              <p>Dionisio reelabora la configuración de la tierra cuando se dirige a nosotros, trabajando sobre ella como lo requiere el verso, alzándose ligero con las alas de la palabra, circundando rápidamente toda la ecúmene, como las águilas tantas veces mencionadas con las que el Zeus del mito midió la tierra siguiendo el curso del sol, y transportando consigo al oyente y haciendo que vuele con él, como Dédalo a su compañero de vuelo Ícaro –con la diferencia de que aquí el vuelo es seguro y para ambos sin peligro y no está expuesto a las amenazas del sol. </p>
+              <p class="resto">¿No son acaso el viaje de Hermes penetrando en la tierra y el bastón de oro con el que según Homero da la vuelta volando a la tierra firme y al mar, este camino y método de la periégesis y el punzón en la mano del artesano que graba el mapa de la tierra? El estudiante es conducido por ellos como llevado de la mano, y sin esfuerzo da la vuelta a la ecúmene con toda la velocidad de sus alas, se adelanta con su mente al recorrerla y comprenderla con la palabra guiadora. </p>
+              <p class="resto">Así se imaginaría uno al terrenal Hermes, pero cuando el periegeta, tras abandonar la superficie de la tierra, recorre el círculo del cielo, sigue las líneas, da la vuelta a los polos y mide las estrellas limitándose a rozar lo que está arriba con la mano, señalando con el dedo lo que está aquí abajo, sobrevolando de esta manera la tierra y describiendo los fenómenos celestes, entonces ciertamente este Hermes no es terrenal sino que blandiendo el bastón, por decirlo como el poeta, <q>vuela el poderoso Argeifonte, de bastón dorado</q> (<em>Odisea</em>, canto <span class="versalitas">v</span>, 49). Por esta razón se diría que el poder del método periegético es más sutil y más adecuado que el de la Éride homérica, que <q>en un principio es menuda y se encrespa</q> (<em>Ilíada</em>, canto <span class="versalitas">iv</span>, 442) observando [211 M.] de cerca todo lo que está abajo en la superficie de la tierra, pero después <q>cuando pone los pies en el suelo fija en el cielo la cabeza</q> (<em>Ilíada</em>, canto <span class="versalitas">iv</span>, 442-443), como cuando el periegeta dirige su mirada a lo que atañe al cielo.</p>
+            </blockquote>
+          </article>
+        </section>
+      </div>
+    </main>
+    <footer class="container">
+      <section id="carrusel-logos">
+        <div class="slideshow-container">
+          <div class="mySlides">
+              <div class="row justify-content-around align-items-center">
+                <div class="col-md-4 col-12">
+                  <div id="fundacionBBVA">
+                    <a href="https://www.fbbva.es" target="_blank"><img src="./img/logos/FundacionBBVA.svg" class="img-responsive img-fluid" alt="logo Fundación BBVA" title="Ir al sitio web de la Fundación BBVA " media-simple="true"></a>
+                  </div>
+                </div>
+                <div class="col-md-4 col-12">
+                  <div class="wrap-img" id="MinCII">
+                    <a href="https://www.ciencia.gob.es/" target="_blank"><img src="./img/logos/MinCII.jpg" class="img-responsive img-fluid" alt="logo Ministerio de Ciencia e Innovación" title="Ir al sitio web del Ministerio de Ciencia e Innovación" media-simple="true"></a>
+                  </div>
+                </div>
+                <div class="col-md-4 col-12">
+                  <div class="wrap-img" id="CSIC">
+                    <a href="http://www.csic.es" target="_blank"><img src="./img/logos/CSIC.jpg" class="img-responsive img-fluid" alt="logo CSIC" title="Ir al sitio web del CSIC" media-simple="true"></a>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="mySlides">
+              <div class="row justify-content-around align-items-center">
+                <div class="col-md-4 col-12">
+                  <div class="wrap-img" id="CCHS">
+                    <a href="http://cchs.csic.es/" target="_blank"><img src="./img/logos/CCHS.png" class="img-responsive img-fluid" alt="logo CCHS" title="Ir al sitio web del CCHS" media-simple="true"></a>
+                  </div>
+                </div>
+                <div class="col-md-4 col-12">
+                  <div class="wrap-img" id="CCHS-ILC">
+                    <a href="http://www.ilc.csic.es" target="_blank"><img src="./img/logos/CCHS_ILC.jpeg" class="img-responsive img-fluid" alt="logo ILC" title="Ir al sitio web del ILC" media-simple="true"></a>
+                  </div>
+                </div>
+                <div class="col-md-4 col-12">
+                  <div class="wrap-img" id="PTIMedHis"><a href="https://pti-medhis.csic.es/" target="_blank"><img src="./img/logos/MedHis.jpg" class="img-responsive img-fluid" alt="logo PTI MedHis" title="Saber más de la PTI MedHis" media-simple="true"></a>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="slideshow-controls" style="text-align:center">
+          <a class="prev" onclick="plusSlides(-1)" title="Ver más"><span aria="true" class="far fa-arrow-alt-circle-left"></span></a>
+          <a class="next" onclick="plusSlides(1)" title="Ver más"><span aria="true" class="far fa-arrow-alt-circle-right"></span></a>
+        </div>
+      </section>
+      <div class="row">
+        <div class="col text-center">
+          <p class="small">Para cuestiones técnicas relacionadas con este sitio web, por favor diríjase a elvuelodehermes@gmail.com</p>
+          <p>2021</p>
+        </div>
+      </div>
+      </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="jquery/jquery-3.4.1.slim.min.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="bootstrap/js/slideShow.js"></script>
+  </body>
+</html>
+
