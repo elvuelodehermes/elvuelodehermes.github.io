@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="author" content="Inmaculada Pérez-Martín">
+  <meta name="author" content="Juan Signes-Codoñer">
+  <meta name="author" content="Jesús Polo-Arrondo">
+  <meta name="author" content="Paula Caballero-Sánchez">
+  <meta name="author" content="Carmen García-Bueno">
+  <meta name="keywords" content="Eustacio de Tesalónica, Dionisio de Alejandría, Periégesis, geografía antigua">
+  <meta name="description" content="Página del proyecto de investigación 'El mundo según Homero: de Dionisio Periegeta a Eustacio de Tesalónica', Madrid, España">
+  <base href="https://elvuelodehermes.github.io" target="_blank">
+  <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=greek,greek-ext" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <script src="https://kit.fontawesome.com/ac39874428.js" crossorigin="anonymous"></script>
+  <script src="js/modo_oscuro.js"></script>
+  <title>Comentario de Eustacio</title>
+</head>
+
+  <body>
+    <!-- Barra de navegación en la cabecera -->
+    <nav class="navbar navbar-expand-sm bg-light navbar-light sticky-top">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#barraNavegacionColapsada"><span class="navbar-text">Menú </span><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="barraNavegacionColapsada">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html" title="Página de inicio">Inicio</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Proyecto</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="./proyecto.html" title="Conocer el proyecto">Sobre el proyecto</a>
+              <a class="dropdown-item" href="./proyecto.html#miembros" title="Conocer a los integrantes del proyecto">Miembros</a>
+              <a class="dropdown-item" href="./proyecto.html#cronograma" title="Vida del proyecto">Historia</a>
+              <a class="dropdown-item" href="./proyecto.html#recursos" title="Enlaces a otros materiales generados en el proyecto">Recursos</a>
+            </div>
+          </li>
+          <!--Esto es otro menú desplegable. Hay que cambiar el valor de href="" por la url de la página. Si no hay ninguna, el valor es # -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Dionisio Periegeta</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="./dionisioperiegeta.html" title="Conocer al autor">El autor y la obra</a>
+              <a class="dropdown-item disabled" href="#" title="Explorar la traducción">texto en castellano</a>
+              <a class="dropdown-item" href="./periegesis.html" title="Explorar el texto original">texto en griego</a>
+              <a class="dropdown-item" href="./manuscritos.html" title="Conocer la transmisión textual">manuscritos</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Eustacio de Tesalónica</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="./eustaciodetesalonica.html" title="Conocer al autor">El autor y la obra</a>
+              <a class="dropdown-item" href="./comentario.html" title="Explorar la traducción">texto en castellano</a>
+              <a class="dropdown-item" href="./eustaciogr.html" title="Explorar el texto original">texto en griego</a>
+              <a class="dropdown-item" href="./manuscritos.html" title="Conocer la transmisión textual">manuscritos</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" title="Este enlace no está disponible todavía">Mapa</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./geografia.html" title="Aprender sobre la geografía antigua y su transmisión">La Geografía antigua</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./creditos.html" title="Créditos, agradecimientos, licencia, y otros detalles técnicos">Créditos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="mailto:elvuelodehermes@gmail.com?subject:Contacto desde la web" title="Contactar con el proyecto">Contacto</a>
+          </li>
+        </ul>
+      </div>
+      <button class="btn" onclick="modo_oscuro()" title="Invertir colores"><i class="fas fa-palette"></i></button>
+    </nav>
+    <header>
+      <div class="flex-container">
+        <div class="jumbotron" id="cabecera">
+          <h1>El vuelo de Hermes</h1>
+          <h2>Proyecto de investigación</h2>
+        </div>
+      </div>
+    </header>
+    <main class="container">
+      <h2>Eustacio de Tesalónica, <em>Comentario</em></h2>
+      <section id="cartaEustacio">
+        <h3>Carta</h3>
+        <h4 class="text-center">Carta al <em>pansebastos sebastos kyr</em> Juan Ducas, nombrado más tarde encargado de peticiones, hijo del <em>pansebastos sebastos megas drungarios kyr</em> Andrónico Camatero, escrita por el diácono Eustacio, encargado de peticiones y <em>magister</em> de oradores, nombrado después arzobispo de Tesalónica, sobre los comentarios a Dionisio Periegeta; tras ella [encontrarás] un prólogo sobre la cuestión y, tras el prólogo, los comentarios en sí.</h4>
+        <article>
+          <div class="flex-container">
+            <div class="row">
+              <div class="col-md-2">
+                <p class="text-secondary"><small>[Eustacio adeudaba la composición de una modesta obra a un discípulo, pero no puede entregarla con intereses como Píndaro]</small></p>
+              </div>
+              <div class="col-md-10">
+                <p>A Píndaro, el sabio de la lira, que era deudor de una oda y retrasó largo tiempo el pago de esa deuda, le gustaba dejar que la escritura anidara olvidada en su interior, de manera que, según dice, descuidaba sus deberes con el dulce canto; era su deseo que su corazón se desplegara como si fuera capaz de leer en el lugar de la mente en el que el ser humano ha escrito, donde perdura lo que está pendiente. Pero en mi caso, excelente y sapientísimo <em>pansebastos</em>, si me viniera a la mente deber la obra prometida y haber pospuesto en demasía saldar la deuda, no sería por culpa del olvido, pues yo no sufro tal aturdimiento ni me adormezco aunque haya tenido que practicar mucho la abstinencia. ¿A quién podría ya dirigirme si me despreocupara de tu deseo? ¿A quien me mostró el alma entera para que nada que yo deseara dejara de ser querido por ti? Así pues, ni olvidé lo acordado ni la criatura de Leto pudo regocijarse ante este Hermes nuestro, ganar la batalla contra él y alzarse con el trofeo, sino que otro problema ha requerido mi atención y me ha separado de mis compromisos. Calculaba, en efecto, que en breve tiempo dispondrías de la obra y que la utilizarías sin preocupaciones, como habíamos hablado. Tenía en consideración tu entrega a las letras, contaba con tu noble naturaleza, mi mente albergaba sentimientos positivos. Por ello, porque tenía en cuenta tu anhelo de excelencia, no podía convencerme a mí mismo de que con el tiempo se iba a remediar el olvido, y dados tus grandes progresos en tu estudio de las letras, tampoco me parecía obligado recordar algo tan nimio. Pero tú has aprendido a desear con tanto fervor la literatura que no podías pasar por alto ni las obras más breves que caen al fondo y te implicas en anhelar tanto la riqueza del saber que no perdonas ni las raspaduras en los textos, que ciertamente no valen gran cosa. Por el contrario, es evidente que no querrías perdonarnos si no te entregáramos lo adeudado, ni aceptarías condonarnos la deuda, sino que, tras desplegar la contabilidad de tu alma y descubrir nuestros nombres entre los deudores, presionas con todo tu peso y casi ahogas y dices que no soltarás si no pagamos lo que debemos, aunque sea un texto breve y de poco valor, que aunque se dejase ir apenas iba a molestar a quien lo recogiera.</p>
+                <p class="resto">Pero tú, supongo, escribes pretendiendo cobrar los intereses y así actúas como la mayoría de la gente. Sin embargo, esto lo podía hacer aquel dulce poeta lírico que, siendo de verbo prolífico, cuando al darse cuenta de que tenía deudas pendientes, añadió con dulzura intereses al capital y, cuando entregó la obra que debía, añadió algo más y lo llamó «intereses». Pero para nosotros no será demasiado fácil, pues, como decía aquél, el polvo de oro de la palabra no nos abrió las venas para verter abundantemente en ellas la retórica minera, sino que escribir nos resulta penoso; por ello, que sea suficiente para contentarte devolver la suma debida. Aquí la tienes, mi sapientísima y venerable alteza; sino he sabido decir lo que deseabas (porque tampoco es preciso repetir lo que ya se ha dicho), al menos lo que ya muchas veces me habías reclamado lo acabamos de entregar. Y sé que para muchos esta obra, por no tener pretensiones, no será juzgada en general bien construida, pues no son pocos los que se muestran vanidosos, severos y arrogantes sobre tales asuntos, pero yo entiendo de otra manera esas críticas. En efecto, me parece necesario que cualquiera que haya aceptado un encargo emprenda bien esa tarea y que no debería sufrir el denuesto ya se trate de un encargo grande o pequeño; yo llamaría, en serio o en broma, persona hábil y sensata y diestra a quien estuviera en la circunstancia de hacer tal bien y de llevar a cabo convenientemente lo ordenado.</p>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article>
+          <div class="flex-container">
+            <div class="row">
+              <div class="col-md-2">
+                <p class="text-secondary"><small>[El comentario de Eustacio a la <em>Periégesis</em> ha extraído del poema su sustancia más nutritiva, le ha añadido otros ingredientes y lo ha sazonado sin adulterarlo]</small></p>
+              </div>
+              <div class="col-md-10">
+                <p>No te olvides de que tú mismo me ordenaste seleccionar para ti los versos más hermosos de la <em>Periégesis</em> de Dionisio, los que pueden proporcionar un conocimiento complementario, que requiere cierta ampliación, una escritura propia de la oratoria y la combinación con la experiencia; para ello ha sido necesario reunir y añadir una serie de materiales complementarios, ya que el texto de Dionisio da una visión general y una descripción geográfica (<em>periegesis</em>) muy sucinta. Ciertamente hemos hecho esto para complacerte, permitiendo que quedara reunido todo cuanto no es necesario de modo apremiante, en vez de dejarlo ocioso y escondido en el libro de Dionisio; y hemos reorganizado y seleccionado con esmero todo lo que es de utilidad tanto para quienes se entregan a la lectura de la obra en prosa como para quienes son lectores puristas de Dionisio. De esta manera hemos mezclado para ti a partir de esos materiales una crátera de conocimiento, que reconciliara en sí el vino puro con el hollejo de la uva y la aspereza de las pepitas. Y ya te hemos hecho entrega de esta médula ósea sofística después de haber desterrado todo el hueso de la dureza poética, por lo que nos mostraríamos rivalizando de esta manera con el poético Quirón, que alimentó con sesos al hijo de Tetis, aunque ciertamente nosotros lo haríamos mucho mejor que aquél, sin tener que recoger los sesos de animales ni entregarlos a Aquiles, el joven tesalio, que destacaba por la rapidez de los pies, si también consiguiera destacar como ser humano, sino a un hombre bueno en todo y rico en lo que de verdad importa, imperial en su estirpe, de alma noble, erudito, resplandeciente en su forma física y semejante a una estatua de las Gracias, pero también en su interior lo que se describiría como un ser humano cabal.</p>
+                <p class="resto">Por lo tanto, al obrar así según tu voluntad, preparamos como alimento consagrado a la amistad todo lo sabroso del poema de Dionisio, y lo aderezamos con alguna salsa que nos procuramos de otros lugares y en la medida de lo necesario reunimos con el resto para mayor equilibrio y por si resultaba oportuno. De esa manera adornamos aún más ese plato, sazonándolo y adornándolo con salsas de muchos orígenes distintos, porque no puede haber mezquindad en un acto de amistad, sin añadir algo dispar o impropio de la <em>Periégesis</em> de Dionisio, pues ciertamente sería extraño asunto y vana ambición y fatuidad ordinaria perorar sobre algunos lugares remotos adulterándolos. Pero al permanecer fieles a las propias palabras de Dionisio, transformarlas como en una paráfrasis en prosa e ir así ampliando el texto e incluso contando las cosas con las mismas palabras, y cuando se da la circunstancia de que sea necesario añadir algo, incluyendo también esto, de este modo engordamos la ligereza de la narración, por así decirlo, equilibradamente y hacemos gradualmente más largo lo que en la base era breve. De acuerdo con esto, no se debe despreciar en modo alguno lo conseguido, si se ha acabado por completo lo encargado, razón por la cual me atrevo a pensar que esta obra no parecerá llena de insensateces a tu alteza, <em>pansebastos</em>, porque está acabada según tu deseo y porque los admiradores de Dionisio podrían igualmente verse complacidos por ella.</p>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article>
+          <div class="flex-container">
+            <div class="row">
+              <div class="col-md-2">
+                <p class="text-secondary"><small>[¿Qué aporta el comentario a la <em>Periégesis</em>?]</small></p>
+              </div>
+              <div class="col-md-10">
+                <p>En efecto, el canto de Dionisio es bueno y dulce y su expresión vívida y variada en las historias que cuenta, pues visitó ciudades muy populosas y conoció la mente con la mirada y la enseñanza de las Musas. Pero este comentario nuestro colabora con un Dionisio así para obtener lo que un estudiante de literatura desea escuchar, pues si Dionisio en algunos pasajes se dirige a un auditorio más experto tratando los temas brevemente, esta obra actúa como recordatorio al ampliar las cuestiones esenciales para acomodarlas a la simplicidad de los principiantes; y si él en otros pasajes se dirige a los principiantes, entonces el presente comentario se explaya en beneficio de los que desean más información; no completa lo que Dionisio dejó incompleto, sino que amplía y agranda los temas que él trató, como conviene a una obra en prosa, y lo hace, por así decirlo, chupando de su narración todo lo que tuviera de sabroso, la enriquece de otra manera, analiza en detalle lo escrito por extenso, satisface la curiosidad del oyente y elimina buena parte del trabajo que conllevaría, en tanto en cuanto lo que el estudiante iba a aprender de otro lugar lo podría adquirir sin esfuerzo de aquí en uno de los comentarios, al menos lo que se alcanza de promedio e incluso en algunos pasajes lo que es fundamental. En efecto, Dionisio pretendía ofrecer una descripción general de la tierra y pasar revista a sus pueblos, pero no quería poner en su obra el origen del nombre o los rasgos de los lugares y los pueblos, y nosotros respetaremos eso en la medida en que resulta adecuado para los versos de Dionisio. Al hacer esto no corregimos al Periegeta ni completamos indebidamente sus palabras, como dijimos antes, sino que paliamos lo que viene impuesto por la métrica en función de la curiosidad del auditorio. En efecto, alguien deseoso de aprender que escuchara a Dionisio recordar en dos versos y sólo por su nombre la tierra de los beocios, locrios, tesalios y macedonios, y sin contar nada más sobre ellos, ¿acaso no estaría a la fuerza ávido de tener más información sobre ellos? Creo que el lector curioso desearía tener noticias también sobre los misios y del mismo modo sobre los bébrices. Y no le bastará ni la mención de Libia, ni la de Asia, ni siquiera el mero nombre de Europa, a no ser que aprenda también lo que se ha averiguado sobre sus orígenes. Y algo parecido se puede decir de la investigación sobre otras regiones, y ciertamente también sobre ciudades. Cumpliendo el deseo del estudiante, renunciaremos a hablar brevemente sobre cada cuestión según sea necesario, no tanto por ostentación como para tratar lo esencial.</p>
+                <p class="resto">Dionisio da la impresión de abarcar la tierra entera con la palma de la mano, como comprimiéndola en su obra y no trata con detalle muchas cosas, pero la mía abre la puerta a una tierra más ancha y a que alguien pueda apoderarse de ella utilizando ambas y por esto resulta quizá algo más sutil; de esta manera, las virtudes del texto se duplican. En efecto, nosotros hemos reunido todo: lo más hermoso de Dionisio y, de alguna manera, lo que es bueno por su utilidad tanto como por su conocimiento; se añade con moderación el testimonio de otras fuentes, que pueden coincidir con él o tener algo en común. Así pues, si los materiales de este comentario colaboran en la lectura de Dionisio, sería de esperar que compartieran con éste una buena acogida, pues así sucede en el caso del sabio y buen Homero, que habla de cosas que tienen que ver con Dionisio y comparte con él la bondad de su provecho o de su objetivo; y lo que vale para Dionisio vale también para los demás sabios. Así que para nosotros un regalo con el que honrar a tu excelencia digna de reverencia es un Dionisio ya no poeta sino liberado del metro y contándote en román paladino muchas cosas; un Dionisio que no se exprese sucintamente, sino presentado y explicado con mayor amplitud, de modo que al pasar de la composición métrica a la prosa dé rienda suelta a muchas cosas; no sólo cantando sino también recitando, allí donde no nos parece oportuno lo que conlleva el canto y haciéndose así bilingüe en vez de simple; ni en un estilo elevado ni expresándose siempre con el corsé del metro, sino teniendo en cuenta por qué vías expone el argumento paso a paso; ni recitando todo lo que trata subido a un escenario poético, sino tratando muchos temas sin la máscara poética; no «necesitado de quien explique todo», como diría la lira tebana, sino habiendo ya adquirido la claridad que le conviene, sin necesidad de intérprete. Y como si el poema fuera un buen prado estas hermosas flores para ti se han recogido, o incluso como si fuera un hermoso huerto con distintos tipos de plantas del que procede un excelente fruto ya madurado. Para los demás, Dionisio equipara su propia abundancia dorada con la laboriosa producción de mineral extraído de una mina, pero a ti lo que te proporciona es oro auténtico, que no se arrastra por el suelo, sino que ha sido embellecido por otros medios y es más abundante. En consecuencia, quien amara lo que escribe Dionisio amaría también el presente comentario y las cosas memorables que encierra, lo inscribiría en una cinta bordada y juzgaría hermosa su variedad. Así pues, si también tú amas a Dionisio y tampoco rechazas mi locuacidad, de uno y otro recibe este regalo de amistad, de parte de Dionisio y de parte de Eustacio, en especial porque es un deber cumplido.</p>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article>
+          <div class="flex-container">
+            <div class="row">
+              <div class="col-md-2">
+                <p class="text-secondary"><small>[¿Cabe el mundo en una uña? El cielo y la tierra]</small></p>
+              </div>
+              <div class="col-md-10">
+                <p>Y hasta aquí he descrito lo que hay en la obra, pero antes de llegar a esta quiero añadir unas cuantas cosas que me permitirán presentarte la organización de Dionisio, dar cuenta del objeto de la periégesis, explicar lo más destacable y contar para qué vale, cuál es el objetivo de la geografía y cuál el sentido de la corografía, y algún otro aspecto oportuno antes de la obra, si lo hay. Hay quien consideraría mérito de la <em>Periégesis</em> que en una obra breve gracias al arte de la palabra se circunscribiera «a una uña lo que hay bajo el cielo», una expresión proverbial que se usa para indicar que algo es imposible de realizar; pero tal empresa ha sido abordada por quienes disertaron sobre geografía y, puesto que no se demostró imposible, hicieron falso el proverbio y se las ingeniaron para hacer posible lo imposible. En efecto, así lo redujeron quienes se ocuparon de dibujar mapas de la ecúmene, encerrando el infinito en algo que tiene el tamaño de una uña y circunscribiendo lo ilimitado de la totalidad de la tierra a una pequeñísima superficie que ocupa así un espacio mínimo. Se cuenta que el primero que se atrevió a hacerlo fue Anaximandro, el pupilo de Tales, y tras él Hecateo se dedicó a la misma tarea y después lo hizo Demócrito, y en cuarto lugar Eudoxo. Y si Dionisio sorprende al escribir que «Cartago fue medida con la piel de un buey» (v. 197), como siendo algo sin duda novedoso que la extensión de una ciudad tan grande (Cartago) se midiera circunscrita por la sección de una piel de toro, ¿cómo no iba a ser motivo de admiración el reducir la inmensidad de la ecúmene a un brevísimo tratado? Así sucede con la filosofía que, teniendo como requisito una base firme, imagina de esa manera la grandes cosas con las pequeñas: no sólo se regocija por que esta sinalefa o sinéresis de la tierra se reduzca a algo muy pequeño, sino que también cuando la une al cielo éste queda empequeñecido y, por así decirlo, inserta algo de esas dimensiones en la cuenta de un collar.</p>
+                <p class="resto">Hay otro proverbio que refleja la imposibilidad de hacer algo cuando esto «viene dado de arriba» y sin embargo también esto puede ser reconducido y hecho realidad con un poco de ingenio. En verdad consiguen hacerlo quienes hacen girar algo tan grande como el cielo –la esfera errante que integra todo dentro de sí– con un pequeño cuerpo sólido con forma de esfera y, se diría, del tamaño de un grano y lo colocan al alcance de cualquiera tras haberle dado forma redonda y haberlo reducido girando un aro. Lo que se cuenta de las mujeres tesalias que usan la magia para invocar a la luna y arrastrarla desde arriba hasta la tierra, eso mismo tienen en mente hacer aquellos, no con uno o dos planetas superiores sino con toda la infinita esfera celeste, haciendo que descienda para nosotros con las estrellas, las zonas y todos los círculos y secciones celestes.</p>
+                <p class="resto">El celestial Zeus, el cual, al decir de Homero, distinguiéndose en los consejos celebrados en el Olimpo, se jacta de alterar los asuntos de abajo, en la tierra y en el mar, pero pretende no sentirse atraído por las cosas de abajo; sin embargo, el sabio planta cara a esa imagen con vigor, critica la honorabilidad de Zeus y, tras arrastrarlo abajo al cielo, no lo sitúa en el éter por debajo del tártaro, a donde había hecho bajar a su padre, Crono, sino que lo sitúa al alcance de los que observan los astros y de los sabios que se ocupan de esas cuestiones de otra manera; inventando un cielo, por así decir, subceleste, imagina en él como en un espejo historias relativas a los movimientos superiores para quienes se interesen en ellas; puesto que no es posible que quien quiera estudiar los fenómenos celestes agite sus alas para elevarse, de alguna manera (Homero) sojuzga a Urano y tras abrazarlo y hacerlo descender, pone límites a sus designios; o bien, al no poder por otros medios situar en el cielo al ser humano, que a pesar de ser y presentarse como «una planta enraizada en el cielo» sin embargo está atrapado en la tierra, hace bajar el cielo y lo coloca sobre la tierra, como si pudiera embellecer la tierra con las cualidades celestes. Y se crea aquí una ruta de Urano hacia el mundo inferior más provechosa que el mito de Hesíodo, según el cual Urano desciende para amar a Gea; sin duda también más venerable, entre otras cosas también porque Hesíodo dice que aquél «trae consigo la noche» al descender, pero este cielo al que el saber científico pone junto a la tierra, no sabe traer consigo la sombra sino que ilumina el conocimiento artístico. Ni nadie diría a propósito de esto las palabras homéricas «en el cielo asomaba la noche», sino ciertamente aquel verso «y el inmenso éter se desgarra del cielo», pues la luz luminosa del entendimiento allí se serena. En conclusión, a un cielo así podría referirse Arato y cuantos como él en verso, pero también en prosa, hacen girar tales cielos, pues algunas musas como las invocadas en el poema (v. 58) ponen ritmo al movimiento armónico.</p>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article>
+          <div class="flex-container">
+            <div class="row">
+              <div class="col-md-2">
+                <p class="text-secondary"><small>[El vuelo de Dionisio Periegeta]</small></p>
+              </div>
+              <div class="col-md-10">
+                <p>Dionisio reelabora la conformación de la tierra cuando se dirige a nosotros, trabajando sobre ella como lo requiere el verso, alzándose ligero con las alas de la palabra, circundando rápidamente toda la ecúmene, como las águilas tantas veces mencionadas con las que el Zeus del mito midió la tierra siguiendo el curso del sol, y transportando consigo al oyente y haciendo que vuele con él, como Dédalo a su compañero de vuelo Ícaro –con la diferencia de que aquí el vuelo es seguro y para ambos sin peligro y no está expuesto a las amenazas del sol. ¿No son acaso el viaje de Hermes penetrando en la tierra y el bastón de oro con el que según Homero da la vuelta volando por encima de la tierra firme y del mar, este camino y método de la periégesis y el punzón en la mano del artesano que graba el mapa de la tierra? El estudiante es conducido por ellos como llevado de la mano, y sin esfuerzo da la vuelta a la ecúmene con toda la velocidad de sus alas, se adelanta con su mente al recorrerla y comprenderla con la palabra guiadora. Así se imaginaría uno al terrenal Hermes, pero cuando el Periegeta, tras abandonar la superficie de la tierra, recorre el círculo del cielo, sigue las líneas, da la vuelta a los polos y mide las estrellas limitándose a rozar lo que está arriba con la mano, señalando con el dedo lo que está aquí abajo, sobrevolando de esta manera la tierra y describiendo los fenómenos celestes, entonces ciertamente este Hermes no es terrenal sino que blandiendo el bastón, por decirlo como el poeta, «vuela el poderoso Argeifonte, de bastón dorado». Por esta razón se diría que el poder del método periegético es más sutil y más adecuado que el de la Éride homérica, que «en un principio es menuda y se encrespa» observando de cerca todo lo que está abajo en la superficie de la tierra, pero después «cuando pone los pies en el suelo fija en el cielo la cabeza», como cuando el periegeta dirige su mirada a lo que atañe al cielo.</p>
+                <p class="resto">Hasta aquí un elogio sucinto de las virtudes de la periégesis, con la excepción de lo que se dirá en breve y que todavía es necesario explicar en este prólogo, porque Arato, el perfecto intérprete del caminante de los cielos Hermes, abarca y describe bellamente en su manual en verso los fenómenos celestes, mientras que en esta obra Dionisio es el asistente de Hermes que rápidamente despliega las alas alrededor de la tierra; la imaginación de las musas lo transporta, como él mismo se jactará más adelante, y le hace atravesar la tierra entera sin desviarse ni perderse.</p>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article>
+          <div class="flex-container">
+            <div class="row">
+              <div class="col-md-2">
+                <p class="text-secondary"><small>[Distintos tipos de geografía en la Antigüedad: geografía, corografía, periégesis, <em>periodos gês</em>]</small></p>
+              </div>
+              <div class="col-md-10">
+                <p>Se le llamó «Periegeta» a partir de <span lang="el">περιεγεῖσθαι</span> (<em>periegeisthai</em>) «describir la tierra», que es el objetivo que quiere alcanzar la narración de un modo sistemático, como dice un escritor: «descríbeme lo que hay en el Hades», es decir: «exponlo en una narración detallada» y a una narración similar llama «periégesis del orgullo». Se dice que describir y recorrer algo, como cuando alguien dice haber recorrido el Peloponeso, es decir lo mismo que registrar y medir, pues así es como el propio Dionisio dirá en un pasaje que registra y mide cierto mar. Pero no hay que olvidar que Dionisio recogió correcta y exhaustivamente mucho de lo que los antiguos estudiaron con detenimiento a propósito de la geografía y la corografía verdaderas, las cuales Alejandro en particular, según se dice, perfeccionó a partir de un escrito de los geógrafos más expertos que el tesorero Jenocles le había hecho llegar; también Dionisio recortó las largas exposiciones de otros escritores y compuso para cualesquiera esta geografía más breve y precisa en un manual que la mirada puede abarcar fácilmente, sin que falte en ella nada considerado útil por los geógrafos. En efecto, sazona el poema con historias, en algunos pasajes describe los rasgos de los lugares y los pueblos, ofrece también la información verídica de la historia (lo que es una virtud de la geografía) y en otros lugares deja caer alguna semilla de conocimiento más puro; en conjunto, no dejó escapar ninguna de las virtudes de la geografía de las que una degustación no fuera a encontrar en su sitio en esta poesía suya, publicando un poema de pocos versos pero que rozó con las puntas de los dedos todas las bondades y en el que depositó el germen de todas las virtudes de la geografía. Siendo tal, no abraza contra su pecho la recomendación del Geógrafo (Estrabón), no solo por la brevedad de la obra sino también porque hay algunas otras labores propias de un geógrafo que él no aborda en absoluto. En realidad, Dionisio se refiere a lo más global y general del apelativo, lo que es la periégesis, pues es sabido que <span lang="el">περίοδος γῆς</span> (<em>periodos gês</em>) «tour de la tierra» y periégesis significan lo mismo y tienen un único valor. Por ello también el geógrafo de Amasia a menudo acude a los mismos términos, aceptando que la ciencia que él practica sea llamada geografía, pero considerando indigno que se la llame periégesis y <em>tour</em>. Y así <em>periodos gês</em> y periégesis confluyen en un mismo sentido a través de varias palabras y son nombres generales, que abarcan la geografía y la corografía o topografía, de las cuales la geografía aborda una visión de conjunto, como dicen los antiguos, como si alguien hubiera registrado un cuerpo entero; en su opinión, geografía es la imitación de la descripción de una parte de la tierra que es abarcable en su totalidad junto con lo asociado con ella globalmente. Por otra parte, dice lo mismo de esta, que muestra como una y continua la tierra conocida, como es propio de la naturaleza y del espacio, con el límite de las cosas asociadas a ella en todas las descripciones. Tal es la geografía, cuyo objeto es la tierra entera en su conjunto, de un modo más comprensivo, y sin llevar a cabo una descripción detallada.</p>
+                <p class="resto">Sin embargo, la corografía es una periégesis, y también lo es el <em>periodos gês</em>, en cuanto que también es geografía, pero no universal, sino parcial, y por así decirlo, de la tierra o los lugares o algunas aldeas. Por tanto, no se llama geografía o registro de la tierra entera, sino corografía, o descripción de una tierra en concreto. Y dicen los antiguos sobre la corografía que tiene por finalidad la comprensión de la parte, es decir, referirse a territorios parciales, al contrario que la geografía, que se refiere a la tierra entera como totalidad de un cuerpo, mientras que la corografía aborda una parte de la tierra, como si alguien cortando sólo una oreja o un ojo de un cuerpo entero describe esto. En efecto, así es como la geografía expone el cuerpo de la tierra, sin descender a las cosas más pequeñas, mientras que la corografía, que es más de detalle, registra también lo más pequeño, ya sean puertos, todas las aldeas, demos, fuentes, cualquier ciudad, todos los ríos, las vueltas de los caminos y muchas cosas similares. Y no es que el método de la geografía no tenga en cuenta también tales cosas, sino que lo hace raramente y no por obligación, puesto que su objetivo es contar lo universal en descripciones globales, mientras que la corografía, aunque trata con detalle las cosas más nimias, ni siquiera debería llamarse así.</p>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article>
+          <div class="flex-container">
+            <div class="row">
+              <div class="col-md-2">
+                <p class="text-secondary"><small>[Dionisio Periegeta, o cómo transmitir en un breve poema el conocimiento geográfico]</small></p>
+              </div>
+              <div class="col-md-10">
+                <p>Así pues, siendo esas las diferencias entre geografía y corografía, Dionisio no comparte nada con el corógrafo, pero se acerca al geógrafo al exponer en un diseño global la tierra en su conjunto y recorrer, como si de una inspección se tratara, cierta descripción global y, por así decirlo, por ser un geógrafo que fusiona elementos, no por pretender describir una o más tierras sino seguir los preceptos de la geografía para poner al alcance de la mano de modo resumido el presente poemilla, como él mismo entonó desde los proemios, tras haber establecido como objetivo principal de su poema fácilmente abarcable, como dice el verso, «cantar la tierra y el ancho mar» (v. 1) y así «uniendo la tierra y el mar en un abrazo», el portento que se atribuye a Tifón.</p>
+                <p class="resto">En la visión de los antiguos, este Dionisio es un autor de estilo refinado que busca la elegancia y persigue lo florido, como un excelente escritor; reúne los nombres que se emparejan bien entre sí en busca de una simetría textual y, al mismo tiempo, consigue colorido utilizando las palabras más hermosas. Es habilidoso tanto en la compleción como en la repetición y a menudo se adorna con esas figuras en aras de la claridad. Como se verá, recurre con frecuencia a palabras sutiles y ciertamente también a desarrollos etimológicos, pero también hay lugares en los que se expresa de modo espontáneo, lo que en la periégesis resulta difícil. Y hay donde esparce con habilidad elogios imperiales, pero también es raro que se sirva sabiduría sentenciosa porque así lo marca el género y, aun con todo, se encuentran algunos ejemplos, y es que se vale de todas las cualidades positivas: compone su canto en verso, usa diversos dialectos, no elude utilizar con mesura historias míticas y se sirve de la persuasividad de las imágenes, por las que se permite abundar en descripciones, tejiendo igualmente historias y, como ya se dijo, según las reglas de la geografía actuando de guía en pos de la verdad, y discutiendo algunas cuestiones para enseñarlas, por ejemplo, cuando trata del océano Cronio (v. 32), la celebrada isla de Tule (v. 381), el clima en el trópico de cáncer (v. 595); en algunos pasajes también se asoma a las cuestiones naturales, como cuando explica el origen del «suelo pobre» de la tierra de los trogloditas (v. 963), e incluso en otros pasajes se refiere a las creencias religiosas, justo hacia el final del libro, donde considera las diferencias (de los pueblos) que habitan la tierra.</p>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article>
+          <div class="flex-container">
+            <div class="row">
+              <div class="col-md-2">
+                <p class="text-secondary"><small>[La utilidad de la geografía]</small></p>
+              </div>
+              <div class="col-md-10">
+                <p>Invoca a las Musas, como es habitual entre los poetas, al mismo tiempo que planea un escrito filosófico y, quizá también por ser más innovador, no se dirige a ellas al modo homérico en los primeros versos ni se precipita hacia ellas, desbordando la línea de salida de la obra, sino que espera a alcanzar el momento culminante de la periégesis para invocarlas. Y es ciertamente de alabar esa nitidez en el comienzo, pues en pocas palabras desde el comienzo del escrito muestra su propósito y poco después expone también la utilidad de la periégesis, a saber: conocimiento para el oyente, así como enseñanza del que ha aprendido para los demás que no saben y honra que obtiene de ella quien enseña. Y los antiguos también demuestran que el conocimiento que se obtiene en las periégesis tiene otros beneficios garantizados, diciendo que la periégesis es útil para la vida, concita el entendimiento del experto y es de provecho para los militares y los emperadores, entre otras virtudes. Cuentan también que Hércules y Dióniso, al tener un conocimiento certero de los <em>klimata</em> gracias a la periégesis, alcanzaron lugares remotos, y que también Alejandro por la misma razón aspiraba a conocer el océano oriental. Y dicen que Sesostris, el egipcio que recorrió gran parte de la tierra, dejó registrado su viaje en tablillas y aceptó entregar el registro de las tablillas no sólo a los egipcios sino sorprendentemente también a los escitas; dicen también que Platón deseaba ese objeto y fue en su busca no solo a Sicilia sino incluso a Egipto. Y honra al Ulises de Homero no menos que a los otros el haber visto ciudades muy pobladas y conocido su modo de pensar. De esta manera, los antiguos componen a partir de muchas fuentes la periégesis, que es un asunto filosófico e imperial.</p>
+                <p class="resto">Y si tal es el fin de la periégesis, por otra parte, se cuenta que Dionisio procede de Libia y se dice que escribió otros libros: <em>Lithiaka</em>, <em>Ornithiaka</em> y <em>Bassarika</em>. Los <em>Ornithiaka</em>, por su parte, fueron atribuidos a Dionisio por la similitud del estilo, mientras que los <em>Bassarika</em>, por estar poco pulidos no fueron juzgados dignos de este y se atribuyeron a Dionisio de Samos; en tercer lugar, los <em>Ornithiaka</em> lo fueron a otro Dionisio, cierto escritor de Filadelfia, al que juzgaban huero por su incorrecta dicción. Los antiguos llaman el presente poema histórico, compuesto de información geográfica, administrativa, analística y genealógica, que dicen son las distintas facetas de la historia. Geográfica, porque el objetivo general de la obra es la descripción de los lugares de la tierra; administrativa, en tanto en cuanto narra otras cosas y expone las costumbres de los pueblos; analística porque deja constancia de la época en la que él vivió, que no es la de los cónsules sino la de los emperadores; y genealógica, por ejemplo, cuando dice que los sauromatas descienden de las amazonas y los locrios epicefirios de esclavos.</p>
+                <p class="resto">Estos mismos autores antiguos elogian también el proemio de la presente obra porque tiene las siguientes virtudes. En efecto, dicen que virtudes de los proemios son el resumen, la atención y la simpatía. De éstas el resumen tiene como objetivo exponer la finalidad de la obra que se presenta; la atención dirige al oyente y hace de la obra un todo, y la simpatía invita a los oyentes a ser condescendientes y perdonar al autor. Así pues, Dionisio, dicen, cuando en el proemio de la obra mencionó su objetivo, el ir a «cantar la tierra y el ancho mar» (v. 1), hizo una llamada de atención, poniendo en alerta la mente del oyente como para que se implicara, pero no se limitó a eso, sino que también expuso de esta manera una síntesis de la obra entera. Y cuando escribe «innumerables tribus de hombres» (v. 2), atrae y apela a la simpatía, como buscando el perdón, si alguien mostrara su debilidad al incluir en la narración mucha información indiscriminada de este tipo. Pero la presente obra da prueba de una gran claridad y ciertamente de capacidad de discernimiento, como ya se dijo, no sólo por las repeticiones, como quedó expresado, y las frecuentes compleciones, sino también por las abundantes explicaciones previas, en los frecuentes pasajes en los que también Dionisio utiliza los recursos de un profesor para exponer la materia con discernimiento, anunciando que de esa manera abordará la lección. En muchos lugares reclama asimismo la atención del oyente, como si modestamente creyera describir cosas sin orden ni concierto. De igual manera, este modesto escrito encierra mucha belleza y en modo alguno se queda ayuno de las muchas cualidades poéticas este pequeño tomo de poesía. Y si tiene algunos defectos nimios, los tiene como un cuerpo hermoso algunos forúnculos que la gente no percibe o eccemas que no afectan a los órganos vitales y que mínimamente estropean la belleza, que los examinen los curiosos y no suficientemente amantes del saber. Pues nosotros no somos moscas que acuden a las heridas sino abejas que liban lo más hermoso del prado de las musas.</p>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+    <footer class="container">
+      <section id="carrusel-logos">
+        <div class="slideshow-container">
+          <div class="mySlides">
+              <div class="row justify-content-around align-items-center">
+                <div class="col-md-4 col-12">
+                  <div id="fundacionBBVA">
+                    <a href="https://www.fbbva.es" target="_blank"><img src="./img/logos/FundacionBBVA.svg" class="img-responsive img-fluid" alt="logo Fundación BBVA" title="Ir al sitio web de la Fundación BBVA"></a>
+                  </div>
+                </div>
+                <div class="col-md-4 col-12">
+                  <div class="wrap-img" id="MinCII">
+                    <a href="https://www.ciencia.gob.es/" target="_blank"><img src="./img/logos/MinCII.jpg" class="img-responsive img-fluid" alt="logo Ministerio de Ciencia e Innovación" title="Ir al sitio web del Ministerio de Ciencia e Innovación"></a>
+                  </div>
+                </div>
+                <div class="col-md-4 col-12">
+                  <div class="wrap-img" id="CSIC">
+                    <a href="http://www.csic.es" target="_blank"><img src="./img/logos/CSIC.jpg" class="img-responsive img-fluid" alt="logo CSIC" title="Ir al sitio web del CSIC"></a>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="mySlides">
+              <div class="row justify-content-around align-items-center">
+                <div class="col-md-4 col-12">
+                  <div class="wrap-img" id="CCHS">
+                    <a href="http://cchs.csic.es/" target="_blank"><img src="./img/logos/CCHS.png" class="img-responsive img-fluid" alt="logo CCHS" title="Ir al sitio web del CCHS"></a>
+                  </div>
+                </div>
+                <div class="col-md-4 col-12">
+                  <div class="wrap-img" id="CCHS-ILC">
+                    <a href="http://www.ilc.csic.es" target="_blank"><img src="./img/logos/CCHS_ILC.jpeg" class="img-responsive img-fluid" alt="logo ILC" title="Ir al sitio web del ILC"></a>
+                  </div>
+                </div>
+                <div class="col-md-4 col-12">
+                  <div class="wrap-img" id="PTIMedHis"><a href="https://pti-medhis.csic.es/" target="_blank"><img src="./img/logos/MedHis.jpg" class="img-responsive img-fluid" alt="logo PTI MedHis" title="Saber más de la PTI MedHis"></a>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="slideshow-controls" style="text-align:center">
+          <a class="prev" onclick="plusSlides(-1)" title="Ver más"><span aria="true" class="far fa-arrow-alt-circle-left"></span></a>
+          <a class="next" onclick="plusSlides(1)" title="Ver más"><span aria="true" class="far fa-arrow-alt-circle-right"></span></a>
+        </div>
+      </section>
+      <div class="row">
+        <div class="col text-center">
+          <p class="small">Para cuestiones técnicas relacionadas con este sitio web, por favor diríjase a elvuelodehermes&thinsp;@&thinsp;gmail.com<br>
+            <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" class="img-center" /></a> 2021
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="jquery/jquery-3.4.1.slim.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/slideShow.js"></script>
+  </body>
+</html>

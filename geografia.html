@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Inmaculada Pérez-Martín">
+    <meta name="author" content="Juan Signes-Codoñer">
+    <meta name="author" content="Jesús Polo-Arrondo">
+    <meta name="author" content="Paula Caballero-Sánchez">
+    <meta name="author" content="Carmen García-Bueno">
+    <meta name="keywords" content="Eustacio de Tesalónica, Dionisio de Alejandría, Periégesis, geografía antigua">
+    <meta name="description" content="Página del proyecto de investigación 'El mundo según Homero: de Dionisio Periegeta a Eustacio de Tesalónica', Madrid, España">
+    <base href="https://elvuelodehermes.github.io" target="_blank">
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=greek,greek-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/ac39874428.js" crossorigin="anonymous"></script>
+    <script src="js/modo_oscuro.js"></script>
+    <title>Geografía antigua</title>
+  </head>
+
+  <body>
+    <!-- Barra de navegación en la cabecera -->
+    <nav class="navbar navbar-expand-md bg-light navbar-light sticky-top">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#barraNavegacionColapsada"><span class="navbar-text">Menú </span><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="barraNavegacionColapsada">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html" title="Página de inicio">Inicio</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Proyecto</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="./proyecto.html" title="Conocer el proyecto">Sobre el proyecto</a>
+              <a class="dropdown-item" href="./proyecto.html#miembros" title="Conocer a los integrantes del proyecto">Miembros</a>
+              <a class="dropdown-item" href="./proyecto.html#cronograma" title="Vida del proyecto">Historia</a>
+              <a class="dropdown-item" href="./proyecto.html#recursos" title="Enlaces a otros materiales generados en el proyecto">Recursos</a>
+            </div>
+          </li>
+          <!--Esto es otro menú desplegable. Hay que cambiar el valor de href="" por la url de la página. Si no hay ninguna, el valor es # -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Dionisio Periegeta</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="./dionisioperiegeta.html" title="Conocer al autor">El autor y la obra</a>
+              <a class="dropdown-item disabled" href="#" title="Explorar la traducción">texto en castellano</a>
+              <a class="dropdown-item" href="./periegesis.html" title="Explorar el texto original">texto en griego</a>
+              <a class="dropdown-item" href="./manuscritos.html" title="Conocer la transmisión textual">manuscritos</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Eustacio de Tesalónica</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="./eustaciodetesalonica.html" title="Conocer al autor">El autor y la obra</a>
+              <a class="dropdown-item" href="./comentario.html" title="Explorar la traducción">texto en castellano</a>
+              <a class="dropdown-item" href="./eustaciogr.html" title="Explorar el texto original">texto en griego</a>
+              <a class="dropdown-item" href="./manuscritos.html" title="Conocer la transmisión textual">manuscritos</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" title="Este enlace no está disponible todavía">Mapa</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./geografia.html" title="Aprender sobre la geografía antigua y su transmisión">La Geografía antigua</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./creditos.html" title="Créditos, agradecimientos, licencia, y otros detalles técnicos">Créditos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="mailto:elvuelodehermes@gmail.com?subject:Contacto desde la web" title="Contactar con el proyecto">Contacto</a>
+          </li>
+        </ul>
+      </div>
+      <button class="btn" onclick="modo_oscuro()" title="Invertir colores"><i class="fas fa-palette"></i></button>
+    </nav>
+    <!--Esta es la cabecera. Se puede sustituir por una imagen -->
+    <header>
+      <div class="flex-container">
+        <div class="jumbotron" id="cabecera">
+          <h1>El vuelo de Hermes</h1>
+          <h2>Proyecto de investigación</h2>
+        </div>
+      </div>
+    </header>
+    <!--Esto es el contenido de la página -->
+    <main class="container">
+      <section id="geografia">
+        <h2>La geografía antigua: <em>periêgêsis</em>, <em>periodos gês</em>, <em>chôrographia</em></h2>
+        <p><em>Periegeisthai</em> «describir la tierra» y <em>periêgêsis</em> es, literalmente, «circuito de la tierra» y, por derivación, su «descripción geográfica». El poema de Dionisio (cuyo título completo es <em>Descripción de la tierra habitada</em>) no es el único texto geográfico que hemos conservado con ese nombre; el segundo es la <em>Periêgêsis tês Hellados</em>, la <em>Guía de Grecia</em>, que Pausanias compuso también en el siglo <span class="versalitas">II</span> <abbr title="después de Cristo">d.C.</abbr></p>
+        <p class="resto">En la carta-proemio a su comentario, Eustacio introduce al lector en la producción geográfica de la Antigüedad con la intención de encuadrar la <em>Periegesis</em> de Dionisio, de la originalidad de cuya síntesis es consciente. Sin olvidarse de resaltar la importancia de las conquistas de Alejandro para cambiar radicalmente el conocimiento sobre la geografía asiática [cf. 211 M.], para lo que la <em>Anábasis de Alejandro</em> compuesta por Arriano es su fuente indispensable, es a Estrabón a quien acude para contextualizar la obra de Dionisio. Eustacio utiliza la imagen del cuerpo humano, que representa la tierra, para explicar los distintos tipos de textos geográficos que había en la Antigüedad:</p>
+        <blockquote>
+          <p>En realidad, Dionisio hace alusión a lo más global y general del apelativo, de lo que es la periégesis, pues es sabido que <em>periodos gês</em> («tour de la tierra») y periégesis significan lo mismo y tienen un único valor. Por ello también el geógrafo de Amasia [Estrabón] a menudo acude a los mismos términos, aceptando que la ciencia que él practica sea llamada geografía, pero considerando indigno que se la llame periégesis y tour. Y así <em>periodos gês</em> y periégesis confluyen en un mismo sentido a través de varias palabras y son nombres generales, que abarcan la geografía y la corografía o topografía, de las cuales la geografía aborda una visión de conjunto, como dicen los antiguos, como si alguien hubiera registrado un cuerpo entero; en su opinión, geografía es la imitación de la descripción de una parte de la tierra que es abarcable en su totalidad junto con lo asociado con ella globalmente. Por otra parte, dice lo mismo de esta, que muestra como una y continua la tierra conocida, como es propio de la naturaleza y del espacio, con el límite de las cosas asociadas a ella en todas las descripciones. Tal es la geografía, cuyo objeto es la tierra entera en su conjunto, de un modo más comprensivo, y sin llevar a cabo una descripción detallada.</p>
+          <p class="resto">Sin embargo, la corografía es una periégesis, y también lo es el periodos gês, en cuanto que también es geografía, pero no universal, sino parcial, y por así decirlo, de la tierra o los lugares o algunas aldeas. Por tanto, no se llama geografía o registro de la tierra entera, sino corografía, o descripción de una tierra en concreto. Y dicen los antiguos sobre la corografía que tiene por finalidad la comprensión de la parte, es decir, referirse a territorios parciales, al contrario que la geografía, que se refiere a la tierra entera como totalidad de un cuerpo, mientras que la corografía aborda una parte de la tierra, como si alguien cortando sólo una oreja o un ojo de un cuerpo entero describe esto. [213 M.] En efecto, así es como la geografía expone el cuerpo de la tierra, sin descender a las cosas más pequeñas, mientras que la corografía, que es más de detalle, registra también lo más pequeño, ya sean puertos, todas las aldeas, demos, fuentes, cualquier ciudad, todos los ríos, las vueltas de los caminos y muchas cosas similares. Y no es que el método de la geografía no tenga en cuenta también tales cosas, sino que lo hace raramente y no por obligación, puesto que su objetivo es contar lo universal en descripciones globales, mientras que la corografía, aunque trata con detalle las cosas más nimias, ni siquiera debería llamarse así.</p>
+        </blockquote>
+        <h2>El mundo en una uña y los primeros cartógrafos</h2>
+        <p>En la <a href="./eustaciodetesalonica.html#cartaEustacio" title="Al hacer clic en el enlace se abrirá una nueva pestaña en el navegador" target="_blank" itemprop="url">carta a Juan Ducas</a> que encabeza el <em>Comentario</em>, Eustacio aborda la utilidad de la Geografía y de la periégesis sirviéndose de un curioso proverbio (208 M):</p>
+        <blockquote>Hay quien consideraría mérito de la Periégesis que en una obra breve, gracias al arte de la palabra, se circunscribiera «a una uña lo que hay bajo el cielo», una expresión proverbial que se usa para indicar que algo es imposible de realizar. Pero una empresa de ese calibre ha sido abordada por quienes disertaron sobre geografía y, puesto que no se ha demostrado imposible, hicieron falso el proverbio y se las ingeniaron para hacer posible lo imposible. En efecto, a eso lo redujeron quienes se ocuparon de dibujar mapas de la ecúmene encerrando el infinito en algo que tiene el tamaño de una uña y circunscribiendo lo ilimitado de la totalidad de la tierra a una pequeñísima superficie que ocupa así un espacio mínimo. Se cuenta que el primero que se atrevió a hacerlo fue Anaximandro, el pupilo de Tales, y tras él Hecateo se dedicó a la misma tarea y después lo hizo Demócrito, y en cuarto lugar Eudoxo.</blockquote>
+        <p class="resto">El proverbio llamó la atención de un estudioso italiano, Filippomaria Pontani,<sup><a href="#n1" id="nota1" title="Ver referencia bibliográfica completa">1</a></sup> que quiso ver la forma de la uña en un original y modesto mapa del Mediterráneo que aparece en el folio 47<sup>v</sup> del <a href="https://pinakes.irht.cnrs.fr/notices/cote/67546/" title="Al hacer clic se abrirá una nueva pestaña en el navegador" target="_blank" itemprop="url">Vat. gr. 915</a>, un códice del siglo <span class="versalitas">xiii</span> que también conserva en los folios 223-228 una copia mutilada de la <em>Periégesis</em> de Dionisio y en los folios 39-45 una selección reelaborada de algunos comentarios de Eustacio a la <em>Periégesis</em>. No hay mejor ilustración de la relación estrecha que tiene con la enseñanza de Eustacio de Tesalónica el estudio de estos poemas en el siglo <span class="versalitas">xiii</span> representado por el manuscrito vaticano, entre otros muchos.</p>
+        <h2>El mapa...</h2>
+        <p>Aunque la representación del espacio en la Antigüedad podía ser <em>hodológica</em>, es decir, limitada a la representación unidimensional de una ruta, los progresos en la medición de la tierra realizados por la geografía matemática alejandrina, y en especial, por Eratóstenes, hicieron de los mapas objetos, si bien no corrientes, sí comprensibles para las personas cultivadas; con el andar de los años, hubo incluso mapas esculpidos en piedra en lugares públicos en Roma (en el pórtico de Agripa), en Constantinopla (en el foro de Teodosio), y en otros lugares del Imperio. Pero, aparte de los fastos del Imperio y la mesa del cartógrafo, los mapas también acabaron siendo objetos comunes en la escuela, es decir, en la enseñanza de la Geografía.</p>
+        <p class="resto">Al contrario que Estrabón, que en los libros iniciales de la <em>Geografía</em> vuelve una y otra vez al mapa que tiene ante los ojos, Dionisio no está describiendo un mapa del mundo que tiene ante los ojos, sino que dibuja ese mapa con sus versos y lo hace de un modo canónico, procediendo de Occidente a Oriente, es decir, de Iberia a Fenicia, o recorriendo en el sentido de las agujas del reloj el Océano exterior desde el Atlántico hasta el mar Eritreo (el Índico). A este dibujo mental se alude desde la Antigüedad como <span lang="la"><em>pinax Dionysii</em></span>, una expresión que no indica que en algún momento el poema fuera acompañado de un mapa, sino que el poema es capaz de crearlo en la mente del lector.</p>
+        <h2>... y la esfera</h2>
+        <p>En la Constantinopla del siglo <span class="versalitas">xii</span>, uno de los poemas de contenido científico que formaban parte del canon escolar eran los <em>Fenómenos</em> de Arato (una descripción de las constelaciones compuesta hacia 276–274). Como afirma Gabrielle Aujac, fue el poema helenístico el que inspiró en Dionisio Periegeta la idea de hacer con la Geografía y el mapa lo que Arato había hecho con la astronomía y la esfera celeste. La pareja Arato/Dionisio aparece ya en una nota del folio 339 del manuscrito conservado en Milán, Biblioteca Ambrosiana, <a href="https://pinakes.irht.cnrs.fr/notices/cote/42485/" title="Al hacer clic en el enlace se abrirá una nueva pestaña en el navegador" target="_blank" itemprop="url">Ambros. C 222 inf.</a>, una colección de poesía extra-homérica (lírica, hexamétrica y bucólica) que está acompañada en algunos casos de los escolios compuestos por Juan Tzetzes y de innumerables anotaciones. Esta es la que nos interesa aquí:</p>
+        <blockquote>Como dijo Camatero, de todos los libros poéticos, dos poetas son los que necesitan ilustración y texto, el Periegeta y Arato. Pues el primero ha descrito el mapa y el segundo la esfera; y sin estos objetos no entendería nada el joven que descifra sus obras: sólo podrá comprender la letra. El mapa sin texto no es aceptable, para que se vea lo escrito palpablemente y se comprenda; y lo mismo sucede con la esfera. De los dos, el más difícil es Arato, como me dijo el rétor.</blockquote>
+        <p class="resto">El manuscrito ambrosiano es un ejemplar contemporáneo, aunque no deudor, de la labor de Eustacio de Tesalónica, en cuyo proemio al <em>Comentario</em> a la <em>Periegesis</em> encontramos de nuevo el paralelismo (211 M.):</p>
+        <blockquote>Arato, el perfecto intérprete del caminante de los cielos Hermes, abarca y describe bellamente en su manual en verso los fenómenos celestes, mientras que en esta obra Dionisio es el asistente de Hermes que rápidamente despliega las alas alrededor de la tierra; la imaginación de las musas lo transporta, como él mismo se jactará más adelante, y le hace atravesar la tierra entera sin desviarse ni perderse.</blockquote>
+        <h2>La forma de la tierra habitada: la <em>sphendonê</em></h2>
+        <p>Al inicio de su poema, Dionisio nos advierte de que la ecúmene no es redonda (<abbr title="versos">vv.</abbr> 4-7):</p>
+        <blockquote class="centrado"> Toda la tierra, como una isla inmensa, está circundada (por el Océano);<br/> no toda ella redonda de parte a parte, sino muy puntiaguda<br/> por ambos lados, extendida hacia los caminos del Sol,<br/> semejante a una honda. </blockquote>
+        <p class="resto">En los siguientes versos, fija las fronteras entre continentes: las Columnas de Hércules entre Europa y Libia, el Helesponto y el Tanais entre Europa y Asia, el Nilo entre Asia y Libia (aunque la frontera también es situada en el istmo entre el golfo Arábigo y Egipto, donde desde 1869 está el Canal de Suez).</p>
+        <p class="resto">Estos tres continentes así definidos tienen la forma que Eustacio atribuye a Posidonio y que se compara con una <em>sphendonê</em> u honda, término en el que abunda el bizantino (218 M.):</p>
+        <blockquote> Dionisio compara la figura de la ecúmene con una honda (<em>sphendonê</em>), que es el instrumento que lanza piedras o con la propia esfendone del anillo [el hueco alargado en el que iría engarzada la piedra preciosa] […]. Los antiguos afirman que también hay un adorno femenino que se llama esfendone y que se asemeja al de la esfendone lanzadora, al ser ancho también en el centro y cubrir la frente, pero atarse por detrás por los extremos más estrechos. Y, dicen, que había también una esfendone trasera, según los cómicos, por colocarse al revés, pues para hacer más gracia se colocaba sobre la cabeza con la parte ancha detrás, y la estrecha y el lazo delante. </blockquote>
+        <h2>La forma de los continentes: los conos unidos por las bases</h2>
+        <p>En pro de cierta simetría, Europa y Libia conformarían un triángulo cuya base coincidiría con la de Asia y los dos triángulos así dispuestos darían forma a una ecúmene oblonga, como explica Eustacio (217 M.):</p>
+        <blockquote> De esta ecúmene con forma de honda, los extremos puntiagudos apuntan a oriente y a occidente, lo que se llama recorrido solar, y los extremos más anchos apuntan al norte y al sur. De esta manera, los dos conos son similares en sus bases y los extremos agudos miran a oriente y occidente y los de las bases al sur y al norte. </blockquote>
+        <p class="resto">Así lo cuentan los versos de Dionisio (vv. 270-278):</p>
+        <blockquote class="centrado">Si deseas también el trazado de Europa, no te lo ocultaré.<br/> Su contorno es el mismo que el de Libia, pero está mirando <br/> hacia las Osas, y avanza a su vez hacia Levante de tal manera <br/> que el trazado de la Libia meridional llega a sus límites. <br/> Ambas por igual tocan Asia con su lado más extremo, <br/> una en dirección Norte, otra en dirección Sur. Si pusieras <br/> en una tierra estas dos, a lo largo <br/> tendría la forma de un cono igual en ambos lados, <br/> puntiagudo hacia Occidente, ancho por la mitad de Levante. </blockquote>
+        <h2>Las <em>sphragides</em> de Eratóstenes: el rombo de la India</h2>
+        <p>Utilizando las barreras naturales de ríos, mares y cordilleras, Eratóstenes dividió la superficie de la tierra en <em>sphragides</em> (literalmente, «sellos»), formas geométricas que ayudaban a visualizar los distintos ámbitos que, según los griegos, conformaban la ecúmene. Una de las más famosas es la de la India, que conformaría un rombo, y Dionisio utiliza también la forma geométrica para definir su territorio (<abbr title="versos">vv.</abbr> 1130-1134):</p>
+        <blockquote class="centrado"> Ciertamente (la India) está conformada por cuatro lados, <br/> todos oblicuos, semejante por la forma a un rombo. <br/> Así, el Indo, limítrofe, con sus aguas occidentales <br/> separa esta tierra, y en la frontera meridional las olas del mar Eritreo, <br/> el Ganges hacia los rayos, y el Cáucaso hacia el polo de las Osas. </blockquote>
+        <p class="resto">Para comentar estos versos, Eustacio recurre –como suele hacer– a Estrabón (quien dedica a la India el libro <span class="versalitas">xv</span> de su <em>Geografía</em>). Este es el comienzo de su comentario a los <abbr title="versos">vv.</abbr> 1128-1134:</p>
+        <blockquote> Que la forma de la India, como dice el Geógrafo, se ajusta a cuatro lados que forman ángulos agudos, componiendo un rombo. De estos lados, el occidental da al río Indo, el meridional se inclina hacia el mar Rojo, el oriental es el Ganges y el Cáucaso es el norte, en dirección al polo, lo que según el Geógrafo son los extremos del Tauro. Y ten en cuenta que según Dionisio también el Cáucaso es indio, como ya se ha dicho anteriormente. Por su parte, el Polo Norte indica un punto septentrional en el cielo, como ya se ha escrito. Y también se ha dicho que el Ganges y el Indo son ríos de gran tamaño. Ten en cuenta que aquí el rombo es una figura geométrica de cuatro lados cuyas diagonales no se prolongan en cruz sino que se cortan formando ángulos rectos. Y ciertamente, como dice el Geógrafo, el rombo es un cuadrado girado, no recto, sino que tiene dos ángulos agudos y los demás obtusos, uno enfrente del otro, como en esta figura. </blockquote>
+        <hr>
+        <p class="small"><a href="#nota1" id="n1" title="Volver al texto">1</a> Pontani, F. «The World on a Fingernail: An Unknown Byzantine Map, Planudes, and Ptolemy». <em>Traditio</em> 65 (2010): 177-200. [ver referencia en <a href="https://www.zotero.org/groups/4125984/elvuelodehermes/items/UI88IVIS/library" title="Al hacer clic en el enlace se abrirá una nueva pestaña en el navegador" target="_blank" itemprop="url">Zotero</a>]</p>
+      </section>
+    </main>
+    <footer class="container">
+      <section id="carrusel-logos">
+        <div class="slideshow-container">
+          <div class="mySlides">
+              <div class="row justify-content-around align-items-center">
+                <div class="col-md-4 col-12">
+                  <div id="fundacionBBVA">
+                    <a href="https://www.fbbva.es" target="_blank"><img src="./img/logos/FundacionBBVA.svg" class="img-responsive img-fluid" alt="logo Fundación BBVA" title="Ir al sitio web de la Fundación BBVA"></a>
+                  </div>
+                </div>
+                <div class="col-md-4 col-12">
+                  <div class="wrap-img" id="MinCII">
+                    <a href="https://www.ciencia.gob.es/" target="_blank"><img src="./img/logos/MinCII.jpg" class="img-responsive img-fluid" alt="logo Ministerio de Ciencia e Innovación" title="Ir al sitio web del Ministerio de Ciencia e Innovación"></a>
+                  </div>
+                </div>
+                <div class="col-md-4 col-12">
+                  <div class="wrap-img" id="CSIC">
+                    <a href="http://www.csic.es" target="_blank"><img src="./img/logos/CSIC.jpg" class="img-responsive img-fluid" alt="logo CSIC" title="Ir al sitio web del CSIC"></a>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="mySlides">
+              <div class="row justify-content-around align-items-center">
+                <div class="col-md-4 col-12">
+                  <div class="wrap-img" id="CCHS">
+                    <a href="http://cchs.csic.es/" target="_blank"><img src="./img/logos/CCHS.png" class="img-responsive img-fluid" alt="logo CCHS" title="Ir al sitio web del CCHS"></a>
+                  </div>
+                </div>
+                <div class="col-md-4 col-12">
+                  <div class="wrap-img" id="CCHS-ILC">
+                    <a href="http://www.ilc.csic.es" target="_blank"><img src="./img/logos/CCHS_ILC.jpeg" class="img-responsive img-fluid" alt="logo ILC" title="Ir al sitio web del ILC"></a>
+                  </div>
+                </div>
+                <div class="col-md-4 col-12">
+                  <div class="wrap-img" id="PTIMedHis"><a href="https://pti-medhis.csic.es/" target="_blank"><img src="./img/logos/MedHis.jpg" class="img-responsive img-fluid" alt="logo PTI MedHis" title="Saber más de la PTI MedHis"></a>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="slideshow-controls" style="text-align:center">
+          <a class="prev" onclick="plusSlides(-1)" title="Ver más"><span aria="true" class="far fa-arrow-alt-circle-left"></span></a>
+          <a class="next" onclick="plusSlides(1)" title="Ver más"><span aria="true" class="far fa-arrow-alt-circle-right"></span></a>
+        </div>
+      </section>
+      <div class="row">
+        <div class="col text-center">
+          <p class="small">Para cuestiones técnicas relacionadas con este sitio web, por favor diríjase a elvuelodehermes&thinsp;@&thinsp;gmail.com<br/>
+            <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" class="img-center" /></a> 2021
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="jquery/jquery-3.4.1.slim.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/slideShow.js"></script>
+  </body>
+</html>
