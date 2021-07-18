@@ -11450,7 +11450,7 @@ small, .text_small {font-size: 0.8rem;}
 
 .img-center {
   display: block;
-  margin-left: auto; class="figure-img"
+  margin-left: auto;
   margin-right: auto;
 }
 
