@@ -18,7 +18,7 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <script src="https://kit.fontawesome.com/ac39874428.js" crossorigin="anonymous"></script>
     <script src="js/modo_oscuro.js"></script>
-    <title>Proyecto</title>
+    <title>Mapas</title>
   </head>
 
   <body>
@@ -82,8 +82,7 @@
     <header>
       <div class="flex-container">
         <div class="jumbotron" id="cabecera">
-          <h1>El vuelo de Hermes</h1>
-          <h2>Proyecto de investigación</h2>
+          <h1>Mapas</h1>
         </div>
       </div>
     </header>
@@ -91,10 +90,49 @@
       <!--Esto es un comentario -->
       <div class="container">
         <h2>Los mapas</h2>
-        <section id="">
-          <h3>Mapas</h3>
-          <p>Lorem ipsum.</p>
-          <p class="resto">sit amet.</p>
+        <section id="intro_mapas">
+          <h3>Introducción</h3>
+          <p>Los mapas interactivos que presentamos se han elaborado con dos herramientas. Para el texto de Dionisio, la <a href="http://unidadsig.cchs.csic.es/sig/" target="_blank" title="Al hacer clic en el enlace se abrirá una nueva pestaña en el navegador">Unidad <abbr title="(de) Sistemas de Información Geográfica y Humanidades Digitales">SIGyHD</abbr></a> del <abbr title="Centro de Ciencias Humanas y Sociales, Consejo Superior de Investigaciones Científicas">CCHS-CSIC</abbr> ha utilizado <a href="https://www.arcgis.com/index.html" target="_blank" title="Al hacer clic en el enlace se abrirá una nueva pestaña en el navegador">ArcGIS</a>. Con el de Eustacio, los miembros del proyecto han estado trabajando en <a href="https://recogito.pelagios.org/" target="_blank" title="Al hacer clic en el enlace se abrirá una nueva pestaña en el navegador">Recogito</a>.</p>
+        </section>
+        <section id="etiquetas">
+          <h3>Etiquetas</h3>
+          <h4>Mapa de la <em>Periégesis</em> de Dionisio.</h4>
+          <p>En este mapa se utilizan las siguientes etiquetas:</p>
+          <ul>
+            <li>Cabo</li>
+            <li>Ciudad (cualquier núcleo poblacional mencionado)</li>
+            <li>Estrecho</li>
+            <li>Isla (tanto islas individuales como archipiélagos)</li>
+            <li>Mar</li>
+            <li>Montaña (tanto montañas como cordilleras)</li>
+            <li>Otros (recoge entidades que no se han incluido en las otras etiquetas: lagos, deltas, bosques, túmulos funerarios, itsmos)</li>
+            <li>Pueblo (tanto grupos étnicos como habitantes de una ciudad)</li>
+            <li>Región (región, país o continente)</li>
+            <li>Río</li>
+            <li>Templo</li>        
+          </ul>
+          <h4>Mapa del comentario de Eustacio.</h4>
+          <p>En este mapa se utilizan las siguientes etiquetas:</p>
+          <ul>
+            <li>Accidente costero (engloba cabo, golfo, estrecho, puerto)</li>
+            <li>Accidente del relieve (incluye montaña, llanura, península, cordillera, valle...)</li>
+            <li>Accidente fluvial (engloba ríos, fuentes, manantiales, afluentes, cascadas, deltas o desembocaduras)</li>
+            <li>Archipiélago</li>
+            <li>Ciudad (cualquier núcleo poblacional mencionado)</li>
+            <li><li>Accidente del relieve (incluye montaña, llanura, península, cordillera, valle...)</li>Isla</li>
+          <li>Lago</li>
+          <li>Mar</li>
+          <li>Océano</li>
+          <li>Otros (donde se incluyen bosque, templo o tumba, por ejemplo)</li>
+          <li>Pueblo (engloba los <em>etnónimos</em>, que son aquellos nombres para los grupos de una misma región o etnia, y los <em>gentilicios</em>, que designan a los habitantes de un núcleo poblacional en concreto. En ocasiones pueden coincidir)</li>
+            <li>Región (región, país o continente)</li>
+          </ul>
+          <p class="resto">El sistema además genera las dos siguientes etiquetas:</p>
+          <ul>
+            <li><span lang="en"><em>Multiple values</em></span>: la aplicación genera esta etiqueta cuando en una misma georreferencia se han etiquetado dos o más entidades. A mayor tamaño del punto, más entidads incluye.</li>
+            <li><span lang="en"><em>No value</em></span>: la aplicación genera esta etiqueta para las entidades georreferenciadas, pero a las que no se ha dado una etiqueta en el campo correspondiente.</li>
+          </ul>
+        <p class="resto">El color de la etiqueta es aleatorio, lo establece la aplicación y el usuario no lo puede cambiar. La presentación de la lista se ordena por peso, es decir, aparece en la parte superior la etiqueta que se ha utilizado en más entidades.</p>
         </section>       
       </div>
     </main>
