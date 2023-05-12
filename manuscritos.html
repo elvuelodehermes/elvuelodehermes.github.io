@@ -1,310 +1,572 @@
 <!DOCTYPE html>
 <html lang="es">
 
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="author" content="Inmaculada Pérez-Martín">
-    <meta name="author" content="Juan Signes-Codoñer">
-    <meta name="author" content="Jesús Polo-Arrondo">
-    <meta name="author" content="Paula Caballero-Sánchez">
-    <meta name="author" content="Carmen García-Bueno">
-    <meta name="keywords" content="Eustacio de Tesalónica, Dionisio de Alejandría, Periégesis, geografía antigua">
-    <meta name="description" content="Página del proyecto de investigación 'El mundo según Homero: de Dionisio Periegeta a Eustacio de Tesalónica', Madrid, España">
-    <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=greek,greek-ext" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <script src="https://kit.fontawesome.com/ac39874428.js" crossorigin="anonymous"></script>
-    <script src="js/modo_oscuro.js"></script>
-    <title>Manuscritos</title>
-  </head>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="author" content="Inmaculada Pérez-Martín">
+  <meta name="author" content="Juan Signes-Codoñer">
+  <meta name="author" content="Jesús Polo-Arrondo">
+  <meta name="author" content="Paula Caballero-Sánchez">
+  <meta name="author" content="Carmen García-Bueno">
+  <meta name="keywords" content="Eustacio de Tesalónica, Dionisio de Alejandría, Periégesis, geografía antigua">
+  <meta name="description"
+    content="Página del proyecto de investigación 'El mundo según Homero: de Dionisio Periegeta a Eustacio de Tesalónica', Madrid, España">
+  <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=greek,greek-ext"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <script src="https://kit.fontawesome.com/ac39874428.js" crossorigin="anonymous"></script>
+  <script src="js/modo_oscuro.js"></script>
+  <title>Manuscritos</title>
+</head>
 
-  <body>
-    <!-- Barra de navegación en la cabecera -->
-    <nav class="navbar navbar-expand-md bg-light navbar-light sticky-top">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#barraNavegacionColapsada"><span class="navbar-text">Menú</span><span class="navbar-toggler-icon"></span></button>
-      <div class="collapse navbar-collapse" id="barraNavegacionColapsada">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html" title="Página de inicio">Inicio</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Proyecto</a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="./proyecto.html" title="Conocer el proyecto">Sobre el proyecto</a>
-              <a class="dropdown-item" href="./proyecto.html#miembros" title="Conocer a los integrantes del proyecto">Miembros</a>
-              <a class="dropdown-item" href="./proyecto.html#cronograma" title="Vida del proyecto">Historia</a>
-              <a class="dropdown-item" href="./proyecto.html#recursos" title="Enlaces a otros materiales generados en el proyecto">Recursos</a>
-            </div>
-          </li>
-          <!--Esto es otro menú desplegable. Hay que cambiar el valor de href="" por la url de la página. Si no hay ninguna, el valor es # -->
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Dionisio Periegeta</a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="./dionisioperiegeta.html" title="Conocer al autor">El autor y la obra</a>
-              <a class="dropdown-item disabled" href="#" title="Explorar la traducción">texto en castellano</a>
-              <a class="dropdown-item" href="./periegesis.html" title="Explorar el texto original">texto en griego</a>
-              <a class="dropdown-item" href="./manuscritos.html" title="Conocer la transmisión textual">manuscritos</a>
-            </div>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Eustacio de Tesalónica</a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="./eustaciodetesalonica.html" title="Conocer al autor">El autor y la obra</a>
-              <a class="dropdown-item" href="./comentario.html" title="Explorar la traducción">texto en castellano</a>
-              <a class="dropdown-item" href="./eustaciogr.html" title="Explorar el texto original">texto en griego</a>
-              <a class="dropdown-item" href="./manuscritos.html" title="Conocer la transmisión textual">manuscritos</a>
-            </div>
-          </li>
-           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Mapas interactivos</a>
-            <div class="dropdown-menu">
-            <a class="dropdown-item" href="http://sigyhd.cchs.csic.es/el-mundo-segun-homero/" title="Al hacer clic en el enlace se abrirá una nueva pestaña en el navegador con el mapa" target="_blank"><em>Periégesis</em> de Dionisio</a>
-              <a class="dropdown-item" href="https://recogito.pelagios.org/document/nok4yr1hvqiiwa/map" title="Al hacer clic en el enlace se abrirá una nueva pestaña en el navegador con el mapa" target="_blank">Comentario de Eustacio</a>
-              <a class="dropdown-item" href="./mapas.html" title="Aprenda más sobre los mapas antiguos y digitales">Mapas</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./geografia.html" title="Aprender sobre la geografía antigua y su transmisión">La Geografía antigua</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./creditos.html" title="Créditos, agradecimientos, licencia, y otros detalles técnicos">Créditos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="mailto:elvuelodehermes@gmail.com?subject:Contacto desde la web" title="Contactar con el proyecto">Contacto</a>
-          </li>
-        </ul>
+<body>
+  <!-- Barra de navegación en la cabecera -->
+  <nav class="navbar navbar-expand-md bg-light navbar-light sticky-top">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#barraNavegacionColapsada"><span
+        class="navbar-text">Menú</span><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="barraNavegacionColapsada">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html" title="Página de inicio">Inicio</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Proyecto</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="./proyecto.html" title="Conocer el proyecto">Sobre el proyecto</a>
+            <a class="dropdown-item" href="./proyecto.html#miembros"
+              title="Conocer a los integrantes del proyecto">Miembros</a>
+            <a class="dropdown-item" href="./proyecto.html#cronograma" title="Vida del proyecto">Historia</a>
+            <a class="dropdown-item" href="./proyecto.html#recursos"
+              title="Enlaces a otros materiales generados en el proyecto">Recursos</a>
+          </div>
+        </li>
+        <!--Esto es otro menú desplegable. Hay que cambiar el valor de href="" por la url de la página. Si no hay ninguna, el valor es # -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Dionisio Periegeta</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="./dionisioperiegeta.html" title="Conocer al autor">El autor y la obra</a>
+            <a class="dropdown-item disabled" href="#" title="Explorar la traducción">texto en castellano</a>
+            <a class="dropdown-item" href="./periegesis.html" title="Explorar el texto original">texto en griego</a>
+            <a class="dropdown-item" href="./manuscritos.html" title="Conocer la transmisión textual">manuscritos</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Eustacio de Tesalónica</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="./eustaciodetesalonica.html" title="Conocer al autor">El autor y la obra</a>
+            <a class="dropdown-item" href="./comentario.html" title="Explorar la traducción">texto en castellano</a>
+            <a class="dropdown-item" href="./eustaciogr.html" title="Explorar el texto original">texto en griego</a>
+            <a class="dropdown-item" href="./manuscritos.html" title="Conocer la transmisión textual">manuscritos</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Mapas interactivos</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="http://sigyhd.cchs.csic.es/el-mundo-segun-homero/"
+              title="Al hacer clic en el enlace se abrirá una nueva pestaña en el navegador con el mapa"
+              target="_blank"><em>Periégesis</em> de Dionisio</a>
+            <a class="dropdown-item" href="https://recogito.pelagios.org/document/nok4yr1hvqiiwa/map"
+              title="Al hacer clic en el enlace se abrirá una nueva pestaña en el navegador con el mapa"
+              target="_blank">Comentario de Eustacio</a>
+            <a class="dropdown-item" href="./mapas.html"
+              title="Aprenda más sobre los mapas antiguos y digitales">Mapas</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./geografia.html" title="Aprender sobre la geografía antigua y su transmisión">La
+            Geografía antigua</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./creditos.html"
+            title="Créditos, agradecimientos, licencia, y otros detalles técnicos">Créditos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="mailto:elvuelodehermes@gmail.com?subject:Contacto desde la web"
+            title="Contactar con el proyecto">Contacto</a>
+        </li>
+      </ul>
+    </div>
+    <button class="btn" onclick="modo_oscuro()" title="Invertir colores"><i class="fas fa-palette"></i></button>
+  </nav>
+  <!--Esta es la cabecera. Se puede sustituir por una imagen -->
+  <header>
+    <div class="flex-container">
+      <div class="jumbotron" id="cabecera">
+        <h1>El vuelo de Hermes</h1>
+        <h2>Proyecto de investigación</h2>
       </div>
-      <button class="btn" onclick="modo_oscuro()" title="Invertir colores"><i class="fas fa-palette"></i></button>
-    </nav>
-    <!--Esta es la cabecera. Se puede sustituir por una imagen -->
-    <header>
-      <div class="flex-container">
-        <div class="jumbotron" id="cabecera">
-          <h1>El vuelo de Hermes</h1>
-          <h2>Proyecto de investigación</h2>
-        </div>
-      </div>
-    </header>
-    <!--Esto es el contenido de la página -->
-    <main class="container">
-      <div class="container">
-        <h2>La transmisión del texto</h2>
-        <p>A continuación presentamos algunos de los manuscritos más relevantes en la transmisión del texto de Dionisio y Eustacio. Haga clic en una signatura en la columna izquierda para visualizar la ficha correspondiente.</p>
-        <section>
-          <div class="container" id="accordion">
-            <div class="row">
-              <div class="col-md-2">
-                <div class="row"><button class="btn" data-toggle="collapse" data-target="#diktyon15278">Escur. R.I.6</button></div>
-                <div class="row"><button class="btn" data-toggle="collapse" data-target="#diktyon52358">Par. gr. 2723</button></div>
-                <div class="row"><button class="btn" data-toggle="collapse" data-target="#diktyon52493">Par. gr. 2855</button></div>
-                <div class="row"><button class="btn" data-toggle="collapse" data-target="#diktyon40279">Matrit. BNE 4804</button></div>
-                <div class="row"><button class="btn" data-toggle="collapse" data-target="#diktyon68539">Vat. gr. 1910</button></div>
+    </div>
+  </header>
+  <!--Esto es el contenido de la página -->
+  <main class="container">
+    <div class="container">
+      <h2>La transmisión del texto</h2>
+      <p>A continuación presentamos algunos de los manuscritos más relevantes en la transmisión del texto de Dionisio y
+        Eustacio. Haga clic en una signatura en la columna izquierda para visualizar la ficha correspondiente.</p>
+      <section>
+        <div class="container" id="accordion">
+          <div class="row">
+            <div class="col-md-2">
+              <div class="row"><button class="btn" data-toggle="collapse" data-target="#diktyon15278">Escur.
+                  R.I.6</button></div>
+              <div class="row"><button class="btn" data-toggle="collapse" data-target="#diktyon52358">Par. gr.
+                  2723</button></div>
+              <div class="row"><button class="btn" data-toggle="collapse" data-target="#diktyon52493">Par. gr.
+                  2855</button></div>
+              <div class="row"><button class="btn" data-toggle="collapse" data-target="#diktyon40279">Matrit. BNE
+                  4804</button></div>
+              <div class="row"><button class="btn" data-toggle="collapse" data-target="#diktyon68539">Vat. gr.
+                  1910</button></div>
+            </div>
+            <div class="col-md-10">
+              <div id="diktyon15278" class="collapse show" data-parent="#accordion" itemscope
+                itemtype="https://schema.org/Manuscript">
+                <h3 itemprop="name">San Lorenzo de El Escorial, Biblioteca del Real Monasterio, R.I.6 (gr. 6)</h3>
+                <h5>sigla S</h5>
+                <h5 itemscope itemprop="identifier" itemtype="https://schema.org/PropertyValue"><a
+                    href="https://pinakes.irht.cnrs.fr/notices/cote/15278/"
+                    title="Al hacer clic en el enlace se abrirá una nueva pestaña en el navegador" target="_blank"
+                    itemprop="url"><span itemprop="propertyID">Diktyon</span> <span itemprop="value"
+                      content="15278">15278</span></a></h5>
+                <h4>Presentación</h4>
+                <p>Papel, 288 x 210 mm, <abbr title="folios">ff.</abbr> IV.206.III'. Copiado quizá en Creta en el tercer
+                  cuarto del siglo <span class="versalitas">xv</span> a partir de un modelo perdido descendiente de
+                  <abbr title="Vat. gr. 1910">R</abbr> y compartido con OV. Perteneció a
+                  <meta itemprop="acquiredFrom" itemscope itemtype="https://schema.org/Person"><span itemprop="name"><a
+                      href="http://www.ereticopedia.org/giovanni-buonafe"
+                      title="Al hacer clic se abrirá una nueva pestaña en el navegador" target="_blank"
+                      itemprop="url">Giovanni Buonafé</a></span> (+ 1606)</meta>, un griego educado en Italia que actuó
+                  de mensajero entre el papa y el patriarca de Constantinopla en distintas ocasiones.
+                </p>
+                <h4>Contenido</h4>
+                <ul>
+                  <li><abbr title="folios">ff.</abbr> 1<sup>r</sup>-112<sup>r</sup>: Licofrón, <em>Alexandra</em>, con
+                    el comentario de Tzetzes.</li>
+                  <li><abbr title="folios">ff.</abbr> 113<sup>r</sup>-206<sup>v</sup>: Dionisio de Alejandría,
+                    <em>Periegesis</em>, con el comentario de Eustacio de Tesalónica intercalado entre grupos de versos.
+                    En el folio 113, Apostolis ha añadido el título (<span lang="el">Διονυσίου Ἀλεξανδρέως τοῦ
+                      περιηγητοῦ βιβλίον χωρογραφίας μετὰ ἐξηγήσεως Εὐσταθίου</span>:-) y en blanco ese folio para
+                    colmar en el futuro la laguna de la fuente.</li>
+                </ul>
+                <h4>Análisis paleográfico</h4>
+                <p>Su copista es <a href="https://www.wikidata.org/wiki/Q1362779"
+                    title="Al hacer clic en el enlace se abrirá una nueva pestaña en el navegador" target="_blank"
+                    itemprop="url">Miguel Apostolis</a> (1420-1474/86; <abbr
+                    title="Repertorium der griechischen Kopisten">RGK</abbr> I 278, II 379, III 454), que estaba al
+                  frente de un taller de copia en Creta después de 1453 y viajó con frecuencia a Italia. Suscribe la
+                  copia de la <em>Alexandra</em> de Licofrón en el folio 112<sup>v</sup>, en versos políticos: <span
+                    lang="el">Λυκοφρονικῆς μονοπροσώπου βίβλου</span>, / <span lang="el">εἴληφε τέλος τῆς συνάρσει τοῦ
+                    λόγου</span>. </p>
+                <p class="resto"><span lang="el">Μιχαήλος Ἀποστόλης Βυζάντιος, τὸν ἀναγινώσκοντα μεμνῆσθαι
+                    παρακαλεῖ</span>. La de Dionisio Periegeta, en <abbr title="folio">f.</abbr> 206<sup>v</sup>: <span
+                    lang="el">ΔΙΟΝΥΣΙΟΥ ΑΛΕΞΑΝΔΡΕΩΣ ΟΙΚΟΥΜΕΝΗΣ ΠΕΡΙΗΓΗΣΗΣ. Μιχαήλος Ἀποστόλης Βυζάντιος, δορυάλωτος
+                    ἔγραψα.</span></p>
+                <p class="resto">Un segundo copista ha sustituido a Apostolis en folio 175<sup>v</sup>. 5 ai-176.9. La
+                  mano que completa la carta-prólogo al <em>Comentario</em> de Eustacio en <abbr
+                    title="folios">ff.</abbr> 113-114 (margen superior) es de finales del siglo <span
+                    class="versalitas">xvi</span>.</p>
+                <h4>Análisis codicológico</h4>
+                <p>Papel occidental, plegado <em>in folio</em>, con filigrana «<span lang="fr">Monts</span>» (<abbr
+                    title="variante">var.</abbr> <abbr title="similar a">sim.</abbr> <abbr
+                    title="Briquet (catálogo de filigranas)">Br.</abbr> 11164, <abbr title="hacia">a.</abbr> 1476) y
+                  «<span lang="fr">Flèche</span>» (<abbr title="Briquet (catálogo de filigranas)">Br.</abbr> 6275, <abbr
+                    title="hacia">a.</abbr> 1483).<sup><a href="#n1" title="Créditos identificación id="
+                      nota1">1</a></sup></p>
+                <p class="resto">Distribución de los cuadernos: 25 x iv (200) + 7 <abbr title="folios">ff.</abbr> (207);
+                  numeración, <span lang="la"><abbr title="incipit"><em>inc.</em></abbr></span> <span
+                    lang="el">α’</span> <span lang="la"><abbr title="desint"><em>des.</em></abbr></span> <span
+                    lang="el">κε’</span>, en el margen inferior externo de la primera página.</p>
+                <p class="resto">El texto del comentario se distribuye en 40 líneas por página (210 x 135 mm, el cuadro
+                  de escritura, mientras que el poema sólo ocupa 20 líneas por página (210 x 90/5 mm).</p>
+                <p class="resto">Encuadernación cretense, con hierros decorativos típicos del taller de Apostolis en
+                  Creta, como la flor de lis en círculo y el águila bicéfala en rombo.</p>
+                <h4>Referencias bibliográficas</h4>
+                <p>Hunger, H., <abbr title="editor">ed.</abbr>, <span lang="de"><em>Repertorium der griechischen
+                      Kopisten</em>. Wien: Verlag der Österreichischen Akademie der Wissenschaften</span>, 1981-1994.
+                </p>
+                <h6 class="revisor"><abbr title="Paula Caballero Sánchez">PCS</abbr>-<abbr
+                    title="Inmaculada Pérez Martín">IPM</abbr></h6>
+                <hr>
+                <p class="small" id="n1"><a href="#nota1" title="Volver al texto">1</a> Filigranas identificadas por
+                  Paula Caballero Sánchez (septiembre de 2021).</p>
               </div>
-              <div class="col-md-10">
-                <div id="diktyon15278" class="collapse show" data-parent="#accordion" itemscope itemtype="https://schema.org/Manuscript">
-                  <h3 itemprop="name">San Lorenzo de El Escorial, Biblioteca del Real Monasterio, R.I.6 (gr. 6)</h3>
-                  <h5>sigla S</h5>
-                  <h5 itemscope itemprop="identifier" itemtype="https://schema.org/PropertyValue"><a href="https://pinakes.irht.cnrs.fr/notices/cote/15278/" title="Al hacer clic en el enlace se abrirá una nueva pestaña en el navegador" target="_blank" itemprop="url"><span itemprop="propertyID">Diktyon</span> <span itemprop="value" content="15278">15278</span></a></h5>
-                  <h4>Presentación</h4>
-                  <p>Papel, 288 x 210 mm, <abbr title="folios">ff.</abbr> IV.206.III'. Copiado quizá en Creta en el tercer cuarto del siglo <span class="versalitas">xv</span> a partir de un modelo perdido descendiente de <abbr title="Vat. gr. 1910">R</abbr> y compartido con OV. Perteneció a
-                    <meta itemprop="acquiredFrom" itemscope itemtype="https://schema.org/Person"><span itemprop="name"><a href="http://www.ereticopedia.org/giovanni-buonafe" title="Al hacer clic se abrirá una nueva pestaña en el navegador" target="_blank" itemprop="url">Giovanni Buonafé</a></span> (+ 1606)</meta>, un griego educado en Italia que actuó de mensajero entre el papa y el patriarca de Constantinopla en distintas ocasiones.
-                  </p>
-                  <h4>Contenido</h4>
-                  <ul>
-                    <li><abbr title="folios">ff.</abbr> 1<sup>r</sup>-112<sup>r</sup>: Licofrón, <em>Alexandra</em>, con el comentario de Tzetzes.</li>
-                    <li><abbr title="folios">ff.</abbr> 113<sup>r</sup>-206<sup>v</sup>: Dionisio de Alejandría, <em>Periegesis</em>, con el comentario de Eustacio de Tesalónica intercalado entre grupos de versos. En el folio 113, Apostolis ha añadido el título (<span lang="el">Διονυσίου Ἀλεξανδρέως τοῦ περιηγητοῦ βιβλίον χωρογραφίας μετὰ ἐξηγήσεως Εὐσταθίου</span>:-) y en blanco ese folio para colmar en el futuro la laguna de la fuente.</li>
-                  </ul>
-                  <h4>Análisis paleográfico</h4>
-                  <p>Su copista es <a href="https://www.wikidata.org/wiki/Q1362779" title="Al hacer clic en el enlace se abrirá una nueva pestaña en el navegador" target="_blank" itemprop="url">Miguel Apostolis</a> (1420-1474/86; <abbr title="Repertorium der griechischen Kopisten">RGK</abbr> I 278, II 379, III 454), que estaba al frente de un taller de copia en Creta después de 1453 y viajó con frecuencia a Italia. Suscribe la copia de la <em>Alexandra</em> de Licofrón en el folio 112<sup>v</sup>, en versos políticos: <span lang="el">Λυκοφρονικῆς μονοπροσώπου βίβλου</span>, / <span lang="el">εἴληφε τέλος τῆς συνάρσει τοῦ λόγου</span>. </p>
-                  <p class="resto"><span lang="el">Μιχαήλος Ἀποστόλης Βυζάντιος, τὸν ἀναγινώσκοντα μεμνῆσθαι παρακαλεῖ</span>. La de Dionisio Periegeta, en <abbr title="folio">f.</abbr> 206<sup>v</sup>: <span lang="el">ΔΙΟΝΥΣΙΟΥ ΑΛΕΞΑΝΔΡΕΩΣ ΟΙΚΟΥΜΕΝΗΣ ΠΕΡΙΗΓΗΣΗΣ. Μιχαήλος Ἀποστόλης Βυζάντιος, δορυάλωτος ἔγραψα.</span></p>
-                  <p class="resto">Un segundo copista ha sustituido a Apostolis en folio 175<sup>v</sup>. 5 ai-176.9. La mano que completa la carta-prólogo al <em>Comentario</em> de Eustacio en <abbr title="folios">ff.</abbr> 113-114 (margen superior) es de finales del siglo <span class="versalitas">xvi</span>.</p>
-                  <h4>Análisis codicológico</h4>
-                  <p>Papel occidental, plegado <em>in folio</em>, con filigrana «<span lang="fr">Monts</span>» (<abbr title="variante">var.</abbr> <abbr title="similar a">sim.</abbr> <abbr title="Briquet (catálogo de filigranas)">Br.</abbr> 11164, <abbr title="hacia">a.</abbr> 1476) y «<span lang="fr">Flèche</span>» (<abbr title="Briquet (catálogo de filigranas)">Br.</abbr> 6275, <abbr title="hacia">a.</abbr> 1483).<sup><a href="#n1" title="Créditos identificación id="nota1">1</a></sup></p>
-                  <p class="resto">Distribución de los cuadernos: 25 x iv (200) + 7 <abbr title="folios">ff.</abbr> (207); numeración, <span lang="la"><abbr title="incipit"><em>inc.</em></abbr></span> <span lang="el">α’</span> <span lang="la"><abbr title="desint"><em>des.</em></abbr></span> <span lang="el">κε’</span>, en el margen inferior externo de la primera página.</p>
-                  <p class="resto">El texto del comentario se distribuye en 40 líneas por página (210 x 135 mm, el cuadro de escritura, mientras que el poema sólo ocupa 20 líneas por página (210 x 90/5 mm).</p>
-                  <p class="resto">Encuadernación cretense, con hierros decorativos típicos del taller de Apostolis en Creta, como la flor de lis en círculo y el águila bicéfala en rombo.</p>
-                  <h4>Referencias bibliográficas</h4>
-              <p>Hunger, H., <abbr title="editor">ed.</abbr>, <span lang="de"><em>Repertorium der griechischen Kopisten</em>. Wien: Verlag der Österreichischen Akademie der Wissenschaften</span>, 1981-1994. </p>
-                  <h6 class="revisor"><abbr title="Paula Caballero Sánchez">PCS</abbr>-<abbr title="Inmaculada Pérez Martín">IPM</abbr></h6>
-                    <hr>
-      <p class="small" id="n1"><a href="#nota1" title="Volver al texto">1</a> Filigranas identificadas por Paula Caballero Sánchez (septiembre de 2021).</p>
-                </div>
-                <div id="diktyon52358" class="collapse" data-parent="#accordion" itemscope itemtype="https://schema.org/Manuscript">
-                  <h3 itemprop="name">Paris, Bibliothèque nationale de France, grec 2723</h3>
-                  <h5>sigla C</h5>
-                  <h5 itemscope itemprop="identifier" itemtype="https://schema.org/PropertyValue"><a href="https://pinakes.irht.cnrs.fr/notices/cote/52358/" title="Al hacer clic en el enlace se abrirá una nueva pestaña en el navegador" target="_blank" itemprop="url"><span itemprop="propertyID">Diktyon</span> <span itemprop="value" content="52358">52358</span></a></h5>
-                  <h4>Presentación</h4>
-                  <p>Pergamino. Volumen misceláneo de gran formato, 360 x 270 mm. V.245 (+ <abbr title="folios">ff.</abbr> 154bis, 157bis, 189bis, 242bis, 243bis). IV’. Copiado a finales del siglo <span class="versalitas">xiii</span> en Constantinopla a partir del <a href="https://pinakes.irht.cnrs.fr/notices/cote/67553/" title="Al hacer clic en el enlace se abrirá una nueva pestaña en el navegador" target="_blank" itemprop="url"><abbr title="Vaticanus graecus">Vat. gr.</abbr> 922</a> (= B).</p>
-                  <h4>Contenido</h4>
-                  <ul>
-                    <li><abbr title="unidad codicológica">UC</abbr> 1, <abbr title="folios">ff.</abbr> 3<sup>r</sup>-76<sup>v</sup>: Licofrón, <em>Alejandra</em>, con el comentario de Tzetzes.</li>
-                    <li><abbr title="unidad codicológica">UC</abbr> 2, <abbr title="folios">ff.</abbr> 77<sup>r</sup>-78<sup>v</sup>: Homero, <em>Batracomiomaquia</em>.</li>
-                    <li><abbr title="unidad codicológica">UC</abbr> 3, <abbr title="folios">ff.</abbr> 79<sup>r</sup>-97<sup>v</sup>: Opiano, <em>Cinegetica</em>.</li>
-                    <li><abbr title="unidad codicológica">UC</abbr> 4: <ul>
-                        <li><abbr title="folios">ff.</abbr> 98<sup>r</sup>-165<sup>r</sup>: Eustacio de Tesaónica, <em>Comentario a Dionisio Periegeta</em> (intercalado entre grupos de versos) y <abbr title="folios">ff.</abbr> 100<sup>r</sup>-165<sup>v</sup>, Dionisio de Alejandría, <em>Periégesis</em>.</li>
-                        <li><abbr title="folios">ff.</abbr> 166<sup>r</sup>-185<sup>v</sup>: David, <em>Prolegómenos de Filosofía</em>.</li>
-                        <li><abbr title="folios">ff.</abbr> 185<sup>v</sup>-188<sup>v</sup>: David, <em>Comentario a la</em> Isagoge <em>de Porfirio</em>.</li>
-                        <li><abbr title="folios">ff.</abbr> 189<sup>r</sup>-210<sup>v</sup>: Porfirio, <em>Isagoge</em>.</li>
-                        <li><abbr title="folios">ff.</abbr> 211<sup>r</sup>-245<sup>v</sup>: Aristóteles, <em>De interpretatione</em>.</li>
-                      </ul>
-                    </li>
-                  </ul>
-                  <h4>Análisis paleográfico</h4>
-                  <p>Cada <abbr title="unidad codicológica">UC</abbr> fue copiada por un escriba diferente, todos datables a finales del siglo <span class="versalitas">xiii</span>. Una suscripción en la parte inferior del folio 76<sup>v</sup> (Licofrón) nos permite datar con más precisión la <abbr title="unidad codicológica">UC</abbr> 1 en junio de 1282 (6790 <span lang="la"><abbr title="annus Mundi, año de la creación del mundo"><em>A. M.</em></abbr></span>): +<span lang="el">Tέλος τῆς Λυκόφρονος Ἀλεξάνδρας, ἐτελειώθη μηνὶ ἰουνίω [ἰνδικτιῶνος] ι’ ἔτους ,&#987;ψ&#985’</span>+.</p>
-                  <p class="resto">Por lo que se refiere a la <abbr title="unidad codicológica">UC</abbr> 4 (Eustacio y Dionisio), el copista distribuye el comentario de Eustacio intercalándolo entre grupos de versos de la <em>Periégesis</em> y en los márgenes del poema, empleando dos ductus en escritura arcaizante, típica de las primeras décadas del periodo paleólogo: un ductus caracterizado por letras con un módulo mayor y un discreto contraste modular para el poema y otro de menor tamaño y carente de contraste modular para la exégesis.</p>
-                  <h4>Análisis codicológico</h4>
-                  <p>Pergamino de calidad mediocre, plegado <em>in folio</em>, y conservado en mal estado. Compuesto por 4 unidades codicológicas contemporáneas.</p>
-                  <p class="resto">El volumen está formado por 34 cuadernillos. En la <abbr title="unidad codicológica">UC</abbr> 4 se han perdido dos folios, como indica la distribución de los fascículos: 1 × IV (97) + 8 x IV (159) + 1 × VI (165).</p>
-                  <p class="resto">Se observan custodios a lo largo del volumen que responden a la reunión de las 4 unidades codicológicas (<span lang="el">α’ – λδ’</span> en el margen inferior central), aunque faltan algunos de ellos. Se encuentra, asimismo, otro sistema de sistematización más antiguo mediante custodios en el margen interno de los <abbr title="folios">ff.</abbr> 105<sup>v</sup>, 106<sup>r</sup>, 114<sup>r</sup>, 122<sup>r</sup>, 130<sup>r</sup>, 138<sup>r</sup>.</p>
-                  <p class="resto">Encuadernación con tapas en cuero marrón con filetes dorados. Se conserva en mal estado, pues ha perdido el lomo.</p>
-                  <h6 class="revisor"><abbr title="Paula Caballero Sánchez">PCS</abbr></h6>
-                </div>
-                <div id="diktyon52493" class="collapse" data-parent="#accordion" itemscope itemtype="https://schema.org/Manuscript">
-                  <h3 itemprop="name">Paris, Bibliothèque nationale de France, grec 2855</h3>
-                  <h5>sigla D</h5>
-                  <h5 itemscope itemprop="identifier" itemtype="https://schema.org/PropertyValue"><a href="https://pinakes.irht.cnrs.fr/notices/cote/52493/" title="Al hacer clic en el enlace se abrirá una nueva pestaña en el navegador" target="_blank" itemprop="url"><span itemprop="propertyID">Diktyon</span> <span itemprop="value" content="52493">52493</span></a></h5>
-                  <h4>Presentación</h4>
-                  <p>Códice misceláneo compuesto por dos unidades codicológicas de distinto tamaño en papel oriental: 240/235 x 162 mm (<abbr title="unidad codicológica">UC</abbr> 1) y 229 x 147 (<abbr title="unidad codicológica">UC</abbr> 2). <abbr title="folios">Ff.</abbr> III + 79 + III (<abbr title="mutilus"><span lang="la"><em>mut.</em></span></abbr> 57<sup>v</sup>, <abbr title="vacuus"><span lang="la"><em>vac.</em></span></abbr> 79<sup>r-v</sup>).</p>
-                  <p class="resto">Perteneció al <a href="https://www.wikidata.org/wiki/Q1088180" title="Al hacer clic en el enlace se abrirá una nueva pestaña en el navegador" target="_blank" itemprop="url">cardenal Ridolfi</a> (1501-1550) después de que este adquiriera la biblioteca de <a href="https://www.wikidata.org/wiki/Q498547" title="Al hacer clic en el enlace se abrirá una nueva pestaña en el navegador" target="_blank" itemprop="url">Jano Láscaris</a> (1445-1534), cuya escritura se encuentra en el <abbr title="folio">f.</abbr> 57<sup>v</sup>, donde indica el final del comentario de Eustacio (<span lang="el">τέλος του Ευσταθίου Παρεκβολῶν εὶς τὴν Διονυσίου Περιήγησιν</span>). Más tarde, el volumen pasó a formar parte de la biblioteca de <a href="https://www.wikidata.org/wiki/Q131552" title="Al hacer clic en el enlace se abrirá una nueva pestaña en el navegador" target="_blank" itemprop="url">Catalina de Medici</a> (1519-1589) como heredera de la colección de <a href="https://www.wikidata.org/wiki/Q1346257" title="Al hacer clic en el enlace se abrirá una nueva pestaña en el navegador" target="_blank" itemprop="url">Piero Strozzi</a> (1510-1558), quien adquirió la colección del cardenal.</p>
-                  <p class="resto">El comentario de Eustacio fue copiado a partir del subarquetipo <span lang="el">β</span> en el último cuarto del siglo <span class="versalitas">xiii</span> en Constantinopla.</p>
-                  <h4>Contenido</h4>
-                  <ul>
-                    <li><abbr title="unidad codicológica">UC</abbr> 1, <abbr title="folios">ff.</abbr> 1<sup>r</sup>-57<sup>r</sup>: Eustacio de Tesalónica, <em>Comentario a la Periégesis de Dionisio de Alejandría</em>.</li>
-                    <li><abbr title="unidad codicológica">UC</abbr> 2, <abbr title="folios">ff.</abbr> 58<sup>r</sup>-78<sup>r</sup>: Dionisio de Alejandría, <em>Periégesis</em> con la paráfrasis anónima en los márgenes (<span lang="la"><em><abbr title="desinit mutilus">des. mut.</abbr></em></span>).</li>
-                  </ul>
-                  <h4>Análisis paleográfico</h4>
-                  <p>El comentario de Eustacio (<abbr title="unidad codicológica">UC</abbr> 1) fue copiado por una mano de ductus cambiante y módulo pequeño que trabaja sin pretensiones, para uso personal, cuyas características paleográficas permiten situarla en Constantinopla, en el último cuarto del siglo <span class="versalitas">xiii</span>.</p>
-                  <p class="resto">La presencia del copista de la <abbr title="unidad codicológica">UC</abbr> 2 en los márgenes de la <abbr title="unidad codicológica">UC</abbr> 1 nos informa de que la <abbr title="unidad codicológica">UC</abbr> 1 es más antigua y que el copista de la <abbr title="unidad codicológica">UC</abbr> 2 pudo ser el posesor del volumen, que completó añadiendo una nueva unidad codicológica con la <em>Periégesis</em> de Dionisio y la paráfrasis anónima en los márgenes.</p>
-                  <h4>Análisis codicológico</h4>
-                  <p>Las dos unidades codicológicas fueron confeccionadas en papel oriental, plegado <em>in folio</em>. No se observan custodios. Debido al mal estado de conservación del volumen, muchas costuras y márgenes han sido reforzados con tiras de papel occidental. Los cuadernos, fuertemente unidos al cosido, impiden ver su estructura.</p>
-                  <p class="resto">El texto del comentario se distribuye en un número de líneas muy variable: 34-50 líneas por página (espejo de escritura de 195-200 x 130 mm).</p>
-                  <p class="resto">Encuadernación de Duplanil en cartoné marrón y lomo en piel roja con iniciales en dorado <abbr title="Republique Française">RF</abbr>.</p>
-                  <h6 class="revisor"><abbr title="Paula Caballero Sánchez">PCS</abbr>-<abbr title="Inmaculada Pérez Martín">IPM</abbr></h6>
-                </div>
-                <div id="diktyon40279" class="collapse" data-parent="#accordion" itemscope itemtype="https://schema.org/Manuscript">
-                  <h3 itemprop="name">Madrid, Biblioteca nacional de España, ms. 4804</h3>
-                  <h5>sigla Z</h5>
-                  <h5 itemscope itemprop="identifier" itemtype="https://schema.org/PropertyValue"><a href="https://pinakes.irht.cnrs.fr/notices/cote/40279/" title="Al hacer clic en el enlace se abrirá una nueva pestaña en el navegador" target="_blank" itemprop="url"><span itemprop="propertyID">Diktyon</span> <span itemprop="value">40279</span></a></h5>
-                  <h4>Presentación</h4>
-                  <p>Papel, 210 x 140 mm, XI.100.III'. El manuscrito formaba parte del <a href="https://pinakes.irht.cnrs.fr/notices/cote/68519/" title="Al hacer clic en el enlace se abrirá una nueva pestaña en el navegador" target="_blank" itemprop="url">Vat. gr. 1890</a> como cuaderno. Perteneció a <a href="https://www.wikidata.org/wiki/Q23770513" title="Al hacer clic en el enlace se abrirá una nueva pestaña en el navegador" target="=_blank" itemprop="url">José Esteve</a> (+ 1603), obispo de Orihuela, según nota de posesión (<abbr title="folio">f.</abbr> IV): <span lang="la"><em>Joseph Stephani Biblio / theca 1586</em></span>, quien pudo adquirirlo durante su estancia en Roma, donde el manuscrito probablemente fue copiado en el primer cuarto del siglo <span class="versalitas">xvi</span> a partir del Vat. gr. 1910.</p>
-                  <h4>Contenido</h4>
-                  <ul>
-                    <li><abbr title="unidad codicológica">UC</abbr> 1, <abbr title="folios">ff.</abbr> 1<sup>r</sup>-98<sup>v</sup>: Eustacio de Tesalónica, <em>Comentario a la Periegesis de Dionisio de Alejandría</em> [<em><span lang="la"><abbr title="incipit mutilus">inc. mut.</abbr></span></em> <span lang="el">τὴν ὁμωνυμίαν ἀπαν τῆς γῆς τὸν ἄνθρωπον ἐξηνέμωσε</span>; cf. Müller (1861) 295, l. 28.].</li>
-                  </ul>
-                  <h4>Análisis paleográfico</h4>
-                  <p>Copiado por <a href="https://www.wikidata.org/wiki/Q60234869" title="Al hacer clic en el enlace se abrirá una nueva pestaña en el navegador" target="_blank" itemprop="url">Demetrio Damilás</a> (<abbr title="Repertorium der griechischen Kopisten">RGK</abbr> I, 93; II, 127; III, 160), cretense que trabajó en Florencia para los Medici (1480-1490) y en Roma como escriba de la Biblioteca Vaticana (1506). Se trata del mismo copista artífice de los <abbr title="folios">ff.</abbr> 144<sup>v</sup>-187<sup>r</sup>, 254<sup>r</sup>-293<sup>v</sup> del actual Vat. gr. 1890, al que inicialmente perteneció este volumen como cuaderno.</p>
-                  <h4>Análisis codicológico</h4>
-                  <p>Papel occidental, plegado <em>in octavo</em>, con filigrana «<span lang="fr">deux flèches</span>» (Br. 6276-6281, a. 1447-1516).</p>
-                  <p class="resto">Distribución de los cuadernos: 10 x V (100); numeración (<span lang="el">θ’ – ιη’</span>) en el margen inferior central de la última página de cada cuadernillo. La primera parte de la obra se encuentra en el actual Vat. gr. 1890 (<abbr title="folios">ff.</abbr> 144<sup>v</sup>-187<sup>r</sup>, 254<sup>r</sup>-293<sup>v</sup>), que contiene cuatro quiniones iniciales (<span lang="el">ε’-η’</span>).</p>
-                  <p class="resto">Como en el ejemplar vaticano, el texto se distribuye en 25 líneas por página (150-149 x 81-79 mm).</p>
-                  <p class="resto">Encuadernación en tapas de cartón en piel roja y filetes dorados.</p>
-                  <h4>Referencias bibliográficas</h4>
-                  <p>Briquet, C. M. <em><span lang="fr">Les Filigranes. Dictionnaire Historique des Marques du Papier dés leur apparition vers 1282 jusqu’en 1600. Tome deuxième Ci-K, nos. 3647 à 7877</span></em>. Leipzig: Verlag von Karl. W. Hiersemann, 1923.</p>
-                  <p>Hunger, H., ed., <span lang="de"><em>Repertorium der griechischen Kopisten</em>. Wien: Verlag der Österreichischen Akademie der Wissenschaften</span>, 1981-1994. </p>
-                  <p>Müller, K., ed., <span lang="la"><em>Geographi Graeci minores</em></span>. 2 vols. Paris: A. Firmin Didot, 1855-1861.</p>
-                  <h6 class="revisor"><abbr title="Paula Caballero Sánchez">PCS</abbr></h6>
-                </div>
-                <div id="diktyon68539" class="collapse" data-parent="#accordion" itemscope itemtype="https://schema.org/Manuscript">
-                  <h3 itemprop="name">Città del Vaticano, Biblioteca Apostolica Vaticana, Graecus 1910</h3>
-                  <h5>sigla R</h5>
-                  <h5 itemscope itemprop="identifier" itemtype="https://schema.org/PropertyValue"><a href="https://pinakes.irht.cnrs.fr/notices/cote/68539/" title="Al hacer clic en el enlace se abrirá una nueva pestaña en el navegador" target="_blank" itemprop="url"><span itemprop="propertyID">Diktyon</span> <span itemprop="value" content="68539">68539</span></a></h5>
-                  <h4>Presentación</h4>
-                  <p>Papel, 285 x c. 205 mm, 176 <abbr title="folios">ff.</abbr> Producido en tres fases, de las que la más antigua, datable a finales del siglo <span class="versalitas">xii</span>, es la que contiene el comentario de Eustacio. Es la copia más antigua del texto y encabeza una de las dos familias de la tradición.</p>
-                  <h4>Contenido</h4>
-                  <ul>
-                    <li><abbr title="unidad codicológica">UC</abbr> 1, <abbr title="folios">ff.</abbr> 1<sup>r</sup>-78<sup>v</sup>: Licofrón, <em>Alejandra</em>; Dionisio de Alejandría, <em>Periégesis</em>; Hesíodo, <em>Trabajos y Días</em> y <em>Escudo</em>; Arato, <em>Fenómenos</em>.</li>
-                    <li><abbr title="unidad codicológica">UC</abbr> 2, <abbr title="folios">ff.</abbr> 79<sup>r</sup>-87<sup>v</sup>: Dionisio de Alejandría, <em>Periégesis</em>.</li>
-                    <li><abbr title="unidad codicológica">UC</abbr> 3, <abbr title="folios">ff.</abbr> 88<sup>r</sup>-176<sup>r</sup>: Eustacio de Tesalónica, <em>Comentario a Dionisio Periegeta</em>.</li>
-                  </ul>
-                  <p class="resto">Los profesores del siglo <span class="versalitas">xii</span> <a href="https://www.wikidata.org/wiki/Q530515" title="Al hacer clic en el enlace se abrirá una nueva pestaña en el navegador" target="_blank" itemprop="url">Juan Tzetzes</a> y Eustacio de Tesalónica señalaron la complementariedad de los poemas de Dionisio y de Arato, que describen la tierra y el cielo; el Vat. gr. 1910 materializa esta complementariedad. En el folio 62, antes de los <em>Fenómenos</em>, el copista 1 ha añadido figuras con una doble representación del sistema solar y de la esfera celeste proyectada en la tierra.</p>
-                  <p class="resto">Es posible que la <abbr title="unidad codicológica">UC</abbr> 1 se uniera a las <abbr title="unidades codicológicas">UU. CC.</abbr> 2-3 en función de su contenido común de poesía antigua con comentario, a pesar de que ello produjera la situación absurda de tener el mismo texto copiado dos veces en el mismo volumen. En todo caso, la adición de la Periegesis en <abbr title="folios">ff.</abbr> 79<sup>r</sup>-87<sup>r</sup> forma parte de una operación de rescate del Comentario y su consideración como texto de gran valor.</p>
-                  <h4>Análisis paleográfico</h4>
-                  <h5>Unidad codicológica 1</h5>
-                  <p>Colaboran en la copia de los poemas cuatro escribas, de los que algunos claramente no hacen un trabajo profesional (copista 2 en <abbr title="folios">ff.</abbr> 35<sup>r</sup>-41<sup>v</sup> y copista 4 en <abbr title="folios">ff.</abbr> 73<sup>r</sup>-78<sup>v</sup>) y, por tanto, dan la impresión de intervenir para acabar la copia de Licofrón y Arato iniciada por el copista 1 (<abbr title="folios">ff.</abbr> 1<sup>r</sup>-34<sup>v</sup>, 59<sup>r</sup>-60<sup>r</sup>, 63<sup>r</sup>-72<sup>v</sup>; por su parte, el copista 3 es el responsable de transcribir Dionisio Periegeta y Hesíodo en <abbr title="folio">ff.</abbr> 42<sup>r</sup>-58<sup>v</sup>. Todos ellos son exponentes de la escritura cursiva de su época.</p>
-                  <h5>Unidad codicológica 2</h5>
-                  <p>El copista de <abbr title="folios">ff.</abbr> 79<sup>r</sup>-87<sup>r</sup>, 157<sup>r</sup>-163<sup>r</sup>, 170<sup>r</sup> exhibe una escritura de una regularidad y minuciosidad extrema, muy legible y recta, con un uso limitado de adornos y ligaduras, que ha de fecharse en la segunda mitad del siglo <span class="vesalitas">xiv</span>.</p>
-                  <h5>Unidad codicológica 3</h5>
-                  <p>La escritura del copista del Comentario de Eustacio se puede aproximar a la que Paul Canart y Lidia Perria describen como «<span lang="fr">cursive en voie de stylisation</span>», la tendencia de algunas escrituras a regularizarse y a sistematizar los contrastes. La comparación con el copista de los <abbr title="folios">ff.</abbr> 1<sup>r</sup>-61<sup>v</sup> del Wien, Österreichische Nationalbibliothek (en adelante, ÖNB), <a href="https://pinakes.irht.cnrs.fr/notices/cote/71686/" title="Al hacer clic en el enlace se abrirá una nueva pestaña en el navegador" target="_blank" itemprop="url">Vindob. Theol. gr. 19</a>, aproximadamente contemporáneo de la fecha de los <abbr title="folios">ff.</abbr> 62<sup>r</sup>-314<sup>r</sup>, firmados en 1197 por un copista Pablo monje del monasterio de la Virgen Periblepto en Constantinopla, sugiere una datación de esta parte del Vat. gr. 1910 a finales del siglo <span class="versalitas">xii</span>.</p>
-                  <h4>Análisis codicológico</h4>
-                  <p>La <abbr title="unidad codicológica">UC</abbr> 1 (<abbr title="folios">ff.</abbr> 1<sup>r</sup>-78<sup>r</sup>) está copiada en papel oriental plegado <em>in-octavo</em>, 260 x 170 mm, luego acomodado al tamaño de las <abbr title="unidades codicológicas">UU. CC.</abbr> 2 y 3, 285 x c. 205 mm.</p>
-                  <p class="resto">La <abbr title="unidad codicológica">UC</abbr> 2 (<abbr title="folios">ff.</abbr> 79<sup>r</sup>-87<sup>r</sup>, 157<sup>r</sup>-163<sup>r</sup>, 170<sup>r</sup>), está copiada en papel italiano plegado <em>in-folio</em>, con dimensiones que se acomodan a la <abbr title="unidad codicológica">UC</abbr> 3.</p>
-                  <p class="resto">La <abbr title="unidad codicológica">UC</abbr> 3 (<abbr title="folios">ff.</abbr> 88<sup>r</sup>-156<sup>r</sup>, 164<sup>r</sup>-169<sup>r</sup>, 171<sup>r</sup>-176<sup>r</sup>), está copiada en papel oriental plegado <em>in-quarto</em>, 285 x c. 205 mm. Sufrió un deterioro temprano y fue restaurada en el siglo <span class="versalitas">xiv</span> (<abbr title="unidad codicológica">UC</abbr> 2), pero el texto está mutilado en varios lugares, incluido el comienzo y el final.</p>
-                  <p class="resto">El orden correcto de los folios reconstruido por Canart (<abbr title="folios">ff.</abbr> 2-5.1.6-117. 169.173.118-168.170-172.174-176). La distribución en cuadernos es hipotética:</p>
-                  <p class="resto">1-41 [?] // 42-49 (<span lang="el">ιδ’</span> en <abbr title="folio">f.</abbr> 49<sup>v</sup>) // 50-61 // 62, 63-70 (<span lang="el">ιθ’</span> en <abbr title="folio">f.</abbr> 70<sup>v</sup>), 71-78 [<span lang="el">κ’</span> en <abbr title="folio">f.</abbr> 71<sup>r</sup>] // 79-87 // 88-94, 95-101, 102-110 (<span lang="el">λα’</span> en <abbr title="folio">f.</abbr> 102<sup>r</sup>), 111-117+169 (<span lang="el">λβ’</span> en <abbr title="folio">f.</abbr> 169<sup>v</sup>), 173+118-124, 125-132, 133-140, 141-148, 149-156, 157-164 [158-163 sustituyendo los originales], 165-168+170 [sustituyendo el original]+ 171-172+174, 175-176.</p>
-                  <p class="resto">De los 13 cuadernos anteriores al cuaderno de <abbr title="folios">ff.</abbr> 42-49, numerado <span lang="el">ιδ’</span>, se han perdido 63 folios. Por su parte, el custodio <span lang="el">κ’</span> en <abbr title="folio">f.</abbr> 71<sup>r</sup> supone una parte inicial de al menos 160 folios (20 cuadernos), de los que conservamos sólo 78.</p>
-                  <h4>Referencias bibliográficas</h4>
-                  <p>Canart, P., y L. Perria. «<span lang="fr">Les écritures livresques des XIe et XIIe siècles</span>». En <em><span lang="it">Paleografia e codicologia greca. Atti del II Colloquio internazionale Berlino-Wolffenbuttel, 17-21 ottobre 1983</span></em>, editado por D. Harlfinger y G. Prato, 67-116. Alessandria: Edizioni dell'Orso, 1991.</p>
-                  <h6 class="revisor"><abbr title="Inmaculada Pérez Martín">IPM</abbr></h6>
-                </div>
+              <div id="diktyon52358" class="collapse" data-parent="#accordion" itemscope
+                itemtype="https://schema.org/Manuscript">
+                <h3 itemprop="name">Paris, Bibliothèque nationale de France, grec 2723</h3>
+                <h5>sigla C</h5>
+                <h5 itemscope itemprop="identifier" itemtype="https://schema.org/PropertyValue"><a
+                    href="https://pinakes.irht.cnrs.fr/notices/cote/52358/"
+                    title="Al hacer clic en el enlace se abrirá una nueva pestaña en el navegador" target="_blank"
+                    itemprop="url"><span itemprop="propertyID">Diktyon</span> <span itemprop="value"
+                      content="52358">52358</span></a></h5>
+                <h4>Presentación</h4>
+                <p>Pergamino. Volumen misceláneo de gran formato, 360 x 270 mm. V.245 (+ <abbr title="folios">ff.</abbr>
+                  154bis, 157bis, 189bis, 242bis, 243bis). IV’. Copiado a finales del siglo <span
+                    class="versalitas">xiii</span> en Constantinopla a partir del <a
+                    href="https://pinakes.irht.cnrs.fr/notices/cote/67553/"
+                    title="Al hacer clic en el enlace se abrirá una nueva pestaña en el navegador" target="_blank"
+                    itemprop="url"><abbr title="Vaticanus graecus">Vat. gr.</abbr> 922</a> (= B).</p>
+                <h4>Contenido</h4>
+                <ul>
+                  <li><abbr title="unidad codicológica">UC</abbr> 1, <abbr title="folios">ff.</abbr>
+                    3<sup>r</sup>-76<sup>v</sup>: Licofrón, <em>Alejandra</em>, con el comentario de Tzetzes.</li>
+                  <li><abbr title="unidad codicológica">UC</abbr> 2, <abbr title="folios">ff.</abbr>
+                    77<sup>r</sup>-78<sup>v</sup>: Homero, <em>Batracomiomaquia</em>.</li>
+                  <li><abbr title="unidad codicológica">UC</abbr> 3, <abbr title="folios">ff.</abbr>
+                    79<sup>r</sup>-97<sup>v</sup>: Opiano, <em>Cinegetica</em>.</li>
+                  <li><abbr title="unidad codicológica">UC</abbr> 4: <ul>
+                      <li><abbr title="folios">ff.</abbr> 98<sup>r</sup>-165<sup>r</sup>: Eustacio de Tesaónica,
+                        <em>Comentario a Dionisio Periegeta</em> (intercalado entre grupos de versos) y <abbr
+                          title="folios">ff.</abbr> 100<sup>r</sup>-165<sup>v</sup>, Dionisio de Alejandría,
+                        <em>Periégesis</em>.</li>
+                      <li><abbr title="folios">ff.</abbr> 166<sup>r</sup>-185<sup>v</sup>: David, <em>Prolegómenos de
+                          Filosofía</em>.</li>
+                      <li><abbr title="folios">ff.</abbr> 185<sup>v</sup>-188<sup>v</sup>: David, <em>Comentario a
+                          la</em> Isagoge <em>de Porfirio</em>.</li>
+                      <li><abbr title="folios">ff.</abbr> 189<sup>r</sup>-210<sup>v</sup>: Porfirio, <em>Isagoge</em>.
+                      </li>
+                      <li><abbr title="folios">ff.</abbr> 211<sup>r</sup>-245<sup>v</sup>: Aristóteles, <em>De
+                          interpretatione</em>.</li>
+                    </ul>
+                  </li>
+                </ul>
+                <h4>Análisis paleográfico</h4>
+                <p>Cada <abbr title="unidad codicológica">UC</abbr> fue copiada por un escriba diferente, todos datables
+                  a finales del siglo <span class="versalitas">xiii</span>. Una suscripción en la parte inferior del
+                  folio 76<sup>v</sup> (Licofrón) nos permite datar con más precisión la <abbr
+                    title="unidad codicológica">UC</abbr> 1 en junio de 1282 (6790 <span lang="la"><abbr
+                      title="annus Mundi, año de la creación del mundo"><em>A. M.</em></abbr></span>): +<span
+                    lang="el">Tέλος τῆς Λυκόφρονος Ἀλεξάνδρας, ἐτελειώθη μηνὶ ἰουνίω [ἰνδικτιῶνος] ι’ ἔτους
+                    ,&#987;ψ&#985’</span>+.</p>
+                <p class="resto">Por lo que se refiere a la <abbr title="unidad codicológica">UC</abbr> 4 (Eustacio y
+                  Dionisio), el copista distribuye el comentario de Eustacio intercalándolo entre grupos de versos de la
+                  <em>Periégesis</em> y en los márgenes del poema, empleando dos ductus en escritura arcaizante, típica
+                  de las primeras décadas del periodo paleólogo: un ductus caracterizado por letras con un módulo mayor
+                  y un discreto contraste modular para el poema y otro de menor tamaño y carente de contraste modular
+                  para la exégesis.</p>
+                <h4>Análisis codicológico</h4>
+                <p>Pergamino de calidad mediocre, plegado <em>in folio</em>, y conservado en mal estado. Compuesto por 4
+                  unidades codicológicas contemporáneas.</p>
+                <p class="resto">El volumen está formado por 34 cuadernillos. En la <abbr
+                    title="unidad codicológica">UC</abbr> 4 se han perdido dos folios, como indica la distribución de
+                  los fascículos: 1 × IV (97) + 8 x IV (159) + 1 × VI (165).</p>
+                <p class="resto">Se observan custodios a lo largo del volumen que responden a la reunión de las 4
+                  unidades codicológicas (<span lang="el">α’ – λδ’</span> en el margen inferior central), aunque faltan
+                  algunos de ellos. Se encuentra, asimismo, otro sistema de sistematización más antiguo mediante
+                  custodios en el margen interno de los <abbr title="folios">ff.</abbr> 105<sup>v</sup>,
+                  106<sup>r</sup>, 114<sup>r</sup>, 122<sup>r</sup>, 130<sup>r</sup>, 138<sup>r</sup>.</p>
+                <p class="resto">Encuadernación con tapas en cuero marrón con filetes dorados. Se conserva en mal
+                  estado, pues ha perdido el lomo.</p>
+                <h6 class="revisor"><abbr title="Paula Caballero Sánchez">PCS</abbr></h6>
+              </div>
+              <div id="diktyon52493" class="collapse" data-parent="#accordion" itemscope
+                itemtype="https://schema.org/Manuscript">
+                <h3 itemprop="name">Paris, Bibliothèque nationale de France, grec 2855</h3>
+                <h5>sigla D</h5>
+                <h5 itemscope itemprop="identifier" itemtype="https://schema.org/PropertyValue"><a
+                    href="https://pinakes.irht.cnrs.fr/notices/cote/52493/"
+                    title="Al hacer clic en el enlace se abrirá una nueva pestaña en el navegador" target="_blank"
+                    itemprop="url"><span itemprop="propertyID">Diktyon</span> <span itemprop="value"
+                      content="52493">52493</span></a></h5>
+                <h4>Presentación</h4>
+                <p>Códice misceláneo compuesto por dos unidades codicológicas de distinto tamaño en papel oriental:
+                  240/235 x 162 mm (<abbr title="unidad codicológica">UC</abbr> 1) y 229 x 147 (<abbr
+                    title="unidad codicológica">UC</abbr> 2). <abbr title="folios">Ff.</abbr> III + 79 + III (<abbr
+                    title="mutilus"><span lang="la"><em>mut.</em></span></abbr> 57<sup>v</sup>, <abbr
+                    title="vacuus"><span lang="la"><em>vac.</em></span></abbr> 79<sup>r-v</sup>).</p>
+                <p class="resto">Perteneció al <a href="https://www.wikidata.org/wiki/Q1088180"
+                    title="Al hacer clic en el enlace se abrirá una nueva pestaña en el navegador" target="_blank"
+                    itemprop="url">cardenal Ridolfi</a> (1501-1550) después de que este adquiriera la biblioteca de <a
+                    href="https://www.wikidata.org/wiki/Q498547"
+                    title="Al hacer clic en el enlace se abrirá una nueva pestaña en el navegador" target="_blank"
+                    itemprop="url">Jano Láscaris</a> (1445-1534), cuya escritura se encuentra en el <abbr
+                    title="folio">f.</abbr> 57<sup>v</sup>, donde indica el final del comentario de Eustacio (<span
+                    lang="el">τέλος του Ευσταθίου Παρεκβολῶν εὶς τὴν Διονυσίου Περιήγησιν</span>). Más tarde, el volumen
+                  pasó a formar parte de la biblioteca de <a href="https://www.wikidata.org/wiki/Q131552"
+                    title="Al hacer clic en el enlace se abrirá una nueva pestaña en el navegador" target="_blank"
+                    itemprop="url">Catalina de Medici</a> (1519-1589) como heredera de la colección de <a
+                    href="https://www.wikidata.org/wiki/Q1346257"
+                    title="Al hacer clic en el enlace se abrirá una nueva pestaña en el navegador" target="_blank"
+                    itemprop="url">Piero Strozzi</a> (1510-1558), quien adquirió la colección del cardenal.</p>
+                <p class="resto">El comentario de Eustacio fue copiado a partir del subarquetipo <span
+                    lang="el">β</span> en el último cuarto del siglo <span class="versalitas">xiii</span> en
+                  Constantinopla.</p>
+                <h4>Contenido</h4>
+                <ul>
+                  <li><abbr title="unidad codicológica">UC</abbr> 1, <abbr title="folios">ff.</abbr>
+                    1<sup>r</sup>-57<sup>r</sup>: Eustacio de Tesalónica, <em>Comentario a la Periégesis de Dionisio de
+                      Alejandría</em>.</li>
+                  <li><abbr title="unidad codicológica">UC</abbr> 2, <abbr title="folios">ff.</abbr>
+                    58<sup>r</sup>-78<sup>r</sup>: Dionisio de Alejandría, <em>Periégesis</em> con la paráfrasis anónima
+                    en los márgenes (<span lang="la"><em><abbr title="desinit mutilus">des. mut.</abbr></em></span>).
+                  </li>
+                </ul>
+                <h4>Análisis paleográfico</h4>
+                <p>El comentario de Eustacio (<abbr title="unidad codicológica">UC</abbr> 1) fue copiado por una mano de
+                  ductus cambiante y módulo pequeño que trabaja sin pretensiones, para uso personal, cuyas
+                  características paleográficas permiten situarla en Constantinopla, en el último cuarto del siglo <span
+                    class="versalitas">xiii</span>.</p>
+                <p class="resto">La presencia del copista de la <abbr title="unidad codicológica">UC</abbr> 2 en los
+                  márgenes de la <abbr title="unidad codicológica">UC</abbr> 1 nos informa de que la <abbr
+                    title="unidad codicológica">UC</abbr> 1 es más antigua y que el copista de la <abbr
+                    title="unidad codicológica">UC</abbr> 2 pudo ser el posesor del volumen, que completó añadiendo una
+                  nueva unidad codicológica con la <em>Periégesis</em> de Dionisio y la paráfrasis anónima en los
+                  márgenes.</p>
+                <h4>Análisis codicológico</h4>
+                <p>Las dos unidades codicológicas fueron confeccionadas en papel oriental, plegado <em>in folio</em>. No
+                  se observan custodios. Debido al mal estado de conservación del volumen, muchas costuras y márgenes
+                  han sido reforzados con tiras de papel occidental. Los cuadernos, fuertemente unidos al cosido,
+                  impiden ver su estructura.</p>
+                <p class="resto">El texto del comentario se distribuye en un número de líneas muy variable: 34-50 líneas
+                  por página (espejo de escritura de 195-200 x 130 mm).</p>
+                <p class="resto">Encuadernación de Duplanil en cartoné marrón y lomo en piel roja con iniciales en
+                  dorado <abbr title="Republique Française">RF</abbr>.</p>
+                <h6 class="revisor"><abbr title="Paula Caballero Sánchez">PCS</abbr>-<abbr
+                    title="Inmaculada Pérez Martín">IPM</abbr></h6>
+              </div>
+              <div id="diktyon40279" class="collapse" data-parent="#accordion" itemscope
+                itemtype="https://schema.org/Manuscript">
+                <h3 itemprop="name">Madrid, Biblioteca nacional de España, ms. 4804</h3>
+                <h5>sigla Z</h5>
+                <h5 itemscope itemprop="identifier" itemtype="https://schema.org/PropertyValue"><a
+                    href="https://pinakes.irht.cnrs.fr/notices/cote/40279/"
+                    title="Al hacer clic en el enlace se abrirá una nueva pestaña en el navegador" target="_blank"
+                    itemprop="url"><span itemprop="propertyID">Diktyon</span> <span itemprop="value">40279</span></a>
+                </h5>
+                <h4>Presentación</h4>
+                <p>Papel, 210 x 140 mm, XI.100.III'. El manuscrito formaba parte del <a
+                    href="https://pinakes.irht.cnrs.fr/notices/cote/68519/"
+                    title="Al hacer clic en el enlace se abrirá una nueva pestaña en el navegador" target="_blank"
+                    itemprop="url">Vat. gr. 1890</a> como cuaderno. Perteneció a <a
+                    href="https://www.wikidata.org/wiki/Q23770513"
+                    title="Al hacer clic en el enlace se abrirá una nueva pestaña en el navegador" target="=_blank"
+                    itemprop="url">José Esteve</a> (+ 1603), obispo de Orihuela, según nota de posesión (<abbr
+                    title="folio">f.</abbr> IV): <span lang="la"><em>Joseph Stephani Biblio / theca 1586</em></span>,
+                  quien pudo adquirirlo durante su estancia en Roma, donde el manuscrito probablemente fue copiado en el
+                  primer cuarto del siglo <span class="versalitas">xvi</span> a partir del Vat. gr. 1910.</p>
+                <h4>Contenido</h4>
+                <ul>
+                  <li><abbr title="unidad codicológica">UC</abbr> 1, <abbr title="folios">ff.</abbr>
+                    1<sup>r</sup>-98<sup>v</sup>: Eustacio de Tesalónica, <em>Comentario a la Periegesis de Dionisio de
+                      Alejandría</em> [<em><span lang="la"><abbr title="incipit mutilus">inc. mut.</abbr></span></em>
+                    <span lang="el">τὴν ὁμωνυμίαν ἀπαν τῆς γῆς τὸν ἄνθρωπον ἐξηνέμωσε</span>; cf. Müller (1861) 295, l.
+                    28.].</li>
+                </ul>
+                <h4>Análisis paleográfico</h4>
+                <p>Copiado por <a href="https://www.wikidata.org/wiki/Q60234869"
+                    title="Al hacer clic en el enlace se abrirá una nueva pestaña en el navegador" target="_blank"
+                    itemprop="url">Demetrio Damilás</a> (<abbr title="Repertorium der griechischen Kopisten">RGK</abbr>
+                  I, 93; II, 127; III, 160), cretense que trabajó en Florencia para los Medici (1480-1490) y en Roma
+                  como escriba de la Biblioteca Vaticana (1506). Se trata del mismo copista artífice de los <abbr
+                    title="folios">ff.</abbr> 144<sup>v</sup>-187<sup>r</sup>, 254<sup>r</sup>-293<sup>v</sup> del
+                  actual Vat. gr. 1890, al que inicialmente perteneció este volumen como cuaderno.</p>
+                <h4>Análisis codicológico</h4>
+                <p>Papel occidental, plegado <em>in octavo</em>, con filigrana «<span lang="fr">deux flèches</span>»
+                  (Br. 6276-6281, a. 1447-1516).</p>
+                <p class="resto">Distribución de los cuadernos: 10 x V (100); numeración (<span lang="el">θ’ –
+                    ιη’</span>) en el margen inferior central de la última página de cada cuadernillo. La primera parte
+                  de la obra se encuentra en el actual Vat. gr. 1890 (<abbr title="folios">ff.</abbr>
+                  144<sup>v</sup>-187<sup>r</sup>, 254<sup>r</sup>-293<sup>v</sup>), que contiene cuatro quiniones
+                  iniciales (<span lang="el">ε’-η’</span>).</p>
+                <p class="resto">Como en el ejemplar vaticano, el texto se distribuye en 25 líneas por página (150-149 x
+                  81-79 mm).</p>
+                <p class="resto">Encuadernación en tapas de cartón en piel roja y filetes dorados.</p>
+                <h4>Referencias bibliográficas</h4>
+                <p>Briquet, C. M. <em><span lang="fr">Les Filigranes. Dictionnaire Historique des Marques du Papier dés
+                      leur apparition vers 1282 jusqu’en 1600. Tome deuxième Ci-K, nos. 3647 à 7877</span></em>.
+                  Leipzig: Verlag von Karl. W. Hiersemann, 1923.</p>
+                <p>Hunger, H., ed., <span lang="de"><em>Repertorium der griechischen Kopisten</em>. Wien: Verlag der
+                    Österreichischen Akademie der Wissenschaften</span>, 1981-1994. </p>
+                <p>Müller, K., ed., <span lang="la"><em>Geographi Graeci minores</em></span>. 2 vols. Paris: A. Firmin
+                  Didot, 1855-1861.</p>
+                <h6 class="revisor"><abbr title="Paula Caballero Sánchez">PCS</abbr></h6>
+              </div>
+              <div id="diktyon68539" class="collapse" data-parent="#accordion" itemscope
+                itemtype="https://schema.org/Manuscript">
+                <h3 itemprop="name">Città del Vaticano, Biblioteca Apostolica Vaticana, Graecus 1910</h3>
+                <h5>sigla R</h5>
+                <h5 itemscope itemprop="identifier" itemtype="https://schema.org/PropertyValue"><a
+                    href="https://pinakes.irht.cnrs.fr/notices/cote/68539/"
+                    title="Al hacer clic en el enlace se abrirá una nueva pestaña en el navegador" target="_blank"
+                    itemprop="url"><span itemprop="propertyID">Diktyon</span> <span itemprop="value"
+                      content="68539">68539</span></a></h5>
+                <h4>Presentación</h4>
+                <p>Papel, 285 x c. 205 mm, 176 <abbr title="folios">ff.</abbr> Producido en tres fases, de las que la
+                  más antigua, datable a finales del siglo <span class="versalitas">xii</span>, es la que contiene el
+                  comentario de Eustacio. Es la copia más antigua del texto y encabeza una de las dos familias de la
+                  tradición.</p>
+                <h4>Contenido</h4>
+                <ul>
+                  <li><abbr title="unidad codicológica">UC</abbr> 1, <abbr title="folios">ff.</abbr>
+                    1<sup>r</sup>-78<sup>v</sup>: Licofrón, <em>Alejandra</em>; Dionisio de Alejandría,
+                    <em>Periégesis</em>; Hesíodo, <em>Trabajos y Días</em> y <em>Escudo</em>; Arato, <em>Fenómenos</em>.
+                  </li>
+                  <li><abbr title="unidad codicológica">UC</abbr> 2, <abbr title="folios">ff.</abbr>
+                    79<sup>r</sup>-87<sup>v</sup>: Dionisio de Alejandría, <em>Periégesis</em>.</li>
+                  <li><abbr title="unidad codicológica">UC</abbr> 3, <abbr title="folios">ff.</abbr>
+                    88<sup>r</sup>-176<sup>r</sup>: Eustacio de Tesalónica, <em>Comentario a Dionisio Periegeta</em>.
+                  </li>
+                </ul>
+                <p class="resto">Los profesores del siglo <span class="versalitas">xii</span> <a
+                    href="https://www.wikidata.org/wiki/Q530515"
+                    title="Al hacer clic en el enlace se abrirá una nueva pestaña en el navegador" target="_blank"
+                    itemprop="url">Juan Tzetzes</a> y Eustacio de Tesalónica señalaron la complementariedad de los
+                  poemas de Dionisio y de Arato, que describen la tierra y el cielo; el Vat. gr. 1910 materializa esta
+                  complementariedad. En el folio 62, antes de los <em>Fenómenos</em>, el copista 1 ha añadido figuras
+                  con una doble representación del sistema solar y de la esfera celeste proyectada en la tierra.</p>
+                <p class="resto">Es posible que la <abbr title="unidad codicológica">UC</abbr> 1 se uniera a las <abbr
+                    title="unidades codicológicas">UU. CC.</abbr> 2-3 en función de su contenido común de poesía antigua
+                  con comentario, a pesar de que ello produjera la situación absurda de tener el mismo texto copiado dos
+                  veces en el mismo volumen. En todo caso, la adición de la Periegesis en <abbr
+                    title="folios">ff.</abbr> 79<sup>r</sup>-87<sup>r</sup> forma parte de una operación de rescate del
+                  Comentario y su consideración como texto de gran valor.</p>
+                <h4>Análisis paleográfico</h4>
+                <h5>Unidad codicológica 1</h5>
+                <p>Colaboran en la copia de los poemas cuatro escribas, de los que algunos claramente no hacen un
+                  trabajo profesional (copista 2 en <abbr title="folios">ff.</abbr> 35<sup>r</sup>-41<sup>v</sup> y
+                  copista 4 en <abbr title="folios">ff.</abbr> 73<sup>r</sup>-78<sup>v</sup>) y, por tanto, dan la
+                  impresión de intervenir para acabar la copia de Licofrón y Arato iniciada por el copista 1 (<abbr
+                    title="folios">ff.</abbr> 1<sup>r</sup>-34<sup>v</sup>, 59<sup>r</sup>-60<sup>r</sup>,
+                  63<sup>r</sup>-72<sup>v</sup>; por su parte, el copista 3 es el responsable de transcribir Dionisio
+                  Periegeta y Hesíodo en <abbr title="folio">ff.</abbr> 42<sup>r</sup>-58<sup>v</sup>. Todos ellos son
+                  exponentes de la escritura cursiva de su época.</p>
+                <h5>Unidad codicológica 2</h5>
+                <p>El copista de <abbr title="folios">ff.</abbr> 79<sup>r</sup>-87<sup>r</sup>,
+                  157<sup>r</sup>-163<sup>r</sup>, 170<sup>r</sup> exhibe una escritura de una regularidad y
+                  minuciosidad extrema, muy legible y recta, con un uso limitado de adornos y ligaduras, que ha de
+                  fecharse en la segunda mitad del siglo <span class="vesalitas">xiv</span>.</p>
+                <h5>Unidad codicológica 3</h5>
+                <p>La escritura del copista del Comentario de Eustacio se puede aproximar a la que Paul Canart y Lidia
+                  Perria describen como «<span lang="fr">cursive en voie de stylisation</span>», la tendencia de algunas
+                  escrituras a regularizarse y a sistematizar los contrastes. La comparación con el copista de los <abbr
+                    title="folios">ff.</abbr> 1<sup>r</sup>-61<sup>v</sup> del Wien, Österreichische Nationalbibliothek
+                  (en adelante, ÖNB), <a href="https://pinakes.irht.cnrs.fr/notices/cote/71686/"
+                    title="Al hacer clic en el enlace se abrirá una nueva pestaña en el navegador" target="_blank"
+                    itemprop="url">Vindob. Theol. gr. 19</a>, aproximadamente contemporáneo de la fecha de los <abbr
+                    title="folios">ff.</abbr> 62<sup>r</sup>-314<sup>r</sup>, firmados en 1197 por un copista Pablo
+                  monje del monasterio de la Virgen Periblepto en Constantinopla, sugiere una datación de esta parte del
+                  Vat. gr. 1910 a finales del siglo <span class="versalitas">xii</span>.</p>
+                <h4>Análisis codicológico</h4>
+                <p>La <abbr title="unidad codicológica">UC</abbr> 1 (<abbr title="folios">ff.</abbr>
+                  1<sup>r</sup>-78<sup>r</sup>) está copiada en papel oriental plegado <em>in-octavo</em>, 260 x 170 mm,
+                  luego acomodado al tamaño de las <abbr title="unidades codicológicas">UU. CC.</abbr> 2 y 3, 285 x c.
+                  205 mm.</p>
+                <p class="resto">La <abbr title="unidad codicológica">UC</abbr> 2 (<abbr title="folios">ff.</abbr>
+                  79<sup>r</sup>-87<sup>r</sup>, 157<sup>r</sup>-163<sup>r</sup>, 170<sup>r</sup>), está copiada en
+                  papel italiano plegado <em>in-folio</em>, con dimensiones que se acomodan a la <abbr
+                    title="unidad codicológica">UC</abbr> 3.</p>
+                <p class="resto">La <abbr title="unidad codicológica">UC</abbr> 3 (<abbr title="folios">ff.</abbr>
+                  88<sup>r</sup>-156<sup>r</sup>, 164<sup>r</sup>-169<sup>r</sup>, 171<sup>r</sup>-176<sup>r</sup>),
+                  está copiada en papel oriental plegado <em>in-quarto</em>, 285 x c. 205 mm. Sufrió un deterioro
+                  temprano y fue restaurada en el siglo <span class="versalitas">xiv</span> (<abbr
+                    title="unidad codicológica">UC</abbr> 2), pero el texto está mutilado en varios lugares, incluido el
+                  comienzo y el final.</p>
+                <p class="resto">El orden correcto de los folios reconstruido por Canart (<abbr
+                    title="folios">ff.</abbr> 2-5.1.6-117. 169.173.118-168.170-172.174-176). La distribución en
+                  cuadernos es hipotética:</p>
+                <p class="resto">1-41 [?] // 42-49 (<span lang="el">ιδ’</span> en <abbr title="folio">f.</abbr>
+                  49<sup>v</sup>) // 50-61 // 62, 63-70 (<span lang="el">ιθ’</span> en <abbr title="folio">f.</abbr>
+                  70<sup>v</sup>), 71-78 [<span lang="el">κ’</span> en <abbr title="folio">f.</abbr> 71<sup>r</sup>] //
+                  79-87 // 88-94, 95-101, 102-110 (<span lang="el">λα’</span> en <abbr title="folio">f.</abbr>
+                  102<sup>r</sup>), 111-117+169 (<span lang="el">λβ’</span> en <abbr title="folio">f.</abbr>
+                  169<sup>v</sup>), 173+118-124, 125-132, 133-140, 141-148, 149-156, 157-164 [158-163 sustituyendo los
+                  originales], 165-168+170 [sustituyendo el original]+ 171-172+174, 175-176.</p>
+                <p class="resto">De los 13 cuadernos anteriores al cuaderno de <abbr title="folios">ff.</abbr> 42-49,
+                  numerado <span lang="el">ιδ’</span>, se han perdido 63 folios. Por su parte, el custodio <span
+                    lang="el">κ’</span> en <abbr title="folio">f.</abbr> 71<sup>r</sup> supone una parte inicial de al
+                  menos 160 folios (20 cuadernos), de los que conservamos sólo 78.</p>
+                <h4>Referencias bibliográficas</h4>
+                <p>Canart, P., y L. Perria. «<span lang="fr">Les écritures livresques des XIe et XIIe siècles</span>».
+                  En <em><span lang="it">Paleografia e codicologia greca. Atti del II Colloquio internazionale
+                      Berlino-Wolffenbuttel, 17-21 ottobre 1983</span></em>, editado por D. Harlfinger y G. Prato,
+                  67-116. Alessandria: Edizioni dell'Orso, 1991.</p>
+                <h6 class="revisor"><abbr title="Inmaculada Pérez Martín">IPM</abbr></h6>
               </div>
             </div>
           </div>
-        </section>
-      </div>
-    </main>
-    <footer class="container">
-<section id="carrusel-logos">
-        <div class="slideshow-container">
-          <div class="mySlides">
-            <div class="row justify-content-around align-items-center">
-              <div class="col-md-4 col-12">
-                <div id="fundacionBBVA">
-                  <a href="https://www.fbbva.es" target="_blank"><img src="./img/logos/FundacionBBVA.svg" class="img-responsive img-fluid" alt="logo Fundación BBVA" title="Ir al sitio web de la Fundación BBVA"></a>
-                </div>
-              </div>
-              <div class="col-md-4 col-12">
-                <div class="wrap-img" id="SEEC">
-                  <a href="http://www.estudiosclasicos.org/" target="_blank"><img src="./img/logos/SEEC.png" class="img-responsive img-fluid" alt="logo Sociedad Española de Estudios Clásicos" title="Ir al sitio web de la Sociedad Española de Estudios Clásicos"></a>
-                </div>
-              </div>
-              <div class="col-md-4 col-12">
-                <div class="wrap-img" id="CSIC">
-                  <a href="http://www.csic.es" target="_blank"><img src="./img/logos/MCINN_CSIC.jpg" class="img-responsive img-fluid" alt="logo CSIC y MCINN" title="Ir al sitio web del CSIC"></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="mySlides">
-            <div class="row justify-content-around align-items-center">
-              <div class="col-md-4 col-12">
-                <div class="wrap-img" id="CCHS">
-                  <a href="http://cchs.csic.es/" target="_blank"><img src="./img/logos/CCHS.png" class="img-responsive img-fluid" alt="logo CCHS" title="Ir al sitio web del CCHS"></a>
-                </div>
-              </div>
-              <div class="col-md-4 col-12">
-                <div class="wrap-img" id="CCHS-ILC">
-                  <a href="http://www.ilc.csic.es" target="_blank"><img src="./img/logos/CCHS_ILC.jpeg" class="img-responsive img-fluid" alt="logo ILC" title="Ir al sitio web del ILC"></a>
-                </div>
-              </div>
-              <div class="col-md-4 col-12">
-                <div class="wrap-img" id="PTIMedHis"><a href="https://pti-medhis.csic.es/" target="_blank"><img src="./img/logos/MedHis.jpg" class="img-responsive img-fluid" alt="logo PTI MedHis" title="Saber más de la PTI MedHis"></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="slideshow-controls" style="text-align:center">
-          <a class="prev" onclick="plusSlides(-1)" title="Ver más"><span aria="true" class="far fa-arrow-alt-circle-left"></span></a>
-          <a class="next" onclick="plusSlides(1)" title="Ver más"><span aria="true" class="far fa-arrow-alt-circle-right"></span></a>
         </div>
       </section>
-      <div class="row">
-        <div class="col text-center">
-          <p class="small">Para cuestiones técnicas relacionadas con este sitio web, por favor diríjase a elvuelodehermes&thinsp;@&thinsp;gmail.com<br>
-            <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" class="img-center" /></a> 2023
-          </p>
+    </div>
+  </main>
+  <footer class="container">
+    <section id="carrusel-logos">
+      <div class="slideshow-container">
+        <div class="mySlides">
+          <div class="row justify-content-around align-items-center">
+            <div class="col-md-4 col-12">
+              <div id="fundacionBBVA">
+                <a href="https://www.fbbva.es" target="_blank"><img src="./img/logos/FundacionBBVA.svg"
+                    class="img-responsive img-fluid" alt="logo Fundación BBVA"
+                    title="Ir al sitio web de la Fundación BBVA"></a>
+              </div>
+            </div>
+            <div class="col-md-4 col-12">
+              <div class="wrap-img" id="SEEC">
+                <a href="http://www.estudiosclasicos.org/" target="_blank"><img src="./img/logos/SEEC.png"
+                    class="img-responsive img-fluid" alt="logo Sociedad Española de Estudios Clásicos"
+                    title="Ir al sitio web de la Sociedad Española de Estudios Clásicos"></a>
+              </div>
+            </div>
+            <div class="col-md-4 col-12">
+              <div class="wrap-img" id="CSIC">
+                <a href="http://www.csic.es" target="_blank"><img src="./img/logos/MCINN_CSIC.jpg"
+                    class="img-responsive img-fluid" alt="logo CSIC y MCINN" title="Ir al sitio web del CSIC"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mySlides">
+          <div class="row justify-content-around align-items-center">
+            <div class="col-md-4 col-12">
+              <div class="wrap-img" id="CCHS">
+                <a href="http://cchs.csic.es/" target="_blank"><img src="./img/logos/CCHS.png"
+                    class="img-responsive img-fluid" alt="logo CCHS" title="Ir al sitio web del CCHS"></a>
+              </div>
+            </div>
+            <div class="col-md-4 col-12">
+              <div class="wrap-img" id="CCHS-ILC">
+                <a href="http://www.ilc.csic.es" target="_blank"><img src="./img/logos/CCHS_ILC.jpeg"
+                    class="img-responsive img-fluid" alt="logo ILC" title="Ir al sitio web del ILC"></a>
+              </div>
+            </div>
+            <div class="col-md-4 col-12">
+              <div class="wrap-img" id="PTIMedHis"><a href="https://pti-medhis.csic.es/" target="_blank"><img
+                    src="./img/logos/MedHis.jpg" class="img-responsive img-fluid" alt="logo PTI MedHis"
+                    title="Saber más de la PTI MedHis"></a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="jquery/jquery-3.4.1.slim.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/slideShow.js"></script>
-  </body>
+      <div class="slideshow-controls" style="text-align:center">
+        <a class="prev" onclick="plusSlides(-1)" title="Ver más"><span aria="true"
+            class="far fa-arrow-alt-circle-left"></span></a>
+        <a class="next" onclick="plusSlides(1)" title="Ver más"><span aria="true"
+            class="far fa-arrow-alt-circle-right"></span></a>
+      </div>
+    </section>
+    <div class="row">
+      <div class="col text-center">
+        <p class="small">Para cuestiones técnicas relacionadas con este sitio web, por favor diríjase a
+          elvuelodehermes&thinsp;@&thinsp;gmail.com<br>
+          <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licencia de Creative Commons"
+              style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" class="img-center" /></a>
+              ·2023·
+        </p>
+      </div>
+    </div>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="jquery/jquery-3.4.1.slim.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/slideShow.js"></script>
+</body>
 
 </html>

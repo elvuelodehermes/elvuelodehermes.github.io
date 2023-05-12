@@ -1,186 +1,275 @@
 <!DOCTYPE html>
 <html lang="es">
 
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="author" content="Inmaculada Pérez-Martín">
-    <meta name="author" content="Juan Signes-Codoñer">
-    <meta name="author" content="Jesús Polo-Arrondo">
-    <meta name="author" content="Paula Caballero-Sánchez">
-    <meta name="author" content="Carmen García-Bueno">
-    <meta name="keywords" content="Eustacio de Tesalónica, Dionisio de Alejandría, Periégesis, geografía antigua">
-    <meta name="description" content="Página del proyecto de investigación 'El mundo según Homero: de Dionisio Periegeta a Eustacio de Tesalónica', Madrid, España">
-    <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=greek,greek-ext" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <script src="https://kit.fontawesome.com/ac39874428.js" crossorigin="anonymous"></script>
-    <script src="js/modo_oscuro.js"></script>
-    <title>Dionisio Periegeta</title>
-  </head>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="author" content="Inmaculada Pérez-Martín">
+  <meta name="author" content="Juan Signes-Codoñer">
+  <meta name="author" content="Jesús Polo-Arrondo">
+  <meta name="author" content="Paula Caballero-Sánchez">
+  <meta name="author" content="Carmen García-Bueno">
+  <meta name="keywords" content="Eustacio de Tesalónica, Dionisio de Alejandría, Periégesis, geografía antigua">
+  <meta name="description"
+    content="Página del proyecto de investigación 'El mundo según Homero: de Dionisio Periegeta a Eustacio de Tesalónica', Madrid, España">
+  <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=greek,greek-ext"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <script src="https://kit.fontawesome.com/ac39874428.js" crossorigin="anonymous"></script>
+  <script src="js/modo_oscuro.js"></script>
+  <title>Dionisio Periegeta</title>
+</head>
 
-  <body>
-    <!-- Barra de navegación en la cabecera -->
-    <nav class="navbar navbar-expand-md bg-light navbar-light sticky-top">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#barraNavegacionColapsada"><span class="navbar-text">Menú</span><span class="navbar-toggler-icon"></span></button>
-      <div class="collapse navbar-collapse" id="barraNavegacionColapsada">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html" title="Página de inicio">Inicio</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Proyecto</a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="./proyecto.html" title="Conocer el proyecto">Sobre el proyecto</a>
-              <a class="dropdown-item" href="./proyecto.html#miembros" title="Conocer a los integrantes del proyecto">Miembros</a>
-              <a class="dropdown-item" href="./proyecto.html#cronograma" title="Vida del proyecto">Historia</a>
-              <a class="dropdown-item" href="./proyecto.html#recursos" title="Enlaces a otros materiales generados en el proyecto">Recursos</a>
-            </div>
-          </li>
-          <!--Esto es otro menú desplegable. Hay que cambiar el valor de href="" por la url de la página. Si no hay ninguna, el valor es # -->
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Dionisio Periegeta</a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="./dionisioperiegeta.html" title="Conocer al autor">El autor y la obra</a>
-              <a class="dropdown-item disabled" href="#" title="Explorar la traducción">texto en castellano</a>
-              <a class="dropdown-item" href="./periegesis.html" title="Explorar el texto original">texto en griego</a>
-              <a class="dropdown-item" href="./manuscritos.html" title="Conocer la transmisión textual">manuscritos</a>
-            </div>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Eustacio de Tesalónica</a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="./eustaciodetesalonica.html" title="Conocer al autor">El autor y la obra</a>
-              <a class="dropdown-item" href="./comentario.html" title="Explorar la traducción">texto en castellano</a>
-              <a class="dropdown-item" href="./eustaciogr.html" title="Explorar el texto original">texto en griego</a>
-              <a class="dropdown-item" href="./manuscritos.html" title="Conocer la transmisión textual">manuscritos</a>
-            </div>
-          </li>
-           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Mapas interactivos</a>
-            <div class="dropdown-menu">
-            <a class="dropdown-item" href="http://sigyhd.cchs.csic.es/el-mundo-segun-homero/" title="Al hacer clic en el enlace se abrirá una nueva pestaña en el navegador con el mapa" target="_blank"><em>Periégesis</em> de Dionisio</a>
-              <a class="dropdown-item" href="https://recogito.pelagios.org/document/nok4yr1hvqiiwa/map" title="Al hacer clic en el enlace se abrirá una nueva pestaña en el navegador con el mapa" target="_blank">Comentario de Eustacio</a>
-              <a class="dropdown-item" href="./mapas.html" title="Aprenda más sobre los mapas antiguos y digitales">Mapas</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./geografia.html" title="Aprender sobre la geografía antigua y su transmisión">La Geografía antigua</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./creditos.html" title="Créditos, agradecimientos, licencia, y otros detalles técnicos">Créditos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="mailto:elvuelodehermes@gmail.com?subject:Contacto desde la web" title="Contactar con el proyecto">Contacto</a>
-          </li>
-        </ul>
-      </div>
-      <button class="btn" onclick="modo_oscuro()" title="Invertir colores"><i class="fas fa-palette"></i></button>
-    </nav>
-    <header>
-      <div class="flex-container">
-        <div class="jumbotron" id="cabecera">
-          <h1>El vuelo de Hermes</h1>
-          <h2>Proyecto de investigación</h2>
-        </div>
-      </div>
-    </header>
-    <main class="container">
-      <h2>Dionisio Periegeta</h2>
-      <div class="row">
-        <section>
-          <h3>¿Quién era Dionisio de Alejandría? </h3>
-          <p>Muy escasos andamos de información sobre este Dionisio, también llamado «el Periegeta» por ser la <em>Periégesis de la tierra habitada</em> la única obra suya que nos ha llegado y para distinguirlo de otros Dionisios alejandrinos que escribieron sobre geografía. Las fuentes que arrojan alguna luz sobre su persona son el propio poema que compuso y las biografías breves y escolios (notas exegéticas o comentarios) que se han transmitido junto a este. Eustacio de Tesalónica (ca. 1115–1195/6), en el proemio/carta a su <em>Comentario</em>, recoge esa información:</p>
-          <blockquote>
-            <p>[…] se cuenta que Dionisio es originario de Libia; se dice que escribió otros libros: <em>Lithiaka</em>, <em>Ornithiaka</em> y <em>Bassarika</em>. Los <em>Ornithiaka</em>, por su parte, fueron atribuidos a Dionisio por la similitud del estilo, mientras que los <em>Bassarika</em>, por estar poco pulidos, no fueron juzgados dignos de este y se atribuyeron a Dionisio de Samos; en tercer lugar, los <em>Ornithiaka</em> lo fueron a otro Dionisio, cierto escritor de Filadelfia, al que juzgaban huero por su incorrecta dicción.</p>
-            <p class="resto">Los antiguos llaman el presente poema histórico, compuesto de información geográfica, administrativa, analística y genealógica, que –dicen– son las distintas facetas de la historia: geográfica, porque el objetivo general de la obra es la descripción de los lugares de la tierra; administrativa, en tanto en cuanto narra otras cosas y expone las costumbres de los pueblos; analística porque deja constancia de <strong>la época en la que él vivió, que no es la de los cónsules sino la de los emperadores</strong>; y genealógica, por ejemplo, cuando dice que los sauromatas descienden de las amazonas y los locrios epicefirios de esclavos.</p>
-          </blockquote>
-          <h3>La <em>Vita Chisiana</em></h3>
-          <p>Eustacio había comprendido que este poeta, y probablemente también profesor, alejandrino, era de época imperial, pues en la <em>Periégesis</em> no faltan pasajes en los que se alude al poder del emperador romano, pero desde la Antigüedad tardía hubo poco acuerdo sobre en época de qué emperador se compuso el poema. Dos códices del siglo <span class="versalitas">xiv</span> (<a href="https://pinakes.irht.cnrs.fr/notices/cote/65207/" title="Al hacer clic en el enlace se abrirá una nueva pestaña en el navegador" target="_blank" itemprop="url">Vat. Chig. R.IV.20</a> y <a href="https://pinakes.irht.cnrs.fr/notices/cote/52408/" title="Al hacer clic en el enlace se abrirá una nueva pestaña en el navegador" target="_blank" itemprop="url">Par. gr. 2772</a>) han conservado como prolegómeno a la <em>Periegesis</em> un texto al que se dio el nombre de <em>Vita Chisiana</em> (llamada así por el manuscrito perteneciente al fondo Chigi de la Biblioteca Vaticana en que se descubrió) y que despertó gran interés entre los estudiosos de la literatura antigua por la abundancia de versos inéditos que contenía. De biografía de Dionisio tiene más bien poco, pero la primera parte de la <em>Vita</em> sí analiza el poema con vistas a establecer su cronología. Así empieza:</p>
-          <blockquote>Dionisio Periegeta, hijo de Dionisio, era originario de Alejandría y de noble cuna; vivió en época imperial, como él mismo afirma en este poema (<abbr title="verso">v.</abbr> 355): «gloriosa Roma, magno hogar de mis señores». Cuando describe la región de Media afirma claramente que Augusto es anterior a su época, pues, compensando la derrota de Craso, los partos fueron derrotados por aquel emperador una vez más, como dice en estos versos (vv. 1051-52): «pero aun siendo imbatibles, la lanza del emperador ausonio los amansó».</blockquote>
-          <h2>Los acrósticos de la <em>Periégesis</em></h2>
-          <p>Una datación más precisa sólo fue posible cuando se descubrieron los mensajes encerrados en algunos acrósticos, es decir, palabras o frases conformadas a partir de la primera letra de algunos versos que hacen las veces de «sello de autor». Son dos:</p>
-          <ol>
-            <li><abbr title="versos">vv.</abbr> 109-134: <span lang="el">ΕΜΗ ΔΙΟΝΥΣΙΟΥ ΤΩΝ ΕΝΤΟΣ ΦΑΡΟΥ</span>. En este acróstico, Dionisio se presenta como originario de Alejandría «de los que viven Faro adentro», en alusión a la famosa isla que ha dado nombre a todos los faros y que se encontraba en el delta del Nilo.</li>
-            <li><abbr title="versos">vv.</abbr> 513-532: <span lang="el">ΘΕΟΣ ΕΡΜΗΣ ΕΠΙ ΑΔΡΙΑΝΟΥ</span>. «En época de Adriano» zanja el debate sobre la fecha de composición asegurando ésta en los años 117-138 <abbr title="después de Cristo">d.C.</abbr> La fecha ha querido precisarse en torno a 130 <abbr title="después de Cristo">d.C.</abbr>, cuando tuvo lugar una visita de Adriano a Egipto. El papel del dios Hermes en el poema, por su parte, ha sido analizado por distintos estudiosos, en especial por Christian Jacob. Hermes es el dios mensajero, el que domina el espacio abriéndose paso por caminos no siempre rectos.</li>
-          </ol>
-          <h3>La fortuna de la <em>Periégesis</em> de Dionisio</h3>
-          <p>El destinatario de la <em>Periégesis</em>, un poema en hexámetros de raigambre homérica que resume en 1186 versos el conocimiento sobre el mundo habitado (que es lo que significa <em>oikoumenê</em> o ecúmene), es el joven ciudadano romano, de quien se esperaba que amueblara su mente con nociones de geografía y antropología. Pero el contenido general y sintético de la <em>Periégesis</em> no está reñido con una sofisticación literaria que a menudo obliga a descifrar el sentido de los versos, mediante escolios o con una versión en prosa (paráfrasis) que suelen acompañar el poema.</p>
-          <p class="resto">La complejidad de la obra no impidió su éxito rotundo, desde la primera traducción de Avieno (hacia 360) hasta la edición aldina de 1512. Unos 150 códices bizantinos lo conservan, normalmente junto con otros poemas (de Hesíodo, de Píndaro, de Licofrón, de Opiano) u obras teatrales. Es un número extraordinariamente alto de testimonios, casi todos ellos de época paleóloga (1261-1453), cuando la <em>Periégesis</em> se convirtió en una de las obras del canon escolar bizantino. A ello contribuyeron los profesores constantinopolitanos como Juan Tzetzes y Eustacio de Tesalónica que en el siglo <span class="versalitas">xii</span> explicaron el poema en sus cursos.</p>
-        </section>
-        <div class="container">
-          <figure>
-            <a href="https://commons.wikimedia.org/wiki/File:Karte_Dionysius.jpg" title="Al hacer clic en el enlace se abrirá una pestaña en el navegador" target="_blank" itemprop="url"><img alt="Karte Dionysius" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Karte_Dionysius.jpg/512px-Karte_Dionysius.jpg" class="img-fluid mx-auto d-block figure-img"></a>
-            <figcaption class="figure-caption">
-              <p>El mundo según la descripción que del mismo hace Dionisio en su obra.</p>
-              <p>Miller, K. <span lang="de"><em>Mappaemundi: die altesten Welkarten</em>. Stuttgart: J. Roth</span>, 1895. <a href="https://commons.wikimedia.org/wiki/File:Karte_Dionysius.jpg" title="Al hacer clic en el enlace se abrirá una pestaña en el navegador" target="_blank" itemprop="url">Dominio público, Wikimedia Commons</a></p>
-            </figcaption>
-          </figure>
-        </div>
-      </div>
-    </main>
-    <footer class="container">
-<section id="carrusel-logos">
-        <div class="slideshow-container">
-          <div class="mySlides">
-            <div class="row justify-content-around align-items-center">
-              <div class="col-md-4 col-12">
-                <div id="fundacionBBVA">
-                  <a href="https://www.fbbva.es" target="_blank"><img src="./img/logos/FundacionBBVA.svg" class="img-responsive img-fluid" alt="logo Fundación BBVA" title="Ir al sitio web de la Fundación BBVA"></a>
-                </div>
-              </div>
-              <div class="col-md-4 col-12">
-                <div class="wrap-img" id="SEEC">
-                  <a href="http://www.estudiosclasicos.org/" target="_blank"><img src="./img/logos/SEEC.png" class="img-responsive img-fluid" alt="logo Sociedad Española de Estudios Clásicos" title="Ir al sitio web de la Sociedad Española de Estudios Clásicos"></a>
-                </div>
-              </div>
-              <div class="col-md-4 col-12">
-                <div class="wrap-img" id="CSIC">
-                  <a href="http://www.csic.es" target="_blank"><img src="./img/logos/MCINN_CSIC.jpg" class="img-responsive img-fluid" alt="logo CSIC y MCINN" title="Ir al sitio web del CSIC"></a>
-                </div>
-              </div>
-            </div>
+<body>
+  <!-- Barra de navegación en la cabecera -->
+  <nav class="navbar navbar-expand-md bg-light navbar-light sticky-top">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#barraNavegacionColapsada"><span
+        class="navbar-text">Menú</span><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="barraNavegacionColapsada">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html" title="Página de inicio">Inicio</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Proyecto</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="./proyecto.html" title="Conocer el proyecto">Sobre el proyecto</a>
+            <a class="dropdown-item" href="./proyecto.html#miembros"
+              title="Conocer a los integrantes del proyecto">Miembros</a>
+            <a class="dropdown-item" href="./proyecto.html#cronograma" title="Vida del proyecto">Historia</a>
+            <a class="dropdown-item" href="./proyecto.html#recursos"
+              title="Enlaces a otros materiales generados en el proyecto">Recursos</a>
           </div>
-          <div class="mySlides">
-            <div class="row justify-content-around align-items-center">
-              <div class="col-md-4 col-12">
-                <div class="wrap-img" id="CCHS">
-                  <a href="http://cchs.csic.es/" target="_blank"><img src="./img/logos/CCHS.png" class="img-responsive img-fluid" alt="logo CCHS" title="Ir al sitio web del CCHS"></a>
-                </div>
-              </div>
-              <div class="col-md-4 col-12">
-                <div class="wrap-img" id="CCHS-ILC">
-                  <a href="http://www.ilc.csic.es" target="_blank"><img src="./img/logos/CCHS_ILC.jpeg" class="img-responsive img-fluid" alt="logo ILC" title="Ir al sitio web del ILC"></a>
-                </div>
-              </div>
-              <div class="col-md-4 col-12">
-                <div class="wrap-img" id="PTIMedHis"><a href="https://pti-medhis.csic.es/" target="_blank"><img src="./img/logos/MedHis.jpg" class="img-responsive img-fluid" alt="logo PTI MedHis" title="Saber más de la PTI MedHis"></a>
-                </div>
-              </div>
-            </div>
+        </li>
+        <!--Esto es otro menú desplegable. Hay que cambiar el valor de href="" por la url de la página. Si no hay ninguna, el valor es # -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Dionisio Periegeta</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="./dionisioperiegeta.html" title="Conocer al autor">El autor y la obra</a>
+            <a class="dropdown-item disabled" href="#" title="Explorar la traducción">texto en castellano</a>
+            <a class="dropdown-item" href="./periegesis.html" title="Explorar el texto original">texto en griego</a>
+            <a class="dropdown-item" href="./manuscritos.html" title="Conocer la transmisión textual">manuscritos</a>
           </div>
-        </div>
-        <div class="slideshow-controls" style="text-align:center">
-          <a class="prev" onclick="plusSlides(-1)" title="Ver más"><span aria="true" class="far fa-arrow-alt-circle-left"></span></a>
-          <a class="next" onclick="plusSlides(1)" title="Ver más"><span aria="true" class="far fa-arrow-alt-circle-right"></span></a>
-        </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Eustacio de Tesalónica</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="./eustaciodetesalonica.html" title="Conocer al autor">El autor y la obra</a>
+            <a class="dropdown-item" href="./comentario.html" title="Explorar la traducción">texto en castellano</a>
+            <a class="dropdown-item" href="./eustaciogr.html" title="Explorar el texto original">texto en griego</a>
+            <a class="dropdown-item" href="./manuscritos.html" title="Conocer la transmisión textual">manuscritos</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Mapas interactivos</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="http://sigyhd.cchs.csic.es/el-mundo-segun-homero/"
+              title="Al hacer clic en el enlace se abrirá una nueva pestaña en el navegador con el mapa"
+              target="_blank"><em>Periégesis</em> de Dionisio</a>
+            <a class="dropdown-item" href="https://recogito.pelagios.org/document/nok4yr1hvqiiwa/map"
+              title="Al hacer clic en el enlace se abrirá una nueva pestaña en el navegador con el mapa"
+              target="_blank">Comentario de Eustacio</a>
+            <a class="dropdown-item" href="./mapas.html"
+              title="Aprenda más sobre los mapas antiguos y digitales">Mapas</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./geografia.html" title="Aprender sobre la geografía antigua y su transmisión">La
+            Geografía antigua</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./creditos.html"
+            title="Créditos, agradecimientos, licencia, y otros detalles técnicos">Créditos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="mailto:elvuelodehermes@gmail.com?subject:Contacto desde la web"
+            title="Contactar con el proyecto">Contacto</a>
+        </li>
+      </ul>
+    </div>
+    <button class="btn" onclick="modo_oscuro()" title="Invertir colores"><i class="fas fa-palette"></i></button>
+  </nav>
+  <header>
+    <div class="flex-container">
+      <div class="jumbotron" id="cabecera">
+        <h1>El vuelo de Hermes</h1>
+        <h2>Proyecto de investigación</h2>
+      </div>
+    </div>
+  </header>
+  <main class="container">
+    <h2>Dionisio Periegeta</h2>
+    <div class="row">
+      <section>
+        <h3>¿Quién era Dionisio de Alejandría? </h3>
+        <p>Muy escasos andamos de información sobre este Dionisio, también llamado «el Periegeta» por ser la
+          <em>Periégesis de la tierra habitada</em> la única obra suya que nos ha llegado y para distinguirlo de otros
+          Dionisios alejandrinos que escribieron sobre geografía. Las fuentes que arrojan alguna luz sobre su persona
+          son el propio poema que compuso y las biografías breves y escolios (notas exegéticas o comentarios) que se han
+          transmitido junto a este. Eustacio de Tesalónica (ca. 1115–1195/6), en el proemio/carta a su
+          <em>Comentario</em>, recoge esa información:</p>
+        <blockquote>
+          <p>[…] se cuenta que Dionisio es originario de Libia; se dice que escribió otros libros: <em>Lithiaka</em>,
+            <em>Ornithiaka</em> y <em>Bassarika</em>. Los <em>Ornithiaka</em>, por su parte, fueron atribuidos a
+            Dionisio por la similitud del estilo, mientras que los <em>Bassarika</em>, por estar poco pulidos, no fueron
+            juzgados dignos de este y se atribuyeron a Dionisio de Samos; en tercer lugar, los <em>Ornithiaka</em> lo
+            fueron a otro Dionisio, cierto escritor de Filadelfia, al que juzgaban huero por su incorrecta dicción.</p>
+          <p class="resto">Los antiguos llaman el presente poema histórico, compuesto de información geográfica,
+            administrativa, analística y genealógica, que –dicen– son las distintas facetas de la historia: geográfica,
+            porque el objetivo general de la obra es la descripción de los lugares de la tierra; administrativa, en
+            tanto en cuanto narra otras cosas y expone las costumbres de los pueblos; analística porque deja constancia
+            de <strong>la época en la que él vivió, que no es la de los cónsules sino la de los emperadores</strong>; y
+            genealógica, por ejemplo, cuando dice que los sauromatas descienden de las amazonas y los locrios
+            epicefirios de esclavos.</p>
+        </blockquote>
+        <h3>La <em>Vita Chisiana</em></h3>
+        <p>Eustacio había comprendido que este poeta, y probablemente también profesor, alejandrino, era de época
+          imperial, pues en la <em>Periégesis</em> no faltan pasajes en los que se alude al poder del emperador romano,
+          pero desde la Antigüedad tardía hubo poco acuerdo sobre en época de qué emperador se compuso el poema. Dos
+          códices del siglo <span class="versalitas">xiv</span> (<a
+            href="https://pinakes.irht.cnrs.fr/notices/cote/65207/"
+            title="Al hacer clic en el enlace se abrirá una nueva pestaña en el navegador" target="_blank"
+            itemprop="url">Vat. Chig. R.IV.20</a> y <a href="https://pinakes.irht.cnrs.fr/notices/cote/52408/"
+            title="Al hacer clic en el enlace se abrirá una nueva pestaña en el navegador" target="_blank"
+            itemprop="url">Par. gr. 2772</a>) han conservado como prolegómeno a la <em>Periegesis</em> un texto al que
+          se dio el nombre de <em>Vita Chisiana</em> (llamada así por el manuscrito perteneciente al fondo Chigi de la
+          Biblioteca Vaticana en que se descubrió) y que despertó gran interés entre los estudiosos de la literatura
+          antigua por la abundancia de versos inéditos que contenía. De biografía de Dionisio tiene más bien poco, pero
+          la primera parte de la <em>Vita</em> sí analiza el poema con vistas a establecer su cronología. Así empieza:
+        </p>
+        <blockquote>Dionisio Periegeta, hijo de Dionisio, era originario de Alejandría y de noble cuna; vivió en época
+          imperial, como él mismo afirma en este poema (<abbr title="verso">v.</abbr> 355): «gloriosa Roma, magno hogar
+          de mis señores». Cuando describe la región de Media afirma claramente que Augusto es anterior a su época,
+          pues, compensando la derrota de Craso, los partos fueron derrotados por aquel emperador una vez más, como dice
+          en estos versos (vv. 1051-52): «pero aun siendo imbatibles, la lanza del emperador ausonio los amansó».
+        </blockquote>
+        <h2>Los acrósticos de la <em>Periégesis</em></h2>
+        <p>Una datación más precisa sólo fue posible cuando se descubrieron los mensajes encerrados en algunos
+          acrósticos, es decir, palabras o frases conformadas a partir de la primera letra de algunos versos que hacen
+          las veces de «sello de autor». Son dos:</p>
+        <ol>
+          <li><abbr title="versos">vv.</abbr> 109-134: <span lang="el">ΕΜΗ ΔΙΟΝΥΣΙΟΥ ΤΩΝ ΕΝΤΟΣ ΦΑΡΟΥ</span>. En este
+            acróstico, Dionisio se presenta como originario de Alejandría «de los que viven Faro adentro», en alusión a
+            la famosa isla que ha dado nombre a todos los faros y que se encontraba en el delta del Nilo.</li>
+          <li><abbr title="versos">vv.</abbr> 513-532: <span lang="el">ΘΕΟΣ ΕΡΜΗΣ ΕΠΙ ΑΔΡΙΑΝΟΥ</span>. «En época de
+            Adriano» zanja el debate sobre la fecha de composición asegurando ésta en los años 117-138 <abbr
+              title="después de Cristo">d.C.</abbr> La fecha ha querido precisarse en torno a 130 <abbr
+              title="después de Cristo">d.C.</abbr>, cuando tuvo lugar una visita de Adriano a Egipto. El papel del dios
+            Hermes en el poema, por su parte, ha sido analizado por distintos estudiosos, en especial por Christian
+            Jacob. Hermes es el dios mensajero, el que domina el espacio abriéndose paso por caminos no siempre rectos.
+          </li>
+        </ol>
+        <h3>La fortuna de la <em>Periégesis</em> de Dionisio</h3>
+        <p>El destinatario de la <em>Periégesis</em>, un poema en hexámetros de raigambre homérica que resume en 1186
+          versos el conocimiento sobre el mundo habitado (que es lo que significa <em>oikoumenê</em> o ecúmene), es el
+          joven ciudadano romano, de quien se esperaba que amueblara su mente con nociones de geografía y antropología.
+          Pero el contenido general y sintético de la <em>Periégesis</em> no está reñido con una sofisticación literaria
+          que a menudo obliga a descifrar el sentido de los versos, mediante escolios o con una versión en prosa
+          (paráfrasis) que suelen acompañar el poema.</p>
+        <p class="resto">La complejidad de la obra no impidió su éxito rotundo, desde la primera traducción de Avieno
+          (hacia 360) hasta la edición aldina de 1512. Unos 150 códices bizantinos lo conservan, normalmente junto con
+          otros poemas (de Hesíodo, de Píndaro, de Licofrón, de Opiano) u obras teatrales. Es un número
+          extraordinariamente alto de testimonios, casi todos ellos de época paleóloga (1261-1453), cuando la
+          <em>Periégesis</em> se convirtió en una de las obras del canon escolar bizantino. A ello contribuyeron los
+          profesores constantinopolitanos como Juan Tzetzes y Eustacio de Tesalónica que en el siglo <span
+            class="versalitas">xii</span> explicaron el poema en sus cursos.</p>
       </section>
-      <div class="row">
-        <div class="col text-center">
-          <p class="small">Para cuestiones técnicas relacionadas con este sitio web, por favor diríjase a elvuelodehermes&thinsp;@&thinsp;gmail.com<br>
-            <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" class="img-center" /></a> 2023
-          </p>
+      <div class="container">
+        <figure>
+          <a href="https://commons.wikimedia.org/wiki/File:Karte_Dionysius.jpg"
+            title="Al hacer clic en el enlace se abrirá una pestaña en el navegador" target="_blank" itemprop="url"><img
+              alt="Karte Dionysius"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Karte_Dionysius.jpg/512px-Karte_Dionysius.jpg"
+              class="img-fluid mx-auto d-block figure-img"></a>
+          <figcaption class="figure-caption">
+            <p>El mundo según la descripción que del mismo hace Dionisio en su obra.</p>
+            <p>Miller, K. <span lang="de"><em>Mappaemundi: die altesten Welkarten</em>. Stuttgart: J. Roth</span>, 1895.
+              <a href="https://commons.wikimedia.org/wiki/File:Karte_Dionysius.jpg"
+                title="Al hacer clic en el enlace se abrirá una pestaña en el navegador" target="_blank"
+                itemprop="url">Dominio público, Wikimedia Commons</a></p>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </main>
+  <footer class="container">
+    <section id="carrusel-logos">
+      <div class="slideshow-container">
+        <div class="mySlides">
+          <div class="row justify-content-around align-items-center">
+            <div class="col-md-4 col-12">
+              <div id="fundacionBBVA">
+                <a href="https://www.fbbva.es" target="_blank"><img src="./img/logos/FundacionBBVA.svg"
+                    class="img-responsive img-fluid" alt="logo Fundación BBVA"
+                    title="Ir al sitio web de la Fundación BBVA"></a>
+              </div>
+            </div>
+            <div class="col-md-4 col-12">
+              <div class="wrap-img" id="SEEC">
+                <a href="http://www.estudiosclasicos.org/" target="_blank"><img src="./img/logos/SEEC.png"
+                    class="img-responsive img-fluid" alt="logo Sociedad Española de Estudios Clásicos"
+                    title="Ir al sitio web de la Sociedad Española de Estudios Clásicos"></a>
+              </div>
+            </div>
+            <div class="col-md-4 col-12">
+              <div class="wrap-img" id="CSIC">
+                <a href="http://www.csic.es" target="_blank"><img src="./img/logos/MCINN_CSIC.jpg"
+                    class="img-responsive img-fluid" alt="logo CSIC y MCINN" title="Ir al sitio web del CSIC"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mySlides">
+          <div class="row justify-content-around align-items-center">
+            <div class="col-md-4 col-12">
+              <div class="wrap-img" id="CCHS">
+                <a href="http://cchs.csic.es/" target="_blank"><img src="./img/logos/CCHS.png"
+                    class="img-responsive img-fluid" alt="logo CCHS" title="Ir al sitio web del CCHS"></a>
+              </div>
+            </div>
+            <div class="col-md-4 col-12">
+              <div class="wrap-img" id="CCHS-ILC">
+                <a href="http://www.ilc.csic.es" target="_blank"><img src="./img/logos/CCHS_ILC.jpeg"
+                    class="img-responsive img-fluid" alt="logo ILC" title="Ir al sitio web del ILC"></a>
+              </div>
+            </div>
+            <div class="col-md-4 col-12">
+              <div class="wrap-img" id="PTIMedHis"><a href="https://pti-medhis.csic.es/" target="_blank"><img
+                    src="./img/logos/MedHis.jpg" class="img-responsive img-fluid" alt="logo PTI MedHis"
+                    title="Saber más de la PTI MedHis"></a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="jquery/jquery-3.4.1.slim.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/slideShow.js"></script>
-  </body>
+      <div class="slideshow-controls" style="text-align:center">
+        <a class="prev" onclick="plusSlides(-1)" title="Ver más"><span aria="true"
+            class="far fa-arrow-alt-circle-left"></span></a>
+        <a class="next" onclick="plusSlides(1)" title="Ver más"><span aria="true"
+            class="far fa-arrow-alt-circle-right"></span></a>
+      </div>
+    </section>
+    <div class="row">
+      <div class="col text-center">
+        <p class="small">Para cuestiones técnicas relacionadas con este sitio web, por favor diríjase a
+          elvuelodehermes&thinsp;@&thinsp;gmail.com<br>
+          <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licencia de Creative Commons"
+              style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" class="img-center" /></a>
+              ·2023·
+        </p>
+      </div>
+    </div>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="jquery/jquery-3.4.1.slim.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/slideShow.js"></script>
+</body>
 
 </html>

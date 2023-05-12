@@ -1,166 +1,240 @@
 <!DOCTYPE html>
 <html lang="es">
 
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="author" content="Inmaculada Pérez-Martín">
-    <meta name="author" content="Juan Signes-Codoñer">
-    <meta name="author" content="Jesús Polo-Arrondo">
-    <meta name="author" content="Paula Caballero-Sánchez">
-    <meta name="author" content="Carmen García-Bueno">
-    <meta name="keywords" content="Eustacio de Tesalónica, Dionisio de Alejandría, Periégesis, geografía antigua">
-    <meta name="description" content="Página del proyecto de investigación 'El mundo según Homero: de Dionisio Periegeta a Eustacio de Tesalónica', Madrid, España">
-    <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=greek,greek-ext" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <script src="https://kit.fontawesome.com/ac39874428.js" crossorigin="anonymous"></script>
-    <script src="js/modo_oscuro.js"></script>
-    <title>Eustacio de Tesalónica</title>
-  </head>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="author" content="Inmaculada Pérez-Martín">
+  <meta name="author" content="Juan Signes-Codoñer">
+  <meta name="author" content="Jesús Polo-Arrondo">
+  <meta name="author" content="Paula Caballero-Sánchez">
+  <meta name="author" content="Carmen García-Bueno">
+  <meta name="keywords" content="Eustacio de Tesalónica, Dionisio de Alejandría, Periégesis, geografía antigua">
+  <meta name="description"
+    content="Página del proyecto de investigación 'El mundo según Homero: de Dionisio Periegeta a Eustacio de Tesalónica', Madrid, España">
+  <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=greek,greek-ext"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <script src="https://kit.fontawesome.com/ac39874428.js" crossorigin="anonymous"></script>
+  <script src="js/modo_oscuro.js"></script>
+  <title>Eustacio de Tesalónica</title>
+</head>
 
-  <body>
-    <!-- Barra de navegación en la cabecera -->
-    <nav class="navbar navbar-expand-md bg-light navbar-light sticky-top">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#barraNavegacionColapsada"><span class="navbar-text">Menú</span><span class="navbar-toggler-icon"></span></button>
-      <div class="collapse navbar-collapse" id="barraNavegacionColapsada">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html" title="Página de inicio">Inicio</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Proyecto</a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="./proyecto.html" title="Conocer el proyecto">Sobre el proyecto</a>
-              <a class="dropdown-item" href="./proyecto.html#miembros" title="Conocer a los integrantes del proyecto">Miembros</a>
-              <a class="dropdown-item" href="./proyecto.html#cronograma" title="Vida del proyecto">Historia</a>
-              <a class="dropdown-item" href="./proyecto.html#recursos" title="Enlaces a otros materiales generados en el proyecto">Recursos</a>
-            </div>
-          </li>
-          <!--Esto es otro menú desplegable. Hay que cambiar el valor de href="" por la url de la página. Si no hay ninguna, el valor es # -->
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Dionisio Periegeta</a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="./dionisioperiegeta.html" title="Conocer al autor">El autor y la obra</a>
-              <a class="dropdown-item disabled" href="#" title="Explorar la traducción">texto en castellano</a>
-              <a class="dropdown-item" href="./periegesis.html" title="Explorar el texto original">texto en griego</a>
-              <a class="dropdown-item" href="./manuscritos.html" title="Conocer la transmisión textual">manuscritos</a>
-            </div>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Eustacio de Tesalónica</a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="./eustaciodetesalonica.html" title="Conocer al autor">El autor y la obra</a>
-              <a class="dropdown-item" href="./comentario.html" title="Explorar la traducción">texto en castellano</a>
-              <a class="dropdown-item" href="./eustaciogr.html" title="Explorar el texto original">texto en griego</a>
-              <a class="dropdown-item" href="./manuscritos.html" title="Conocer la transmisión textual">manuscritos</a>
-            </div>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Mapas interactivos</a>
-            <div class="dropdown-menu">
-            <a class="dropdown-item" href="http://sigyhd.cchs.csic.es/el-mundo-segun-homero/" title="Al hacer clic en el enlace se abrirá una nueva pestaña en el navegador con el mapa" target="_blank"><em>Periégesis</em> de Dionisio</a>
-              <a class="dropdown-item" href="https://recogito.pelagios.org/document/nok4yr1hvqiiwa/map" title="Al hacer clic en el enlace se abrirá una nueva pestaña en el navegador con el mapa" target="_blank">Comentario de Eustacio</a>
-              <a class="dropdown-item" href="./mapas.html" title="Aprenda más sobre los mapas antiguos y digitales">Mapas</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./geografia.html" title="Aprender sobre la geografía antigua y su transmisión">La Geografía antigua</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./creditos.html" title="Créditos, agradecimientos, licencia, y otros detalles técnicos">Créditos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="mailto:elvuelodehermes@gmail.com?subject:Contacto desde la web" title="Contactar con el proyecto">Contacto</a>
-          </li>
-        </ul>
-      </div>
-      <button class="btn" onclick="modo_oscuro()" title="Invertir colores"><i class="fas fa-palette"></i></button>
-    </nav>
-    <header>
-      <div class="flex-container">
-        <div class="jumbotron" id="cabecera">
-          <h1>El vuelo de Hermes</h1>
-          <h2>Proyecto de investigación</h2>
-        </div>
-      </div>
-    </header>
-    <main class="container">
-      <div class="row">
-        <section>
-          <h2>Eustacio de Tesalónica</h2>
-          <p>Es uno de los estudiosos bizantinos más prestigiosos y sin duda la figura literaria de referencia del siglo <span class="versalitas">xii</span>, autor de obras filológicas, retóricas, históricas y teológicas que ejerció gran influencia en la vida cultural bizantina a través tanto de sus composiciones como de sus discípulos. Entre 1166 y 1178 fue profesor de retórica en Constantinopla y es esta labor la que explica la composición de valiosos comentarios a los poemas de Homero y Dionisio Periegeta, así como otros perdidos sobre Píndaro y otros poetas. Desde 1178 hasta su muerte en 1195/6 fue arzobispo de Tesalónica, ciudad en la que dejó una impronta espiritual y cultural. En <em>La toma de Tesalónica</em> narra el saqueo normando de la ciudad acaecido en 1185.</p>
-        </section>
-        <section>
-          <h3>Las <em>Parekbolai</em> o <em>Comentarios a la Periégesis de Dionisio de Alejandría</em></h3>
-          <p>Esta obra fue compuesta después de los ambiciosos y monumentales <em>Comentarios</em> a la <em>Ilíada</em> y la <em>Odisea</em>, a los se que hace referencia en distintos pasajes del comentario a la obra geográfica. Reenviar a su obra anterior permite a Eustacio evitar explicaciones sobre pueblos imaginarios como los etíopes orientales, los trogloditas o los erembos, y ceñirse a unas nociones geográficas marcadas por los descubrimientos alejandrinos. Los fundamentos de esa visión del mundo quedaban establecidos en los primeros versos del poema y en los correspondientes comentarios: una división en tres continentes, Libia, Europa y Asia; un océano rodeándolos sin interrupción e introduciéndose en la tierra continental en cuatro golfos/mares emparejados (el mar Negro con el golfo Arábigo, el mar Caspio con el golfo Pérsico) y en el mar interior, el Mediterráneo. En ese marco general, la descripción geográfica va sumando ingredientes a lo largo de una serie de recorridos que siguen las líneas de costa o saltan entre puntos de referencia de la navegación, dejando los pueblos del interior más desdibujados o incluso, en el caso de los más alejados del Mediterráneo, envueltos en las nieblas de la fábula y el desconocimiento. La península Ibérica, por ejemplo, se reduce al estrecho de Gibraltar, Gadira o Cádiz, Tartesos, el cabo de San Vicente, los Pirineos a cuyo pie habitan los cempsos; junto a ella, Ibiza y unas míticas islas Gimnesias.</p>
-          <p class="resto">Las anotaciones (organizadas sistemáticamente siguiendo el texto del poema) están precedidas por una <strong>carta introductoria</strong> que confirma el público al que estaba destinado el comentario, es decir, la clase educada constantinopolitana a la que pertenecían sus estudiantes, miembros de las familias aristócratas cuyos lazos conformaban las redes del poder imperial en época comnena. El destinatario de la carta es Juan Ducas, hijo de Andrónico Camatero, un estudiante de Eustacio que ha animado a su maestro a componer el comentario geográfico; el valor que ambos dan a la Geografía es referido de forma explícita: el conocimiento geográfico es útil para la vida, despierta el entendimiento del estudioso y los militares y el emperador lo pueden utilizar; asimismo, como cualquier otro conocimiento, es útil para distinguirse de aquellos que carecen de él. Un tío de Ducas, Juan Camatero, orador de renombre, escribió una <em>Introducción a la Astronomía</em>, y sabemos de él que consideraba los poemas de Arato y de Dionisio Periegeta obras complementarias y necesitadas de ilustración si los estudiantes pretendían comprenderlas en toda su complejidad.</p>
-          <p class="resto">Eustacio despliega una impresionante batería de fuentes en su comentario, a las que alude por lo general por el sobrenombre: así, igual que Dionisio es el Periegeta, Estrabón es el Geógrafo, Aristófanes el Cómico, Homero el Poeta… Pero las obras de referencia más usadas son sin duda Estrabón y Heródoto, que le permiten completar y precisar las alusiones del poema, descarnadas de puro sintéticas. Por otra parte, los rasgos distintivos de la <em>Periégesis</em>, su vocabulario arcaico y poco común, su expresión manierista, las cuestiones de toponimia y cartografía que suscita, las alusiones mitológicas, todo hacía necesarios los escolios exegéticos; estos complementaban una paráfrasis en koine contigua al poema en muchas copias bizantinas de la obra, que ayudaba a superar las dificultades de comprensión, confirmando el interés del contenido para sus lectores. Una versión en prosa, en todo caso, no resolvía todos los problemas ni ambigüedades del poema, así que Eustacio se aplica a la labor de consultar todos los textos que tenía a su disposición para valorar las informaciones no rara vez incompatibles y a menudo diferentes sobre los pueblos y lugares del mundo conocido. El profesor bizantino, con buen criterio, no pretenderá completar la información que da Dionisio añadiendo accidentes geográficos o gentilicios, sino explicarla y enriquecerla utilizando el formato de <em>parekbolai</em> o «anotaciones puntuales», esto es, «fichas» de contenido articulado sobre un único tema precedidas por <em>hoti</em> «Que…» (aunque puede haber añadidos complementarios encabezados por <em>semeiosai</em> «nótese» o por <em>hora</em> «fíjate en»).</p>
-        </section>
-      </div>
-    </main>
-    <footer class="container">
-     <section id="carrusel-logos">
-        <div class="slideshow-container">
-          <div class="mySlides">
-            <div class="row justify-content-around align-items-center">
-              <div class="col-md-4 col-12">
-                <div id="fundacionBBVA">
-                  <a href="https://www.fbbva.es" target="_blank"><img src="./img/logos/FundacionBBVA.svg" class="img-responsive img-fluid" alt="logo Fundación BBVA" title="Ir al sitio web de la Fundación BBVA"></a>
-                </div>
-              </div>
-              <div class="col-md-4 col-12">
-                <div class="wrap-img" id="SEEC">
-                  <a href="http://www.estudiosclasicos.org/" target="_blank"><img src="./img/logos/SEEC.png" class="img-responsive img-fluid" alt="logo Sociedad Española de Estudios Clásicos" title="Ir al sitio web de la Sociedad Española de Estudios Clásicos"></a>
-                </div>
-              </div>
-              <div class="col-md-4 col-12">
-                <div class="wrap-img" id="CSIC">
-                  <a href="http://www.csic.es" target="_blank"><img src="./img/logos/MCINN_CSIC.jpg" class="img-responsive img-fluid" alt="logo CSIC y MCINN" title="Ir al sitio web del CSIC"></a>
-                </div>
-              </div>
-            </div>
+<body>
+  <!-- Barra de navegación en la cabecera -->
+  <nav class="navbar navbar-expand-md bg-light navbar-light sticky-top">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#barraNavegacionColapsada"><span
+        class="navbar-text">Menú</span><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="barraNavegacionColapsada">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html" title="Página de inicio">Inicio</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Proyecto</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="./proyecto.html" title="Conocer el proyecto">Sobre el proyecto</a>
+            <a class="dropdown-item" href="./proyecto.html#miembros"
+              title="Conocer a los integrantes del proyecto">Miembros</a>
+            <a class="dropdown-item" href="./proyecto.html#cronograma" title="Vida del proyecto">Historia</a>
+            <a class="dropdown-item" href="./proyecto.html#recursos"
+              title="Enlaces a otros materiales generados en el proyecto">Recursos</a>
           </div>
-          <div class="mySlides">
-            <div class="row justify-content-around align-items-center">
-              <div class="col-md-4 col-12">
-                <div class="wrap-img" id="CCHS">
-                  <a href="http://cchs.csic.es/" target="_blank"><img src="./img/logos/CCHS.png" class="img-responsive img-fluid" alt="logo CCHS" title="Ir al sitio web del CCHS"></a>
-                </div>
-              </div>
-              <div class="col-md-4 col-12">
-                <div class="wrap-img" id="CCHS-ILC">
-                  <a href="http://www.ilc.csic.es" target="_blank"><img src="./img/logos/CCHS_ILC.jpeg" class="img-responsive img-fluid" alt="logo ILC" title="Ir al sitio web del ILC"></a>
-                </div>
-              </div>
-              <div class="col-md-4 col-12">
-                <div class="wrap-img" id="PTIMedHis"><a href="https://pti-medhis.csic.es/" target="_blank"><img src="./img/logos/MedHis.jpg" class="img-responsive img-fluid" alt="logo PTI MedHis" title="Saber más de la PTI MedHis"></a>
-                </div>
-              </div>
-            </div>
+        </li>
+        <!--Esto es otro menú desplegable. Hay que cambiar el valor de href="" por la url de la página. Si no hay ninguna, el valor es # -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Dionisio Periegeta</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="./dionisioperiegeta.html" title="Conocer al autor">El autor y la obra</a>
+            <a class="dropdown-item disabled" href="#" title="Explorar la traducción">texto en castellano</a>
+            <a class="dropdown-item" href="./periegesis.html" title="Explorar el texto original">texto en griego</a>
+            <a class="dropdown-item" href="./manuscritos.html" title="Conocer la transmisión textual">manuscritos</a>
           </div>
-        </div>
-        <div class="slideshow-controls" style="text-align:center">
-          <a class="prev" onclick="plusSlides(-1)" title="Ver más"><span aria="true" class="far fa-arrow-alt-circle-left"></span></a>
-          <a class="next" onclick="plusSlides(1)" title="Ver más"><span aria="true" class="far fa-arrow-alt-circle-right"></span></a>
-        </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Eustacio de Tesalónica</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="./eustaciodetesalonica.html" title="Conocer al autor">El autor y la obra</a>
+            <a class="dropdown-item" href="./comentario.html" title="Explorar la traducción">texto en castellano</a>
+            <a class="dropdown-item" href="./eustaciogr.html" title="Explorar el texto original">texto en griego</a>
+            <a class="dropdown-item" href="./manuscritos.html" title="Conocer la transmisión textual">manuscritos</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Mapas interactivos</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="http://sigyhd.cchs.csic.es/el-mundo-segun-homero/"
+              title="Al hacer clic en el enlace se abrirá una nueva pestaña en el navegador con el mapa"
+              target="_blank"><em>Periégesis</em> de Dionisio</a>
+            <a class="dropdown-item" href="https://recogito.pelagios.org/document/nok4yr1hvqiiwa/map"
+              title="Al hacer clic en el enlace se abrirá una nueva pestaña en el navegador con el mapa"
+              target="_blank">Comentario de Eustacio</a>
+            <a class="dropdown-item" href="./mapas.html"
+              title="Aprenda más sobre los mapas antiguos y digitales">Mapas</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./geografia.html" title="Aprender sobre la geografía antigua y su transmisión">La
+            Geografía antigua</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./creditos.html"
+            title="Créditos, agradecimientos, licencia, y otros detalles técnicos">Créditos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="mailto:elvuelodehermes@gmail.com?subject:Contacto desde la web"
+            title="Contactar con el proyecto">Contacto</a>
+        </li>
+      </ul>
+    </div>
+    <button class="btn" onclick="modo_oscuro()" title="Invertir colores"><i class="fas fa-palette"></i></button>
+  </nav>
+  <header>
+    <div class="flex-container">
+      <div class="jumbotron" id="cabecera">
+        <h1>El vuelo de Hermes</h1>
+        <h2>Proyecto de investigación</h2>
+      </div>
+    </div>
+  </header>
+  <main class="container">
+    <div class="row">
+      <section>
+        <h2>Eustacio de Tesalónica</h2>
+        <p>Es uno de los estudiosos bizantinos más prestigiosos y sin duda la figura literaria de referencia del siglo
+          <span class="versalitas">xii</span>, autor de obras filológicas, retóricas, históricas y teológicas que
+          ejerció gran influencia en la vida cultural bizantina a través tanto de sus composiciones como de sus
+          discípulos. Entre 1166 y 1178 fue profesor de retórica en Constantinopla y es esta labor la que explica la
+          composición de valiosos comentarios a los poemas de Homero y Dionisio Periegeta, así como otros perdidos sobre
+          Píndaro y otros poetas. Desde 1178 hasta su muerte en 1195/6 fue arzobispo de Tesalónica, ciudad en la que
+          dejó una impronta espiritual y cultural. En <em>La toma de Tesalónica</em> narra el saqueo normando de la
+          ciudad acaecido en 1185.</p>
       </section>
-      <div class="row">
-        <div class="col text-center">
-          <p class="small">Para cuestiones técnicas relacionadas con este sitio web, por favor diríjase a elvuelodehermes&thinsp;@&thinsp;gmail.com<br>
-            <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" class="img-center" /></a> 2023
-          </p>
+      <section>
+        <h3>Las <em>Parekbolai</em> o <em>Comentarios a la Periégesis de Dionisio de Alejandría</em></h3>
+        <p>Esta obra fue compuesta después de los ambiciosos y monumentales <em>Comentarios</em> a la <em>Ilíada</em> y
+          la <em>Odisea</em>, a los se que hace referencia en distintos pasajes del comentario a la obra geográfica.
+          Reenviar a su obra anterior permite a Eustacio evitar explicaciones sobre pueblos imaginarios como los etíopes
+          orientales, los trogloditas o los erembos, y ceñirse a unas nociones geográficas marcadas por los
+          descubrimientos alejandrinos. Los fundamentos de esa visión del mundo quedaban establecidos en los primeros
+          versos del poema y en los correspondientes comentarios: una división en tres continentes, Libia, Europa y
+          Asia; un océano rodeándolos sin interrupción e introduciéndose en la tierra continental en cuatro golfos/mares
+          emparejados (el mar Negro con el golfo Arábigo, el mar Caspio con el golfo Pérsico) y en el mar interior, el
+          Mediterráneo. En ese marco general, la descripción geográfica va sumando ingredientes a lo largo de una serie
+          de recorridos que siguen las líneas de costa o saltan entre puntos de referencia de la navegación, dejando los
+          pueblos del interior más desdibujados o incluso, en el caso de los más alejados del Mediterráneo, envueltos en
+          las nieblas de la fábula y el desconocimiento. La península Ibérica, por ejemplo, se reduce al estrecho de
+          Gibraltar, Gadira o Cádiz, Tartesos, el cabo de San Vicente, los Pirineos a cuyo pie habitan los cempsos;
+          junto a ella, Ibiza y unas míticas islas Gimnesias.</p>
+        <p class="resto">Las anotaciones (organizadas sistemáticamente siguiendo el texto del poema) están precedidas
+          por una <strong>carta introductoria</strong> que confirma el público al que estaba destinado el comentario, es
+          decir, la clase educada constantinopolitana a la que pertenecían sus estudiantes, miembros de las familias
+          aristócratas cuyos lazos conformaban las redes del poder imperial en época comnena. El destinatario de la
+          carta es Juan Ducas, hijo de Andrónico Camatero, un estudiante de Eustacio que ha animado a su maestro a
+          componer el comentario geográfico; el valor que ambos dan a la Geografía es referido de forma explícita: el
+          conocimiento geográfico es útil para la vida, despierta el entendimiento del estudioso y los militares y el
+          emperador lo pueden utilizar; asimismo, como cualquier otro conocimiento, es útil para distinguirse de
+          aquellos que carecen de él. Un tío de Ducas, Juan Camatero, orador de renombre, escribió una <em>Introducción
+            a la Astronomía</em>, y sabemos de él que consideraba los poemas de Arato y de Dionisio Periegeta obras
+          complementarias y necesitadas de ilustración si los estudiantes pretendían comprenderlas en toda su
+          complejidad.</p>
+        <p class="resto">Eustacio despliega una impresionante batería de fuentes en su comentario, a las que alude por
+          lo general por el sobrenombre: así, igual que Dionisio es el Periegeta, Estrabón es el Geógrafo, Aristófanes
+          el Cómico, Homero el Poeta… Pero las obras de referencia más usadas son sin duda Estrabón y Heródoto, que le
+          permiten completar y precisar las alusiones del poema, descarnadas de puro sintéticas. Por otra parte, los
+          rasgos distintivos de la <em>Periégesis</em>, su vocabulario arcaico y poco común, su expresión manierista,
+          las cuestiones de toponimia y cartografía que suscita, las alusiones mitológicas, todo hacía necesarios los
+          escolios exegéticos; estos complementaban una paráfrasis en koine contigua al poema en muchas copias
+          bizantinas de la obra, que ayudaba a superar las dificultades de comprensión, confirmando el interés del
+          contenido para sus lectores. Una versión en prosa, en todo caso, no resolvía todos los problemas ni
+          ambigüedades del poema, así que Eustacio se aplica a la labor de consultar todos los textos que tenía a su
+          disposición para valorar las informaciones no rara vez incompatibles y a menudo diferentes sobre los pueblos y
+          lugares del mundo conocido. El profesor bizantino, con buen criterio, no pretenderá completar la información
+          que da Dionisio añadiendo accidentes geográficos o gentilicios, sino explicarla y enriquecerla utilizando el
+          formato de <em>parekbolai</em> o «anotaciones puntuales», esto es, «fichas» de contenido articulado sobre un
+          único tema precedidas por <em>hoti</em> «Que…» (aunque puede haber añadidos complementarios encabezados por
+          <em>semeiosai</em> «nótese» o por <em>hora</em> «fíjate en»).</p>
+      </section>
+    </div>
+  </main>
+  <footer class="container">
+    <section id="carrusel-logos">
+      <div class="slideshow-container">
+        <div class="mySlides">
+          <div class="row justify-content-around align-items-center">
+            <div class="col-md-4 col-12">
+              <div id="fundacionBBVA">
+                <a href="https://www.fbbva.es" target="_blank"><img src="./img/logos/FundacionBBVA.svg"
+                    class="img-responsive img-fluid" alt="logo Fundación BBVA"
+                    title="Ir al sitio web de la Fundación BBVA"></a>
+              </div>
+            </div>
+            <div class="col-md-4 col-12">
+              <div class="wrap-img" id="SEEC">
+                <a href="http://www.estudiosclasicos.org/" target="_blank"><img src="./img/logos/SEEC.png"
+                    class="img-responsive img-fluid" alt="logo Sociedad Española de Estudios Clásicos"
+                    title="Ir al sitio web de la Sociedad Española de Estudios Clásicos"></a>
+              </div>
+            </div>
+            <div class="col-md-4 col-12">
+              <div class="wrap-img" id="CSIC">
+                <a href="http://www.csic.es" target="_blank"><img src="./img/logos/MCINN_CSIC.jpg"
+                    class="img-responsive img-fluid" alt="logo CSIC y MCINN" title="Ir al sitio web del CSIC"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mySlides">
+          <div class="row justify-content-around align-items-center">
+            <div class="col-md-4 col-12">
+              <div class="wrap-img" id="CCHS">
+                <a href="http://cchs.csic.es/" target="_blank"><img src="./img/logos/CCHS.png"
+                    class="img-responsive img-fluid" alt="logo CCHS" title="Ir al sitio web del CCHS"></a>
+              </div>
+            </div>
+            <div class="col-md-4 col-12">
+              <div class="wrap-img" id="CCHS-ILC">
+                <a href="http://www.ilc.csic.es" target="_blank"><img src="./img/logos/CCHS_ILC.jpeg"
+                    class="img-responsive img-fluid" alt="logo ILC" title="Ir al sitio web del ILC"></a>
+              </div>
+            </div>
+            <div class="col-md-4 col-12">
+              <div class="wrap-img" id="PTIMedHis"><a href="https://pti-medhis.csic.es/" target="_blank"><img
+                    src="./img/logos/MedHis.jpg" class="img-responsive img-fluid" alt="logo PTI MedHis"
+                    title="Saber más de la PTI MedHis"></a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="jquery/jquery-3.4.1.slim.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/slideShow.js"></script>
-  </body>
+      <div class="slideshow-controls" style="text-align:center">
+        <a class="prev" onclick="plusSlides(-1)" title="Ver más"><span aria="true"
+            class="far fa-arrow-alt-circle-left"></span></a>
+        <a class="next" onclick="plusSlides(1)" title="Ver más"><span aria="true"
+            class="far fa-arrow-alt-circle-right"></span></a>
+      </div>
+    </section>
+    <div class="row">
+      <div class="col text-center">
+        <p class="small">Para cuestiones técnicas relacionadas con este sitio web, por favor diríjase a
+          elvuelodehermes&thinsp;@&thinsp;gmail.com<br>
+          <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licencia de Creative Commons"
+              style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" class="img-center" /></a>
+              ·2023·
+        </p>
+      </div>
+    </div>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="jquery/jquery-3.4.1.slim.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/slideShow.js"></script>
+</body>
 
 </html>
